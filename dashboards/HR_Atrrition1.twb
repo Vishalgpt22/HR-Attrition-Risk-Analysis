@@ -1,0 +1,2114 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.1003.1601                               -->
+<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='high_risk_employees.csv.csv (Multiple Connections)' inline='true' name='federated.00hclyi05d5hve14teufw0n437a0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='attrition_summary.csv' name='textscan.14yr6af1ub03u518qqupb1cx2ic8'>
+            <connection class='textscan' directory='C:/Users/gptvi/Downloads' filename='attrition_summary.csv.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.14yr6af1ub03u518qqupb1cx2ic8' name='attrition_summary.csv.csv' table='[attrition_summary.csv#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Job_Role' ordinal='0' />
+            <column datatype='string' name='Age_Group' ordinal='1' />
+            <column datatype='string' name='Income_Band' ordinal='2' />
+            <column datatype='string' name='Promotion_Gap' ordinal='3' />
+            <column datatype='string' name='Over_worked_Flag' ordinal='4' />
+            <column datatype='integer' name='Attrition_Risk_Level' ordinal='5' />
+            <column datatype='integer' name='employee_count' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[attrition_summary.csv.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job_Role</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job_Role]</local-name>
+            <parent-name>[attrition_summary.csv.csv]</parent-name>
+            <remote-alias>Job_Role</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age_Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age_Group]</local-name>
+            <parent-name>[attrition_summary.csv.csv]</parent-name>
+            <remote-alias>Age_Group</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income_Band</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Income_Band]</local-name>
+            <parent-name>[attrition_summary.csv.csv]</parent-name>
+            <remote-alias>Income_Band</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Promotion_Gap</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Promotion_Gap]</local-name>
+            <parent-name>[attrition_summary.csv.csv]</parent-name>
+            <remote-alias>Promotion_Gap</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Over_worked_Flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Over_worked_Flag]</local-name>
+            <parent-name>[attrition_summary.csv.csv]</parent-name>
+            <remote-alias>Over_worked_Flag</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attrition_Risk_Level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Attrition_Risk_Level]</local-name>
+            <parent-name>[attrition_summary.csv.csv]</parent-name>
+            <remote-alias>Attrition_Risk_Level</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employee_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[employee_count]</local-name>
+            <parent-name>[attrition_summary.csv.csv]</parent-name>
+            <remote-alias>employee_count</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age Group' datatype='string' name='[Age_Group]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Attrition Risk Level' datatype='integer' name='[Attrition_Risk_Level]' role='dimension' type='ordinal' />
+      <column caption='High Rist %' datatype='real' name='[Calculation_1081426898475622400]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF [Attrition_Risk_Level] = 2 THEN [employee_count] END)&#13;&#10;/&#13;&#10;SUM([employee_count])' />
+      </column>
+      <column caption='Income Band' datatype='string' name='[Income_Band]' role='dimension' type='nominal' />
+      <column caption='Job Role' datatype='string' name='[Job_Role]' role='dimension' type='nominal' />
+      <column caption='Over worked Flag' datatype='string' name='[Over_worked_Flag]' role='dimension' type='nominal' />
+      <column caption='Promotion Gap' datatype='string' name='[Promotion_Gap]' role='dimension' type='nominal' />
+      <column caption='attrition_summary.csv.csv' datatype='table' name='[__tableau_internal_object_id__].[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]' role='measure' type='quantitative' />
+      <column caption='Employee Count' datatype='integer' name='[employee_count]' role='measure' type='quantitative' />
+      <column-instance column='[Attrition_Risk_Level]' derivation='None' name='[none:Attrition_Risk_Level:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Attrition Risk Level)' hidden='true' name='[Action (Attrition Risk Level)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Attrition Risk Level,Income Band)' hidden='true' name='[Action (Attrition Risk Level,Income Band)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+          <groupfilter function='level-members' level='[Income_Band]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Attrition Risk Level,Job Role)' hidden='true' name='[Action (Attrition Risk Level,Job Role)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+          <groupfilter function='level-members' level='[Job_Role]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Attrition Risk Level,Promotion Gap)' hidden='true' name='[Action (Attrition Risk Level,Promotion Gap)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+          <groupfilter function='level-members' level='[Promotion_Gap]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/gptvi/AppData/Local/Temp/TableauTemp/#TableauTemp_1a4jofy1pwmmlr1bxk3sy0wz6p15.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/12/2026 05:34:43 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Job_Role</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job_Role]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job_Role</remote-alias>
+              <ordinal>0</ordinal>
+              <family>attrition_summary.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age_Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Age_Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age_Group</remote-alias>
+              <ordinal>1</ordinal>
+              <family>attrition_summary.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Income_Band</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Income_Band]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Income_Band</remote-alias>
+              <ordinal>2</ordinal>
+              <family>attrition_summary.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Promotion_Gap</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Promotion_Gap]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Promotion_Gap</remote-alias>
+              <ordinal>3</ordinal>
+              <family>attrition_summary.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Over_worked_Flag</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Over_worked_Flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Over_worked_Flag</remote-alias>
+              <ordinal>4</ordinal>
+              <family>attrition_summary.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Attrition_Risk_Level</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Attrition_Risk_Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Attrition_Risk_Level</remote-alias>
+              <ordinal>5</ordinal>
+              <family>attrition_summary.csv.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>employee_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[employee_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>employee_count</remote-alias>
+              <ordinal>6</ordinal>
+              <family>attrition_summary.csv.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>109</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Attrition_Risk_Level:ok]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='attrition_summary.csv.csv' id='attrition_summary.csv.csv_4E18A4ACBA394B2B850669A2DDACFB61'>
+            <properties context=''>
+              <relation connection='textscan.14yr6af1ub03u518qqupb1cx2ic8' name='attrition_summary.csv.csv' table='[attrition_summary.csv#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Job_Role' ordinal='0' />
+                  <column datatype='string' name='Age_Group' ordinal='1' />
+                  <column datatype='string' name='Income_Band' ordinal='2' />
+                  <column datatype='string' name='Promotion_Gap' ordinal='3' />
+                  <column datatype='string' name='Over_worked_Flag' ordinal='4' />
+                  <column datatype='integer' name='Attrition_Risk_Level' ordinal='5' />
+                  <column datatype='integer' name='employee_count' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_416B04785EA54E51B790E14CD65C6A76]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Executive – Attrition Overview' type='sheet' worksheet='Attrition Risk Distribution' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Executive – Attrition Overview' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_24E44737C37F4AE38ED7C8A906ECF516]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Executive – Attrition Overview' type='sheet' worksheet='Attrition by Job Role' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Executive – Attrition Overview' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_B49A8B1673EA4DFBADD65F6A437F200A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Executive – Attrition Overview' type='sheet' worksheet='Income Band vs Attrition' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Executive – Attrition Overview' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_3980FDA240894A568B2C1972C355E326]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Executive – Attrition Overview' type='sheet' worksheet='Promotion Gap Impact' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Executive – Attrition Overview' />
+      </command>
+    </action>
+    <action caption='Filter 5 (generated)' name='[Action5_59883B4F73E74E5B8A18E39B20CC73EB]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Executive – Attrition Overview' type='sheet' worksheet='Age Group vs Attrition' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Executive – Attrition Overview' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='% High Risk'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ba3912' fontsize='18'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='high_risk_employees.csv.csv (Multiple Connections)' name='federated.00hclyi05d5hve14teufw0n437a0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00hclyi05d5hve14teufw0n437a0'>
+            <column aggregation='Sum' caption='Attrition Risk Level' datatype='integer' name='[Attrition_Risk_Level]' role='dimension' type='ordinal' />
+            <column caption='High Rist %' datatype='real' name='[Calculation_1081426898475622400]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF [Attrition_Risk_Level] = 2 THEN [employee_count] END)&#13;&#10;/&#13;&#10;SUM([employee_count])' />
+            </column>
+            <column caption='Employee Count' datatype='integer' name='[employee_count]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1081426898475622400]' derivation='User' name='[usr:Calculation_1081426898475622400:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]'>
+            <groupfilter function='level-members' level='[Attrition_Risk_Level]' user:ui-action-filter='[Action1_416B04785EA54E51B790E14CD65C6A76]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.00hclyi05d5hve14teufw0n437a0].[usr:Calculation_1081426898475622400:qk]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.00hclyi05d5hve14teufw0n437a0].[usr:Calculation_1081426898475622400:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#ba3912' fontsize='24'>&lt;</run>
+                <run bold='true' fontcolor='#ba3912' fontsize='24'>[federated.00hclyi05d5hve14teufw0n437a0].[usr:Calculation_1081426898475622400:qk]</run>
+                <run bold='true' fontcolor='#ba3912' fontsize='24'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3A7EF19C-F89E-4365-AA15-B16B609C9558}' />
+    </worksheet>
+    <worksheet name='Age Group vs Attrition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#f9a655'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='high_risk_employees.csv.csv (Multiple Connections)' name='federated.00hclyi05d5hve14teufw0n437a0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00hclyi05d5hve14teufw0n437a0'>
+            <column caption='Age Group' datatype='string' name='[Age_Group]' role='dimension' type='nominal' />
+            <column aggregation='Sum' caption='Attrition Risk Level' datatype='integer' name='[Attrition_Risk_Level]' role='dimension' type='ordinal' />
+            <column caption='Income Band' datatype='string' name='[Income_Band]' role='dimension' type='nominal' />
+            <column caption='Job Role' datatype='string' name='[Job_Role]' role='dimension' type='nominal' />
+            <column caption='Promotion Gap' datatype='string' name='[Promotion_Gap]' role='dimension' type='nominal' />
+            <column caption='Employee Count' datatype='integer' name='[employee_count]' role='measure' type='quantitative' />
+            <column-instance column='[Age_Group]' derivation='None' name='[none:Age_Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Attrition_Risk_Level]' derivation='None' name='[none:Attrition_Risk_Level:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[employee_count]' derivation='Sum' name='[sum:employee_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]'>
+            <groupfilter function='level-members' level='[Attrition_Risk_Level]' user:ui-action-filter='[Action1_416B04785EA54E51B790E14CD65C6A76]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_B49A8B1673EA4DFBADD65F6A437F200A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Income_Band]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_24E44737C37F4AE38ED7C8A906ECF516]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Job_Role]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4_3980FDA240894A568B2C1972C355E326]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Promotion_Gap]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='10' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.3403314352035522' />
+                <format attr='mark-markers-mode' value='auto' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00hclyi05d5hve14teufw0n437a0].[none:Age_Group:nk]</rows>
+        <cols>[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]</cols>
+      </table>
+      <simple-id uuid='{C6BC827D-183F-4A05-BEE6-609DAFB6945E}' />
+    </worksheet>
+    <worksheet name='Attrition Risk Distribution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#d37295'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='high_risk_employees.csv.csv (Multiple Connections)' name='federated.00hclyi05d5hve14teufw0n437a0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00hclyi05d5hve14teufw0n437a0'>
+            <column aggregation='Sum' caption='Attrition Risk Level' datatype='integer' name='[Attrition_Risk_Level]' role='dimension' type='ordinal' />
+            <column caption='Income Band' datatype='string' name='[Income_Band]' role='dimension' type='nominal' />
+            <column caption='Job Role' datatype='string' name='[Job_Role]' role='dimension' type='nominal' />
+            <column caption='Promotion Gap' datatype='string' name='[Promotion_Gap]' role='dimension' type='nominal' />
+            <column caption='Employee Count' datatype='integer' name='[employee_count]' role='measure' type='quantitative' />
+            <column-instance column='[Attrition_Risk_Level]' derivation='None' name='[none:Attrition_Risk_Level:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[employee_count]' derivation='Sum' name='[sum:employee_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_B49A8B1673EA4DFBADD65F6A437F200A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Income_Band]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_24E44737C37F4AE38ED7C8A906ECF516]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Job_Role]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4_3980FDA240894A568B2C1972C355E326]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Promotion_Gap]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]</rows>
+        <cols>[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]</cols>
+      </table>
+      <simple-id uuid='{3973E347-9C01-43D1-9EE5-F02D6B704A70}' />
+    </worksheet>
+    <worksheet name='Attrition by Job Role'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#f17b79'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='high_risk_employees.csv.csv (Multiple Connections)' name='federated.00hclyi05d5hve14teufw0n437a0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00hclyi05d5hve14teufw0n437a0'>
+            <column aggregation='Sum' caption='Attrition Risk Level' datatype='integer' name='[Attrition_Risk_Level]' role='dimension' type='ordinal' />
+            <column caption='Income Band' datatype='string' name='[Income_Band]' role='dimension' type='nominal' />
+            <column caption='Job Role' datatype='string' name='[Job_Role]' role='dimension' type='nominal' />
+            <column caption='Promotion Gap' datatype='string' name='[Promotion_Gap]' role='dimension' type='nominal' />
+            <column caption='Employee Count' datatype='integer' name='[employee_count]' role='measure' type='quantitative' />
+            <column-instance column='[Attrition_Risk_Level]' derivation='None' name='[none:Attrition_Risk_Level:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Job_Role]' derivation='None' name='[none:Job_Role:nk]' pivot='key' type='nominal' />
+            <column-instance column='[employee_count]' derivation='Sum' name='[sum:employee_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]'>
+            <groupfilter function='level-members' level='[Attrition_Risk_Level]' user:ui-action-filter='[Action1_416B04785EA54E51B790E14CD65C6A76]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_B49A8B1673EA4DFBADD65F6A437F200A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Income_Band]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4_3980FDA240894A568B2C1972C355E326]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Promotion_Gap]' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.00hclyi05d5hve14teufw0n437a0].[none:Job_Role:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;HR Specialist&quot;</bucket>
+              <bucket>&quot;Data Scientist&quot;</bucket>
+              <bucket>&quot;Manager&quot;</bucket>
+              <bucket>&quot;Software Engineer&quot;</bucket>
+              <bucket>&quot;Sales Executive&quot;</bucket>
+              <bucket>&quot;Analyst&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]</rows>
+        <cols>[federated.00hclyi05d5hve14teufw0n437a0].[none:Job_Role:nk]</cols>
+      </table>
+      <simple-id uuid='{03A3CB4F-034E-4CE4-9D0E-A45EA945E701}' />
+    </worksheet>
+    <worksheet name='High Risk Employees'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#e15759' fontsize='18'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='high_risk_employees.csv.csv (Multiple Connections)' name='federated.00hclyi05d5hve14teufw0n437a0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00hclyi05d5hve14teufw0n437a0'>
+            <column aggregation='Sum' caption='Attrition Risk Level' datatype='integer' name='[Attrition_Risk_Level]' role='dimension' type='ordinal' />
+            <column caption='Income Band' datatype='string' name='[Income_Band]' role='dimension' type='nominal' />
+            <column caption='Job Role' datatype='string' name='[Job_Role]' role='dimension' type='nominal' />
+            <column caption='Promotion Gap' datatype='string' name='[Promotion_Gap]' role='dimension' type='nominal' />
+            <column caption='Employee Count' datatype='integer' name='[employee_count]' role='measure' type='quantitative' />
+            <column-instance column='[Attrition_Risk_Level]' derivation='None' name='[none:Attrition_Risk_Level:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[employee_count]' derivation='Sum' name='[sum:employee_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]'>
+            <groupfilter function='level-members' level='[Attrition_Risk_Level]' user:ui-action-filter='[Action1_416B04785EA54E51B790E14CD65C6A76]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_B49A8B1673EA4DFBADD65F6A437F200A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Income_Band]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_24E44737C37F4AE38ED7C8A906ECF516]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Job_Role]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4_3980FDA240894A568B2C1972C355E326]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Promotion_Gap]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]'>
+            <groupfilter function='member' level='[none:Attrition_Risk_Level:ok]' member='2' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#e15759' fontsize='24'>&lt;</run>
+                <run bold='true' fontcolor='#e15759' fontsize='24'>[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]</run>
+                <run bold='true' fontcolor='#e15759' fontsize='24'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{897A379B-79D6-492F-8E8F-338737136505}' />
+    </worksheet>
+    <worksheet name='Income Band vs Attrition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#72b966'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='high_risk_employees.csv.csv (Multiple Connections)' name='federated.00hclyi05d5hve14teufw0n437a0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00hclyi05d5hve14teufw0n437a0'>
+            <column aggregation='Sum' caption='Attrition Risk Level' datatype='integer' name='[Attrition_Risk_Level]' role='dimension' type='ordinal' />
+            <column caption='Income Band' datatype='string' name='[Income_Band]' role='dimension' type='nominal' />
+            <column caption='Job Role' datatype='string' name='[Job_Role]' role='dimension' type='nominal' />
+            <column caption='Promotion Gap' datatype='string' name='[Promotion_Gap]' role='dimension' type='nominal' />
+            <column caption='Employee Count' datatype='integer' name='[employee_count]' role='measure' type='quantitative' />
+            <column-instance column='[Attrition_Risk_Level]' derivation='None' name='[none:Attrition_Risk_Level:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Income_Band]' derivation='None' name='[none:Income_Band:nk]' pivot='key' type='nominal' />
+            <column-instance column='[employee_count]' derivation='Sum' name='[sum:employee_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]'>
+            <groupfilter function='level-members' level='[Attrition_Risk_Level]' user:ui-action-filter='[Action1_416B04785EA54E51B790E14CD65C6A76]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_24E44737C37F4AE38ED7C8A906ECF516]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Job_Role]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4_3980FDA240894A568B2C1972C355E326]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Promotion_Gap]' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.00hclyi05d5hve14teufw0n437a0].[none:Income_Band:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]' />
+              <lod column='[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00hclyi05d5hve14teufw0n437a0].[none:Income_Band:nk]</rows>
+        <cols>[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]</cols>
+      </table>
+      <simple-id uuid='{12F92685-EDE8-4C55-9A4F-B7E774A6FA9F}' />
+    </worksheet>
+    <worksheet name='Promotion Gap Impact'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#499894'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='high_risk_employees.csv.csv (Multiple Connections)' name='federated.00hclyi05d5hve14teufw0n437a0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00hclyi05d5hve14teufw0n437a0'>
+            <column aggregation='Sum' caption='Attrition Risk Level' datatype='integer' name='[Attrition_Risk_Level]' role='dimension' type='ordinal' />
+            <column caption='Income Band' datatype='string' name='[Income_Band]' role='dimension' type='nominal' />
+            <column caption='Job Role' datatype='string' name='[Job_Role]' role='dimension' type='nominal' />
+            <column caption='Promotion Gap' datatype='string' name='[Promotion_Gap]' role='dimension' type='nominal' />
+            <column caption='Employee Count' datatype='integer' name='[employee_count]' role='measure' type='quantitative' />
+            <column-instance column='[Attrition_Risk_Level]' derivation='None' name='[none:Attrition_Risk_Level:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Promotion_Gap]' derivation='None' name='[none:Promotion_Gap:nk]' pivot='key' type='nominal' />
+            <column-instance column='[employee_count]' derivation='Sum' name='[sum:employee_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]'>
+            <groupfilter function='level-members' level='[Attrition_Risk_Level]' user:ui-action-filter='[Action1_416B04785EA54E51B790E14CD65C6A76]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_B49A8B1673EA4DFBADD65F6A437F200A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Income_Band]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_24E44737C37F4AE38ED7C8A906ECF516]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Job_Role]' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.00hclyi05d5hve14teufw0n437a0].[none:Promotion_Gap:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00hclyi05d5hve14teufw0n437a0].[none:Promotion_Gap:nk]</rows>
+        <cols>[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]</cols>
+      </table>
+      <simple-id uuid='{7FFC3CE5-50ED-424F-A4C5-56895D9EE80A}' />
+    </worksheet>
+    <worksheet name='Total Employees'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#f9a655' fontsize='18'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='high_risk_employees.csv.csv (Multiple Connections)' name='federated.00hclyi05d5hve14teufw0n437a0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00hclyi05d5hve14teufw0n437a0'>
+            <column aggregation='Sum' caption='Attrition Risk Level' datatype='integer' name='[Attrition_Risk_Level]' role='dimension' type='ordinal' />
+            <column caption='Income Band' datatype='string' name='[Income_Band]' role='dimension' type='nominal' />
+            <column caption='Job Role' datatype='string' name='[Job_Role]' role='dimension' type='nominal' />
+            <column caption='Promotion Gap' datatype='string' name='[Promotion_Gap]' role='dimension' type='nominal' />
+            <column caption='Employee Count' datatype='integer' name='[employee_count]' role='measure' type='quantitative' />
+            <column-instance column='[employee_count]' derivation='Sum' name='[sum:employee_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]'>
+            <groupfilter function='level-members' level='[Attrition_Risk_Level]' user:ui-action-filter='[Action1_416B04785EA54E51B790E14CD65C6A76]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_B49A8B1673EA4DFBADD65F6A437F200A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Income_Band]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_24E44737C37F4AE38ED7C8A906ECF516]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Job_Role]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4_3980FDA240894A568B2C1972C355E326]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Attrition_Risk_Level]' />
+              <groupfilter function='level-members' level='[Promotion_Gap]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Job Role)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Income Band)]</column>
+            <column>[federated.00hclyi05d5hve14teufw0n437a0].[Action (Attrition Risk Level,Promotion Gap)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#4e79a7' fontsize='24'>&lt;</run>
+                <run bold='true' fontcolor='#4e79a7' fontsize='24'>[federated.00hclyi05d5hve14teufw0n437a0].[sum:employee_count:qk]</run>
+                <run bold='true' fontcolor='#4e79a7' fontsize='24'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EED212EA-7EAB-429A-9A0D-23B21D5A4E9E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Executive – Attrition Overview'>
+      <style />
+      <size maxheight='860' maxwidth='1800' minheight='800' minwidth='1800' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='65288' id='15' is-fixed='true' type-v2='layout-basic' w='43182' x='56263' y='11692'>
+            <zone h='32640' id='3' param='vert' type-v2='layout-flow' w='43182' x='56263' y='11692'>
+              <zone h='32640' id='12' name='Attrition by Job Role' w='43182' x='56263' y='11692'>
+                <layout-cache minheight='190' type-h='scalable' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone h='32648' id='16' param='vert' type-v2='layout-flow' w='43182' x='56263' y='44332'>
+              <zone h='32648' id='14' name='Promotion Gap Impact' w='43182' x='56263' y='44332'>
+                <layout-cache cell-count-h='2' non-cell-size-h='50' type-h='cell' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='10442' id='5' param='horz' type-v2='layout-flow' w='86389' x='13056' y='1250'>
+            <zone forceUpdate='true' h='10442' id='7' type-v2='text' w='86389' x='13056' y='1250'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#0644f0' fontname='Benton Sans Book' fontsize='24'>Employee Attrition – Executive Overview</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='10442' id='6' is-scaled='1' param='C:/Users/gptvi/Pictures/Screenshots/Screenshot 2026-02-12 101213.png' type-v2='bitmap' w='12501' x='555' y='1250'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='43731' id='8' param='vert' type-v2='layout-flow' w='12527' x='555' y='33249'>
+            <zone fixed-size='178' h='23250' id='10' is-fixed='true' name='High Risk Employees' w='12527' x='555' y='33249'>
+              <layout-cache type-h='cell' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='20481' id='22' name='% High Risk' w='12527' x='555' y='56499'>
+              <layout-cache cell-count-h='1' non-cell-size-h='56' type-h='cell' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='21557' id='9' name='Total Employees' w='12527' x='555' y='11692'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='32706' id='11' name='Attrition Risk Distribution' w='43181' x='13082' y='11692'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='32582' id='13' name='Income Band vs Attrition' w='43181' x='13082' y='44398'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='21770' id='17' name='Age Group vs Attrition' w='98890' x='555' y='76980'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#d3b348' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2050' minheight='2050' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='29' param='vert' type-v2='layout-flow' w='99112' x='444' y='1000'>
+                <zone fixed-size='82' forceUpdate='true' h='10442' id='6' is-fixed='true' is-scaled='1' param='C:/Users/gptvi/Pictures/Screenshots/Screenshot 2026-02-12 101213.png' type-v2='bitmap' w='12501' x='555' y='1250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='10442' id='7' type-v2='text' w='86389' x='13056' y='1250'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#0644f0' fontname='Benton Sans Book' fontsize='24'>Employee Attrition – Executive Overview</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='177' h='21557' id='9' is-fixed='true' name='Total Employees' w='12527' x='555' y='11692'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='273' h='32706' id='11' is-fixed='true' name='Attrition Risk Distribution' w='43181' x='13082' y='11692'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='272' h='32640' id='12' is-fixed='true' name='Attrition by Job Role' w='43182' x='56263' y='11692'>
+                  <layout-cache minheight='190' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='192' h='23250' id='10' is-fixed='true' name='High Risk Employees' w='12527' x='555' y='33249'>
+                  <layout-cache type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='273' h='32648' id='14' is-fixed='true' name='Promotion Gap Impact' w='43182' x='56263' y='44332'>
+                  <layout-cache cell-count-h='2' non-cell-size-h='50' type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='272' h='32582' id='13' is-fixed='true' name='Income Band vs Attrition' w='43181' x='13082' y='44398'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='168' h='20481' id='22' is-fixed='true' name='% High Risk' w='12527' x='555' y='56499'>
+                  <layout-cache cell-count-h='1' non-cell-size-h='56' type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='179' h='21770' id='17' is-fixed='true' name='Age Group vs Attrition' w='98890' x='555' y='76980'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#d3b348' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='2' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{628BECFF-34AD-4A62-930D-42B3314B4770}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Attrition Risk Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4AE0BC31-5768-493A-9D87-F9007E39E9A3}' />
+    </window>
+    <window class='worksheet' name='Attrition by Job Role'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]</field>
+            <field>[federated.00hclyi05d5hve14teufw0n437a0].[none:Job_Role:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EABD02B3-4BFA-421E-8E01-38499A6AE0DD}' />
+    </window>
+    <window class='worksheet' name='Income Band vs Attrition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]</field>
+            <field>[federated.00hclyi05d5hve14teufw0n437a0].[none:Income_Band:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D1144FDD-90A6-40FC-BA4F-A997F1AF36D3}' />
+    </window>
+    <window class='worksheet' name='Promotion Gap Impact'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]</field>
+            <field>[federated.00hclyi05d5hve14teufw0n437a0].[none:Promotion_Gap:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8C830645-0F34-44DA-9830-37F3D1213F63}' />
+    </window>
+    <window class='worksheet' name='Age Group vs Attrition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.00hclyi05d5hve14teufw0n437a0].[none:Age_Group:nk]</field>
+            <field>[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F7FB38AD-3745-48DC-9AEC-1BA5D1539365}' />
+    </window>
+    <window class='worksheet' name='Total Employees'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{0E842D8A-ADA1-46CA-85B8-68DB27760BA5}' />
+    </window>
+    <window class='worksheet' name='High Risk Employees'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.00hclyi05d5hve14teufw0n437a0].[none:Attrition_Risk_Level:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{01C67993-91F4-43C3-A2D2-D6D876189B9A}' />
+    </window>
+    <window class='worksheet' name='% High Risk'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{0C15D41E-2CE9-4B40-B437-147D2745A06F}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Executive – Attrition Overview'>
+      <viewpoints>
+        <viewpoint name='% High Risk'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Age Group vs Attrition'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Attrition Risk Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Attrition by Job Role'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='High Risk Employees'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Income Band vs Attrition'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Promotion Gap Impact'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Employees'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{87F874C8-D406-40BF-8F2E-05F59FDACF92}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='% High Risk' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACKklEQVR4nO3VwQnDQBAEQa3Ayj9Y45dhFcY9uiqC+TQzu7sXRN2nB8BJAiBNAKQJgDQB
+      kCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBp
+      AiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA
+      0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBN
+      AKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRA
+      mgBIEwBpAiBNAKQJgDQBkCYA0gRA1u4KgDYBkDUzAqBNAKQJgDQBkPX/fQVA1/15rtndPT0E
+      TvEApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDS
+      BECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0A
+      pAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECa
+      AEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmA
+      NAGQJgDSBECaAEgTAGkCIO0FcTsPavf7ihoAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Age Group vs Attrition' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Attrition Risk Distribution' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAEN0lEQVR4nO3av2vcdRzH8ff9KKRFYrAlhFbqj7abkJK/wMHBzcHByT/Nyb9AEBykSzvY
+      4nDtkpSQSEkkoaShpIiVu3zv6yA9cBCHu/A98no8pkwfXgn3vPsk+fbatm0LQvW7HgBdmgUw
+      nU673AGdmAXgJkQiVyCiCYBoAiCaAIgmAKIJgGgCIJoAqur169c1Go1qd3e32rat8Xhcz549
+      q8PDwzo7O6snT57UdDqt58+f18HBgf+ZXCICqKrV1dW6e/du7e3tVVXVixcvamVlpTY2NurR
+      o0d148aNevz4cb18+bJ2dnZqMpl0vJhFEUBVDQaD2tvbq83Nzer1enX9+vU6OTmpBw8e1LVr
+      12p9fb2Ojo7q1q1btba2VuPxuOvJLIgA6p/HQE5PT+vmzZu1vb1db9++nb3LN01TDx8+rK2t
+      rRqNRnV8fFxXr17teDGL0nv3OHTTNDUYDLre07n9/f26c+dOnZ+fz34eTdPUcDicPTDY73vf
+      uCwWGsB5c16Tqfvxshr2h3VlcKXrGUtluMjDft79qb7/9btFHskCffXZ1/XN1rddz1gqPsuJ
+      JgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoA
+      iCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCa
+      AIgmAKIJgGgCIJoAiCYAogmAaAIgmgCINux6AJkmOz/W9Oyw6xkCoBuT7R+qOfil6xmuQGQT
+      ANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBE
+      EwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0A
+      RBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBN
+      AEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQ
+      TQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQB
+      EE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQbfjui+l0Ovdh
+      H67eri/ufTn3OVyMTz+4V03TzHVG27bV6/Xm3tL75PPqv//R3OfMvaNt27aqqmmaGgwGXe9h
+      yTVNU/1+fyERLIPZFajfdxvi/12218nsu7ksRS/Km1dHNXr6tA6OT7ueslR6vd6leq1crpwX
+      6OjVm7q/uVl/np10PYULJID/0J82NW7Oq5n/bwMssdkvwfzb5K8/av+332vj9se19t5K13O4
+      IH8D+u3Oh6dUPv0AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Attrition by Job Role' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Executive – Attrition Overview' width='192'>
+      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
+      1C7Otf/zif8PgprlvYtarLcAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='High Risk Employees' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Income Band vs Attrition' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Promotion Gap Impact' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAF+klEQVR4nO3dy24bZRjG8eebsT3NOXGatqEn1IMClA13wZprQFwOS4S4BbbcAAe1EiAQ
+      UmlRc2jTliaN0yTNwYnHnhkWoZUQpRA6Hjd9/r9NEkWZ9134H33Jwl8oiqIQYCoa9ALAIFUS
+      QJ7nVYwBjqySADhl4XXFEQjWCADWCADWCADWCADWCADWCADWCADWCADWCADWalUMKdJUrc8+
+      r2IUXqI+savk9Pqg13itVBNAlmn/hx+qGIWXyGY2FF96OOg1XiscgWCNAGCNAGCNAGCNAGCN
+      AGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCN
+      AGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGDtlQMo8p6ebGwq73W0tb1Xxk6DFcdK5uZUv3Dh
+      8Ot6Xcm776h29qziZlPJtWuKRkakEJTMzQ12VxzZ0nqqr+d3tb2fSSohgBBirT16oIX5BYVI
+      uvXrTT1YaenB3XndWbr/ygsPQnr3rmozM1IIUlEoXVxSfXZWebut7vKy6hcvqHH1quJmc9Cr
+      4ohmJ2q6MNXQ0noqqYwjUAi6cvktPdkL6m6taD+LtLb2WL1eT0WWKX/lARUrCiXX3lO6tCQV
+      hSTpxPvX1LlzR9HoqBqXL6m7fF+1UzOKJsYVGo0BL4yj6GWF5lsdNWpBUkl3hNWHRnVmuqvx
+      5rAaWw81PnVStWxfO5ttZWUMqFA8OakoSRRPNxU3p5S321K9rtrJaUWTk1KaKiSJ2tdvqHH5
+      koo0HfTKOIL5Vqp6HBSC9NP9fYWi+PPXXEkOHxckHT42hKDu7q5WPv6kzDGViMbGlO/sDHqN
+      0jRmNjRifknes5d7p1eolxfl3xIZQnj2WdmPrtyb9OLHoWevzxP1w4/8GxTWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWSr8f4IVCUDQ2Vsko/LNoNFMYegMuMixR6TfE
+      vEiWZYrjuN9jgCPjCARrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABr
+      BABrBABrBABrBABrBABrBABrBABrBABrlbwvUN5JtfXFpxp6+/cqxtn7cmRGa1F90GscC9W8
+      MVae6eCXH9Uo5isZ5+63iXNarp0Y9BrHAkcgWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCstgCLrqr2fqsi66nTzsh5bmdurB/pmfk/73VxFId1aOdB3i3vq9HLd
+      uNvWQquj3U6m7++1B70qSlRaAGm7pW+v/6ze9ooWVne08vCeVte3ynp8352fquvkaKyHm13l
+      RaHH2z1NDcW6tdJRHKTzk3XtdnKtbvcGvSpKVOIRKOjcmabuP2qp/XRNu9mQtlYeKC1vQF8t
+      tlLtpbmuzCSSpFocNJJEGm5EGjsR6aubOzozXldSCwPeFGUq9W+A0eYZHTxtqVZPtLP5WLsH
+      3WPxR0ZeFFpspWqnuZY3Ui20DrO9vXqgyaFYq9s9nRqraX6to9Xtnu49OS5Z49+UdkleMjar
+      i2OSZj+UJOXZWSlEiiR1yxrSJ1EI+uiDCUnS0/1Mw41Ic6eT598/PT76/POrp5K//TyOr77d
+      EhnFcb8e3VcTQ8dzb/w/x+GEAvQNAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAa
+      AcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcAa
+      AcBa3+4H+IsQFE1NK4w8rWScu/HhaU3FXOTxX4SiKIp+D8myTPExvTADbzaOQLBGALBGALBG
+      ALBGALBGALBGALBGALBGALBGALD2Bw7MXLBoXz7IAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Total Employees' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
