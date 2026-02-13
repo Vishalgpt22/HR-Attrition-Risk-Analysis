@@ -1,0 +1,501 @@
+Job_Role,Age_Group,Income_Band,Promotion_Gap,Over_worked_Flag,Attrition_Risk_Level,employee_count
+Manager,26-35,Medium,Yes,No,1,174
+"Data Scientist",36-45,High,Yes,No,1,98
+"Software Engineer",36-45,Medium,Yes,No,0,36
+"Data Scientist",18-25,Medium,No,No,0,170
+"Sales Executive",18-25,Low,No,No,0,43
+"Data Scientist",45+,High,Yes,Yes,1,11
+"HR Specialist",26-35,High,No,No,0,112
+Analyst,26-35,Medium,No,Yes,1,24
+"Sales Executive",36-45,Medium,No,No,0,104
+"Sales Executive",26-35,Medium,No,No,0,324
+Manager,26-35,Medium,No,Yes,2,1
+"HR Specialist",18-25,Medium,No,No,1,45
+"Software Engineer",36-45,Medium,No,No,1,36
+Manager,26-35,Medium,Yes,Yes,1,23
+"HR Specialist",36-45,High,No,No,0,155
+"Sales Executive",36-45,High,Yes,No,1,92
+Manager,26-35,High,No,Yes,1,7
+"Software Engineer",36-45,High,No,No,0,144
+"Software Engineer",18-25,Low,No,No,0,36
+"Software Engineer",18-25,Medium,No,No,1,35
+"Data Scientist",36-45,High,No,No,0,134
+"Sales Executive",26-35,High,No,No,0,130
+Manager,18-25,Medium,No,No,0,168
+Analyst,26-35,Medium,Yes,No,1,141
+"Data Scientist",26-35,High,No,No,0,117
+"Software Engineer",26-35,High,Yes,No,0,27
+"Data Scientist",36-45,Medium,Yes,No,1,114
+Manager,36-45,Medium,Yes,Yes,1,14
+"Data Scientist",36-45,Medium,No,No,0,131
+Manager,36-45,Medium,Yes,No,1,107
+"Software Engineer",26-35,Medium,No,No,0,311
+"HR Specialist",18-25,Medium,No,No,0,162
+Manager,26-35,Medium,Yes,No,2,55
+Analyst,26-35,Medium,No,No,0,327
+Analyst,18-25,Low,No,No,0,45
+"HR Specialist",36-45,Medium,Yes,No,1,119
+"Data Scientist",18-25,Low,No,No,0,44
+"Sales Executive",36-45,High,No,No,0,129
+"HR Specialist",26-35,Medium,No,No,0,323
+"Software Engineer",36-45,High,Yes,Yes,2,12
+Manager,45+,High,Yes,No,1,30
+"HR Specialist",36-45,Medium,Yes,Yes,2,18
+Analyst,36-45,High,Yes,No,1,113
+Analyst,45+,High,No,No,0,38
+"Software Engineer",26-35,High,No,No,0,95
+Analyst,26-35,Medium,Yes,Yes,1,22
+"Software Engineer",36-45,Medium,No,Yes,0,18
+"Data Scientist",36-45,High,No,Yes,1,11
+"HR Specialist",26-35,Medium,Yes,No,0,55
+Manager,26-35,Medium,No,No,0,331
+"Data Scientist",45+,High,Yes,No,1,39
+"Data Scientist",26-35,High,Yes,No,1,48
+"HR Specialist",36-45,Medium,No,No,0,153
+"HR Specialist",26-35,Medium,Yes,No,2,64
+"HR Specialist",18-25,Low,No,No,0,48
+"HR Specialist",36-45,High,No,No,1,19
+Manager,26-35,High,No,Yes,0,8
+"Data Scientist",36-45,High,Yes,Yes,1,17
+"Sales Executive",26-35,Medium,Yes,Yes,1,24
+Analyst,26-35,Low,No,Yes,1,3
+"Sales Executive",36-45,Medium,Yes,No,2,82
+"HR Specialist",26-35,Medium,No,No,1,101
+"Software Engineer",45+,Medium,Yes,No,2,10
+Manager,26-35,Medium,No,Yes,0,32
+"Software Engineer",36-45,High,No,No,1,19
+"Software Engineer",36-45,High,Yes,No,1,103
+"Sales Executive",26-35,Medium,No,Yes,0,28
+Analyst,18-25,Medium,No,No,0,168
+"HR Specialist",26-35,Medium,Yes,No,1,161
+"HR Specialist",36-45,High,Yes,No,1,104
+"Data Scientist",26-35,High,No,Yes,0,5
+Analyst,36-45,Medium,No,No,0,125
+Analyst,36-45,Medium,Yes,No,2,88
+"Data Scientist",36-45,Medium,Yes,No,0,44
+Manager,36-45,Medium,Yes,No,2,84
+"Data Scientist",26-35,Medium,Yes,No,1,146
+"Software Engineer",18-25,Low,No,No,1,23
+Analyst,45+,High,Yes,No,2,42
+"Software Engineer",26-35,Medium,Yes,No,2,52
+"Sales Executive",36-45,Medium,Yes,No,1,123
+Analyst,18-25,Medium,No,No,1,41
+"Data Scientist",26-35,Medium,No,Yes,1,33
+"Data Scientist",18-25,Medium,No,No,1,46
+Analyst,36-45,Medium,Yes,Yes,2,24
+Analyst,18-25,Medium,No,Yes,0,21
+"Software Engineer",36-45,High,Yes,No,2,97
+Manager,36-45,High,Yes,Yes,1,10
+"Sales Executive",26-35,Medium,No,No,1,110
+"Data Scientist",45+,High,Yes,No,0,21
+"Software Engineer",36-45,Medium,Yes,No,2,91
+"Data Scientist",26-35,Low,Yes,No,1,6
+"Software Engineer",26-35,Medium,No,No,1,127
+"HR Specialist",45+,High,Yes,No,2,48
+"Data Scientist",36-45,Medium,No,Yes,1,8
+Analyst,26-35,High,No,Yes,1,5
+"Sales Executive",45+,High,Yes,No,1,41
+"HR Specialist",45+,High,Yes,No,1,31
+"Data Scientist",26-35,Medium,No,No,0,302
+"Sales Executive",26-35,High,Yes,No,1,48
+Analyst,26-35,Medium,Yes,No,2,35
+"Data Scientist",26-35,Medium,No,Yes,0,25
+"Software Engineer",26-35,Medium,Yes,No,1,148
+Manager,26-35,Medium,No,No,1,98
+"HR Specialist",45+,High,No,No,0,44
+Analyst,36-45,High,Yes,No,2,86
+Manager,26-35,Medium,Yes,No,0,54
+"Data Scientist",36-45,Medium,No,No,1,41
+Analyst,26-35,Medium,No,No,1,110
+"Software Engineer",18-25,Medium,No,Yes,1,10
+Manager,26-35,Low,Yes,No,1,7
+"Data Scientist",26-35,High,No,No,1,19
+"HR Specialist",36-45,Medium,No,Yes,1,9
+Manager,36-45,Medium,No,No,0,124
+"Software Engineer",45+,High,No,No,0,34
+"Software Engineer",45+,High,Yes,No,1,33
+"Sales Executive",36-45,High,Yes,No,0,54
+"HR Specialist",36-45,Medium,No,No,1,40
+"HR Specialist",26-35,Medium,No,Yes,2,1
+"Software Engineer",26-35,Low,No,No,1,7
+"HR Specialist",18-25,Medium,No,Yes,1,11
+"Sales Executive",26-35,Medium,Yes,No,1,159
+"Sales Executive",26-35,Medium,No,Yes,2,1
+Analyst,36-45,High,Yes,No,0,37
+Manager,18-25,Low,No,No,1,29
+Manager,45+,High,No,No,0,40
+"Data Scientist",36-45,High,No,No,1,28
+"Software Engineer",26-35,Low,Yes,No,2,5
+"Data Scientist",45+,High,No,No,0,34
+"Data Scientist",36-45,High,Yes,No,2,111
+"Data Scientist",26-35,Low,Yes,No,2,1
+"Sales Executive",18-25,Medium,No,No,0,144
+"HR Specialist",36-45,Medium,Yes,No,2,103
+"HR Specialist",26-35,High,Yes,No,1,52
+Analyst,36-45,Medium,No,Yes,0,12
+"HR Specialist",26-35,Medium,Yes,Yes,2,17
+Analyst,26-35,High,No,No,1,21
+"HR Specialist",18-25,Low,No,Yes,0,7
+"HR Specialist",36-45,High,Yes,Yes,2,10
+Analyst,36-45,High,No,No,1,25
+"HR Specialist",36-45,Medium,Yes,Yes,1,12
+"Data Scientist",26-35,Medium,Yes,No,0,54
+"Data Scientist",26-35,Medium,Yes,Yes,1,16
+Manager,36-45,High,No,No,0,118
+"Sales Executive",26-35,High,Yes,No,0,29
+Manager,18-25,Medium,No,Yes,1,17
+Analyst,36-45,High,No,No,0,132
+"Data Scientist",26-35,Medium,Yes,No,2,58
+"Software Engineer",26-35,Medium,Yes,Yes,1,17
+"Data Scientist",26-35,Medium,No,No,1,104
+"Data Scientist",18-25,High,No,No,0,11
+"Data Scientist",45+,High,Yes,No,2,52
+Manager,26-35,High,No,No,0,110
+"Data Scientist",36-45,Medium,Yes,No,2,77
+Manager,36-45,High,Yes,No,1,95
+Manager,36-45,High,Yes,No,2,97
+Manager,36-45,High,Yes,No,0,48
+Analyst,26-35,Medium,Yes,Yes,2,9
+"Software Engineer",18-25,High,No,No,0,6
+Analyst,36-45,Medium,No,Yes,1,5
+"Software Engineer",36-45,Medium,Yes,No,1,112
+Manager,18-25,Low,Yes,No,1,3
+"HR Specialist",36-45,Medium,No,Yes,0,5
+"Sales Executive",36-45,Medium,Yes,No,0,29
+"HR Specialist",36-45,Medium,Yes,No,0,45
+"Software Engineer",26-35,Medium,Yes,Yes,2,19
+Manager,36-45,Medium,No,No,1,36
+"Sales Executive",45+,High,Yes,No,2,45
+"HR Specialist",36-45,High,Yes,No,2,92
+Manager,36-45,Medium,Yes,No,0,42
+Manager,36-45,Medium,Yes,Yes,2,12
+"Sales Executive",26-35,High,No,Yes,1,12
+"Sales Executive",26-35,Low,Yes,No,1,4
+"Sales Executive",36-45,Medium,No,Yes,0,7
+"Software Engineer",18-25,Medium,Yes,No,0,3
+"HR Specialist",18-25,Low,No,No,1,29
+"Software Engineer",36-45,Medium,Yes,Yes,2,23
+"Software Engineer",36-45,High,Yes,No,0,43
+"Software Engineer",18-25,Medium,No,No,0,171
+"Software Engineer",26-35,Medium,No,Yes,0,31
+"Data Scientist",45+,Medium,Yes,No,1,9
+Manager,45+,Medium,Yes,No,1,13
+Manager,26-35,Medium,No,Yes,1,30
+"HR Specialist",36-45,High,Yes,No,0,34
+"Sales Executive",36-45,High,Yes,No,2,75
+Manager,45+,High,Yes,No,0,15
+Analyst,36-45,High,Yes,Yes,2,14
+Analyst,36-45,Medium,No,No,1,35
+"Software Engineer",36-45,Medium,No,No,0,128
+"Sales Executive",18-25,Medium,No,Yes,1,10
+"Sales Executive",45+,High,Yes,Yes,1,6
+"Software Engineer",26-35,Medium,No,Yes,1,26
+Manager,26-35,High,Yes,No,0,30
+Manager,45+,High,No,Yes,1,2
+Manager,26-35,Low,No,No,0,14
+"Sales Executive",26-35,High,No,Yes,0,10
+Analyst,45+,High,No,No,1,4
+Analyst,36-45,Medium,Yes,No,1,106
+"Data Scientist",26-35,High,No,Yes,1,4
+"Sales Executive",26-35,Medium,Yes,No,2,36
+Manager,45+,High,Yes,No,2,40
+"Data Scientist",18-25,Medium,Yes,Yes,0,1
+Analyst,45+,Medium,No,Yes,0,1
+Analyst,45+,High,No,Yes,0,3
+"HR Specialist",45+,Medium,No,No,0,12
+"Sales Executive",36-45,High,No,Yes,0,19
+"Data Scientist",36-45,High,Yes,Yes,2,21
+"HR Specialist",26-35,Low,No,No,0,13
+"Software Engineer",26-35,Medium,Yes,No,0,50
+Manager,26-35,Low,No,No,1,12
+Analyst,26-35,Medium,No,Yes,0,27
+Analyst,26-35,High,Yes,No,1,51
+Analyst,26-35,High,No,No,0,99
+"Data Scientist",36-45,Medium,No,Yes,0,8
+"Sales Executive",18-25,High,No,No,0,6
+"Sales Executive",36-45,Medium,Yes,Yes,2,15
+"HR Specialist",18-25,Low,No,Yes,1,6
+"HR Specialist",26-35,High,Yes,No,0,24
+"HR Specialist",45+,High,Yes,Yes,1,2
+"Software Engineer",36-45,Medium,Yes,Yes,1,8
+"Software Engineer",26-35,High,Yes,No,1,53
+"HR Specialist",26-35,High,No,No,1,28
+Manager,45+,Medium,Yes,No,2,18
+"Software Engineer",45+,High,Yes,No,2,34
+Manager,45+,Medium,Yes,No,0,10
+Manager,18-25,Medium,No,No,1,44
+"Software Engineer",26-35,High,No,No,1,17
+"Software Engineer",45+,Medium,Yes,No,1,13
+"Sales Executive",45+,High,Yes,No,0,25
+"Data Scientist",26-35,High,Yes,Yes,1,6
+"Sales Executive",36-45,Medium,Yes,Yes,0,1
+Analyst,36-45,Medium,Yes,No,0,40
+"Data Scientist",26-35,Medium,Yes,Yes,2,20
+"Software Engineer",45+,High,No,No,1,7
+Analyst,36-45,Medium,Yes,Yes,1,12
+"Data Scientist",26-35,High,Yes,Yes,2,6
+"Sales Executive",36-45,High,No,No,1,22
+Manager,26-35,High,No,No,1,11
+Analyst,36-45,High,No,Yes,1,8
+"Sales Executive",36-45,Medium,No,No,1,39
+"Sales Executive",18-25,Medium,No,No,1,50
+"HR Specialist",45+,Medium,Yes,No,2,17
+Analyst,45+,High,Yes,No,0,19
+Manager,26-35,High,Yes,Yes,2,6
+"Sales Executive",26-35,High,No,No,1,18
+"HR Specialist",26-35,High,No,Yes,0,6
+Manager,26-35,High,Yes,No,1,42
+"Data Scientist",45+,Medium,Yes,No,2,18
+Manager,36-45,High,Yes,Yes,0,5
+"Data Scientist",26-35,Low,No,No,1,12
+"Data Scientist",26-35,High,Yes,No,0,27
+"HR Specialist",18-25,Medium,No,Yes,0,16
+"Sales Executive",45+,High,No,No,0,41
+Manager,36-45,High,No,Yes,0,13
+Manager,26-35,High,Yes,No,2,16
+"HR Specialist",26-35,Low,No,No,1,10
+Analyst,26-35,Medium,Yes,No,0,39
+Analyst,18-25,Low,No,No,1,15
+Manager,18-25,Low,No,No,0,48
+"Software Engineer",36-45,High,Yes,Yes,1,6
+Analyst,26-35,High,No,Yes,0,4
+"Data Scientist",18-25,Low,No,No,2,1
+"Data Scientist",45+,Medium,No,Yes,1,2
+"HR Specialist",45+,High,Yes,No,0,15
+"Data Scientist",45+,Medium,No,Yes,0,2
+Analyst,26-35,High,Yes,Yes,1,5
+"Software Engineer",18-25,Medium,No,Yes,0,14
+Manager,26-35,Low,No,Yes,0,2
+"HR Specialist",26-35,Low,Yes,No,1,8
+"Data Scientist",45+,Medium,No,No,0,10
+Analyst,36-45,High,No,Yes,0,18
+"Sales Executive",36-45,High,Yes,Yes,2,17
+Manager,36-45,Medium,No,Yes,1,8
+"Sales Executive",26-35,Low,No,No,0,7
+"HR Specialist",45+,Medium,No,No,1,5
+Analyst,45+,Medium,No,No,0,6
+Analyst,45+,Medium,Yes,No,2,18
+Manager,26-35,Medium,Yes,Yes,2,14
+"HR Specialist",26-35,Medium,No,Yes,1,25
+"Data Scientist",18-25,Medium,Yes,No,0,3
+"Software Engineer",45+,High,Yes,No,0,20
+"Sales Executive",26-35,High,Yes,No,2,12
+"Data Scientist",26-35,High,Yes,No,2,11
+Manager,36-45,High,Yes,Yes,2,18
+"HR Specialist",26-35,Medium,Yes,Yes,1,23
+"Sales Executive",36-45,High,Yes,Yes,1,13
+"Sales Executive",18-25,Medium,No,Yes,0,9
+"Data Scientist",18-25,Medium,No,Yes,0,19
+"HR Specialist",26-35,High,No,Yes,1,8
+"Sales Executive",18-25,Low,No,No,1,15
+"Data Scientist",18-25,Medium,Yes,No,1,13
+"Sales Executive",45+,Medium,Yes,No,0,3
+Analyst,45+,High,Yes,No,1,37
+"Software Engineer",45+,Medium,Yes,No,0,6
+"Data Scientist",36-45,High,Yes,No,0,34
+"Sales Executive",26-35,Medium,No,Yes,1,25
+"Software Engineer",26-35,High,Yes,No,2,14
+"Sales Executive",36-45,Medium,No,Yes,1,15
+"Software Engineer",18-25,Low,No,Yes,1,5
+"HR Specialist",26-35,Medium,No,Yes,0,33
+Manager,45+,High,No,Yes,0,6
+"HR Specialist",26-35,Low,Yes,No,2,3
+"Sales Executive",45+,Medium,Yes,No,1,13
+Manager,45+,Medium,No,No,0,12
+"Data Scientist",36-45,High,No,Yes,0,16
+Analyst,26-35,High,Yes,No,0,9
+"Software Engineer",45+,Medium,No,No,0,10
+Manager,36-45,High,No,Yes,1,4
+"HR Specialist",45+,Medium,Yes,No,1,6
+"Sales Executive",45+,Medium,Yes,No,2,11
+"Software Engineer",18-25,High,Yes,No,1,2
+Manager,45+,High,Yes,Yes,1,2
+"Software Engineer",36-45,Medium,No,Yes,1,14
+"Software Engineer",26-35,High,No,Yes,0,11
+Analyst,26-35,High,Yes,No,2,19
+Analyst,26-35,Low,No,No,1,5
+"Software Engineer",18-25,Low,Yes,No,0,1
+Analyst,26-35,Low,Yes,No,1,5
+Analyst,45+,High,No,Yes,1,5
+"Sales Executive",26-35,Low,Yes,Yes,1,1
+"Data Scientist",45+,High,No,Yes,0,4
+"Sales Executive",36-45,Medium,Yes,Yes,1,9
+"Data Scientist",18-25,Low,No,No,1,13
+"Sales Executive",45+,High,Yes,Yes,2,5
+Analyst,45+,High,Yes,Yes,1,6
+"Software Engineer",26-35,Low,No,No,0,12
+"Software Engineer",36-45,High,Yes,Yes,0,2
+Analyst,18-25,High,No,Yes,0,1
+"Software Engineer",36-45,High,No,Yes,0,25
+"Data Scientist",26-35,Low,No,Yes,0,1
+"Data Scientist",18-25,Low,No,Yes,1,6
+Manager,18-25,High,No,No,0,5
+"Software Engineer",18-25,Medium,Yes,Yes,1,1
+"HR Specialist",45+,High,No,No,1,7
+Analyst,45+,High,Yes,Yes,2,11
+"Data Scientist",26-35,Low,No,No,0,13
+Manager,18-25,Medium,No,Yes,0,16
+"HR Specialist",36-45,High,Yes,Yes,0,4
+"Software Engineer",36-45,High,No,Yes,1,8
+Manager,45+,Medium,Yes,Yes,2,3
+"Software Engineer",45+,High,Yes,Yes,2,12
+"Sales Executive",26-35,Medium,Yes,No,0,41
+"HR Specialist",36-45,High,No,Yes,1,8
+"Data Scientist",36-45,Medium,Yes,Yes,2,16
+"HR Specialist",36-45,High,Yes,Yes,1,10
+"Software Engineer",26-35,Low,Yes,No,1,5
+"HR Specialist",26-35,High,Yes,No,2,20
+Analyst,36-45,High,Yes,Yes,1,17
+"Sales Executive",26-35,Low,No,No,1,9
+"Sales Executive",18-25,Low,No,Yes,0,4
+Analyst,45+,Medium,Yes,No,1,5
+"Software Engineer",45+,Medium,No,Yes,0,1
+"Software Engineer",45+,Medium,Yes,Yes,1,5
+Analyst,18-25,High,No,No,1,1
+"HR Specialist",45+,High,Yes,Yes,2,8
+"Data Scientist",18-25,Low,No,Yes,0,4
+"Sales Executive",26-35,Low,No,Yes,0,3
+Manager,36-45,Medium,No,Yes,0,15
+Analyst,26-35,High,Yes,Yes,2,4
+Manager,45+,High,Yes,Yes,2,7
+"Sales Executive",45+,High,No,Yes,1,3
+Analyst,26-35,Low,No,No,0,16
+Manager,36-45,High,No,No,1,18
+"HR Specialist",26-35,High,Yes,Yes,2,5
+Manager,45+,High,No,No,1,5
+"Sales Executive",26-35,Low,Yes,Yes,2,1
+Analyst,26-35,Low,No,No,2,1
+Analyst,45+,Medium,Yes,Yes,1,2
+"HR Specialist",26-35,Low,Yes,No,0,2
+"Sales Executive",26-35,Medium,Yes,Yes,2,10
+"Software Engineer",26-35,High,Yes,Yes,1,7
+"Software Engineer",18-25,Medium,Yes,No,1,2
+"Data Scientist",36-45,High,Yes,Yes,0,2
+"Data Scientist",36-45,Medium,Yes,Yes,0,3
+"HR Specialist",36-45,High,No,Yes,0,14
+Manager,26-35,Low,No,Yes,1,4
+"Software Engineer",26-35,High,Yes,Yes,2,5
+"Sales Executive",18-25,Medium,Yes,No,1,5
+"HR Specialist",36-45,Medium,Yes,Yes,0,1
+Manager,26-35,High,Yes,Yes,1,7
+Analyst,18-25,Medium,Yes,No,1,5
+"Sales Executive",45+,Medium,No,No,0,9
+"Software Engineer",26-35,Low,No,Yes,0,1
+"HR Specialist",26-35,High,Yes,Yes,1,6
+"Sales Executive",45+,Medium,Yes,Yes,1,1
+"Data Scientist",45+,High,No,No,1,4
+Analyst,18-25,Low,Yes,No,1,1
+"HR Specialist",18-25,Medium,Yes,No,2,1
+"HR Specialist",45+,Medium,Yes,No,0,7
+"Sales Executive",45+,Medium,No,Yes,0,1
+Analyst,45+,Medium,Yes,No,0,5
+Analyst,45+,Medium,Yes,Yes,2,1
+"Data Scientist",26-35,Medium,Yes,Yes,0,3
+"Software Engineer",26-35,Low,No,Yes,1,1
+"Sales Executive",45+,Medium,Yes,Yes,2,2
+"Software Engineer",45+,High,No,Yes,0,3
+Analyst,45+,Medium,No,No,1,1
+"Data Scientist",36-45,Medium,Yes,Yes,1,5
+"Data Scientist",26-35,Low,No,Yes,1,2
+"Sales Executive",36-45,High,No,Yes,1,11
+Analyst,26-35,Low,Yes,No,2,3
+Manager,18-25,Medium,Yes,No,2,1
+"Sales Executive",45+,High,No,Yes,0,3
+Analyst,18-25,Low,No,Yes,2,1
+Manager,18-25,Medium,Yes,Yes,2,1
+"HR Specialist",18-25,Low,Yes,No,0,2
+"Data Scientist",36-45,High,No,Yes,2,1
+"Data Scientist",18-25,Low,Yes,No,1,2
+"Data Scientist",18-25,Medium,No,Yes,1,9
+"Software Engineer",26-35,Medium,No,Yes,2,3
+Analyst,36-45,High,Yes,Yes,0,4
+"HR Specialist",18-25,High,No,No,1,2
+"Data Scientist",26-35,High,Yes,Yes,0,1
+Manager,18-25,High,No,No,1,4
+Analyst,18-25,Medium,No,Yes,1,13
+"HR Specialist",18-25,Medium,Yes,No,1,7
+"HR Specialist",45+,Medium,Yes,Yes,2,2
+"Sales Executive",26-35,Low,Yes,No,0,1
+Analyst,45+,Medium,No,Yes,1,2
+"Data Scientist",45+,Medium,Yes,No,0,3
+"Data Scientist",26-35,Medium,No,No,2,2
+Manager,26-35,Low,Yes,No,2,2
+Analyst,18-25,Low,No,Yes,1,2
+"Data Scientist",26-35,Low,Yes,No,0,2
+Analyst,26-35,Medium,Yes,Yes,0,2
+Analyst,18-25,Medium,Yes,No,0,1
+"Sales Executive",18-25,Medium,Yes,No,0,2
+"HR Specialist",45+,High,No,Yes,0,2
+"Sales Executive",36-45,Medium,No,Yes,2,1
+Analyst,18-25,High,Yes,No,0,2
+"Sales Executive",18-25,High,No,No,1,1
+"Software Engineer",18-25,Low,Yes,No,1,2
+Manager,26-35,Low,Yes,Yes,2,1
+"Sales Executive",26-35,Medium,Yes,Yes,0,1
+"Software Engineer",26-35,High,Yes,Yes,0,1
+Manager,18-25,Medium,No,No,2,2
+"Software Engineer",45+,Medium,No,No,1,4
+"Software Engineer",26-35,Medium,Yes,Yes,0,1
+Manager,18-25,Low,Yes,No,0,1
+"HR Specialist",45+,Medium,No,Yes,1,1
+"Data Scientist",45+,High,Yes,Yes,2,7
+"Sales Executive",18-25,Low,No,Yes,1,1
+Manager,26-35,High,Yes,Yes,0,2
+"Sales Executive",26-35,Low,No,No,2,1
+Manager,45+,Medium,No,No,1,2
+Manager,26-35,Low,Yes,No,0,4
+Manager,18-25,Low,No,Yes,1,4
+Manager,36-45,Medium,Yes,Yes,0,1
+"Software Engineer",18-25,Low,No,Yes,0,7
+"HR Specialist",45+,High,Yes,Yes,0,1
+"Sales Executive",18-25,Low,Yes,No,1,1
+"HR Specialist",18-25,Medium,No,Yes,2,1
+Manager,18-25,Medium,Yes,No,0,2
+"Software Engineer",26-35,Low,Yes,No,0,1
+"Data Scientist",18-25,High,No,Yes,0,1
+Manager,18-25,Low,No,Yes,0,3
+Manager,45+,Medium,No,Yes,0,2
+"Sales Executive",26-35,High,Yes,Yes,1,6
+"Sales Executive",26-35,High,Yes,Yes,2,1
+Analyst,26-35,Medium,No,No,2,1
+"HR Specialist",18-25,High,No,No,0,3
+"HR Specialist",18-25,High,No,Yes,0,1
+"Data Scientist",36-45,High,No,No,2,1
+Manager,18-25,High,No,Yes,1,1
+Analyst,26-35,Low,Yes,Yes,2,1
+"Data Scientist",45+,High,No,Yes,1,2
+"Data Scientist",45+,Medium,Yes,Yes,1,2
+"HR Specialist",26-35,Low,Yes,Yes,2,1
+"Software Engineer",36-45,Medium,Yes,Yes,0,1
+"HR Specialist",18-25,High,Yes,No,0,1
+"HR Specialist",36-45,High,No,Yes,2,2
+"HR Specialist",18-25,Medium,Yes,No,0,2
+"Sales Executive",45+,High,No,No,1,3
+"Software Engineer",45+,Medium,No,Yes,1,1
+"HR Specialist",18-25,High,Yes,No,1,1
+"Software Engineer",26-35,High,No,Yes,1,3
+Manager,18-25,Medium,Yes,No,1,2
+"HR Specialist",18-25,Low,Yes,No,1,1
+Manager,45+,Medium,Yes,Yes,1,1
+"Data Scientist",18-25,High,No,No,1,1
+"Sales Executive",18-25,Low,Yes,No,0,1
+Manager,26-35,Medium,No,No,2,1
+Manager,26-35,Low,Yes,Yes,1,1
+Analyst,26-35,Low,No,Yes,0,1
+"Sales Executive",45+,Medium,No,No,1,3
+"Software Engineer",18-25,High,Yes,Yes,1,1
+Analyst,26-35,Low,Yes,No,0,1
+"HR Specialist",18-25,Low,No,No,2,1
+Analyst,36-45,Medium,Yes,Yes,0,1
+"Software Engineer",45+,Medium,Yes,Yes,2,1
+Analyst,45+,High,Yes,Yes,0,1
+"Software Engineer",45+,High,No,Yes,1,1
+"HR Specialist",26-35,Medium,Yes,Yes,0,1
+"Data Scientist",26-35,High,No,Yes,2,1
+"Sales Executive",36-45,High,Yes,Yes,0,1
+"Software Engineer",45+,High,Yes,Yes,1,1
+Manager,18-25,High,No,Yes,0,1
+"Sales Executive",26-35,Low,No,Yes,2,1
+Analyst,18-25,High,No,No,0,1
+Manager,26-35,Medium,Yes,Yes,0,1
+"Sales Executive",18-25,High,No,Yes,2,1

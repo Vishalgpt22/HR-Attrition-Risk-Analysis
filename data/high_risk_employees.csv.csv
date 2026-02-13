@@ -1,0 +1,2251 @@
+Employee_ID,Age,Gender,Job_Role,Monthly_Income,Job_Satisfaction,Work_Life_Balance,Distance_From_Home_KM,Num_Projects,Avg_Monthly_Hours,Years_at_Company,Years_Since_Last_Promotion,Training_Times_Last_Year,Education_Level,Attrition_Risk_Level,Age_Group,Income_Band,Over_worked_Flag,Promotion_Gap
+EMP-00012,33,Male,Manager,5940,2,1,16.4,6,245.9,4,0,2,3,2,26-35,Medium,Yes,No
+EMP-00039,31,Male,Manager,6156,1,3,5.6,2,172.7,8,5,5,5,2,26-35,Medium,No,Yes
+EMP-00041,29,Male,Manager,7795,2,2,2.5,3,193.1,8,6,5,3,2,26-35,Medium,No,Yes
+EMP-00048,41,Female,"Software Engineer",9514,3,2,9.6,3,209.5,17,16,1,2,2,36-45,High,Yes,Yes
+EMP-00050,45,Female,"HR Specialist",8233,3,1,6.3,6,213.3,17,7,4,4,2,36-45,Medium,Yes,Yes
+EMP-00055,31,Male,Manager,6044,4,2,8.9,3,188.2,10,8,0,2,2,26-35,Medium,No,Yes
+EMP-00064,33,Male,"HR Specialist",6358,2,4,18.4,8,197.4,9,7,3,3,2,26-35,Medium,No,Yes
+EMP-00074,39,Male,"Sales Executive",8252,4,2,6.3,5,175.4,16,12,3,2,2,36-45,Medium,No,Yes
+EMP-00076,48,Female,"Software Engineer",7911,2,3,17.3,4,183.8,24,10,1,1,2,45+,Medium,No,Yes
+EMP-00096,37,Male,Analyst,6366,3,1,14.5,7,174.3,11,11,6,4,2,36-45,Medium,No,Yes
+EMP-00098,43,Female,Manager,7996,3,4,3.8,5,161.9,14,14,6,3,2,36-45,Medium,No,Yes
+EMP-00101,47,Male,Analyst,10230,3,3,12.4,3,155.8,18,17,2,3,2,45+,High,No,Yes
+EMP-00104,32,Male,"Software Engineer",7690,2,4,20.6,8,182.8,11,9,4,2,2,26-35,Medium,No,Yes
+EMP-00105,40,Male,Manager,5971,2,2,6.5,7,178.4,9,8,3,3,2,36-45,Medium,No,Yes
+EMP-00115,37,Male,Analyst,7115,2,2,29.5,7,201.2,17,6,2,4,2,36-45,Medium,Yes,Yes
+EMP-00117,39,Female,"Software Engineer",9843,2,1,7.4,4,138.5,15,15,2,4,2,36-45,High,No,Yes
+EMP-00121,44,Female,"Software Engineer",7959,4,4,6,8,171.1,22,16,1,3,2,36-45,Medium,No,Yes
+EMP-00130,58,Female,"HR Specialist",12422,4,2,11.6,6,120.7,34,33,1,3,2,45+,High,No,Yes
+EMP-00142,33,Female,Analyst,7051,1,2,7.6,4,188.3,12,6,4,2,2,26-35,Medium,No,Yes
+EMP-00144,41,Female,Analyst,8407,2,3,23.9,2,201.9,19,6,0,3,2,36-45,Medium,Yes,Yes
+EMP-00154,43,Male,Analyst,11503,3,3,3.5,2,165.2,18,16,5,4,2,36-45,High,No,Yes
+EMP-00171,31,Female,"HR Specialist",7448,2,2,8,7,196,9,7,2,4,2,26-35,Medium,No,Yes
+EMP-00176,40,Female,"Software Engineer",7902,2,3,8.1,7,169.1,16,13,0,1,2,36-45,Medium,No,Yes
+EMP-00183,37,Female,"Sales Executive",7276,3,4,9.8,5,176.7,10,10,2,1,2,36-45,Medium,No,Yes
+EMP-00186,29,Male,"HR Specialist",5165,1,2,13.8,7,210.9,6,1,4,4,2,26-35,Medium,Yes,No
+EMP-00199,28,Male,"Sales Executive",8804,2,1,22.8,5,210,4,2,0,3,2,26-35,Medium,Yes,No
+EMP-00208,30,Male,"Software Engineer",4909,1,3,10.8,2,156.8,7,6,3,3,2,26-35,Low,No,Yes
+EMP-00215,41,Female,"Data Scientist",9401,4,3,11.4,3,182.7,19,16,6,3,2,36-45,High,No,Yes
+EMP-00217,27,Female,"Data Scientist",4111,1,2,4.9,6,151,6,4,4,3,2,26-35,Low,No,Yes
+EMP-00221,38,Male,"HR Specialist",7324,4,4,6.7,4,153.6,17,13,0,2,2,36-45,Medium,No,Yes
+EMP-00223,38,Male,"HR Specialist",7991,3,1,6.4,7,157.7,17,17,5,4,2,36-45,Medium,No,Yes
+EMP-00230,32,Male,"HR Specialist",8628,3,4,8.4,3,205.6,12,9,5,3,2,26-35,Medium,Yes,Yes
+EMP-00236,45,Female,"HR Specialist",12261,2,2,4.9,5,220,17,7,5,3,2,36-45,High,Yes,Yes
+EMP-00259,32,Male,"Data Scientist",8611,1,4,8.2,3,150.4,10,8,6,3,2,26-35,Medium,No,Yes
+EMP-00271,48,Female,"Data Scientist",10239,1,3,16.1,6,173.5,13,6,0,4,2,45+,High,No,Yes
+EMP-00275,36,Female,"Data Scientist",7565,1,2,13.8,2,153,12,5,6,1,2,36-45,Medium,No,Yes
+EMP-00278,40,Male,"Software Engineer",8294,3,2,3,6,144.5,15,15,5,2,2,36-45,Medium,No,Yes
+EMP-00280,43,Female,Manager,10232,1,2,1.7,8,132.2,16,13,5,2,2,36-45,High,No,Yes
+EMP-00285,41,Male,"Software Engineer",10965,2,1,2.4,2,161.6,18,11,1,3,2,36-45,High,No,Yes
+EMP-00289,42,Female,"HR Specialist",8815,3,3,23.9,2,137.6,15,15,5,1,2,36-45,Medium,No,Yes
+EMP-00294,38,Male,Analyst,8355,3,4,7.2,4,209.6,15,10,3,1,2,36-45,Medium,Yes,Yes
+EMP-00296,34,Female,Analyst,7784,1,2,3.1,8,203.5,6,4,1,3,2,26-35,Medium,Yes,Yes
+EMP-00297,55,Male,Analyst,11754,2,2,11.8,4,176.5,25,18,5,3,2,45+,High,No,Yes
+EMP-00303,33,Female,"HR Specialist",8860,3,2,12.4,3,157.4,10,10,5,5,2,26-35,Medium,No,Yes
+EMP-00329,37,Female,"HR Specialist",7863,2,2,11.8,4,198.6,14,7,4,2,2,36-45,Medium,No,Yes
+EMP-00331,34,Male,"Software Engineer",7803,4,3,1,6,203.2,10,10,4,4,2,26-35,Medium,Yes,Yes
+EMP-00334,42,Male,Manager,7514,2,2,12.7,3,162.4,10,9,5,1,2,36-45,Medium,No,Yes
+EMP-00337,37,Female,Manager,9314,3,2,12.6,5,183.8,15,12,3,5,2,36-45,High,No,Yes
+EMP-00342,40,Male,"Data Scientist",9470,2,3,19.3,5,167.3,19,10,2,3,2,36-45,High,No,Yes
+EMP-00343,43,Female,"HR Specialist",8191,3,1,18,8,176,17,9,6,3,2,36-45,Medium,No,Yes
+EMP-00344,49,Female,"Sales Executive",11183,3,2,8.9,2,182.4,22,13,5,4,2,45+,High,No,Yes
+EMP-00348,37,Male,"HR Specialist",10640,3,1,7.4,5,151.6,15,8,6,2,2,36-45,High,No,Yes
+EMP-00351,40,Female,"Data Scientist",9321,1,2,12.6,2,157.3,20,14,2,2,2,36-45,High,No,Yes
+EMP-00354,40,Male,Manager,7988,2,3,11.6,2,209.6,13,8,1,3,2,36-45,Medium,Yes,Yes
+EMP-00374,53,Female,"HR Specialist",12747,4,4,16.9,5,148.8,30,24,6,3,2,45+,High,No,Yes
+EMP-00386,42,Female,"Software Engineer",8302,1,3,11.5,3,214.3,16,13,1,3,2,36-45,Medium,Yes,Yes
+EMP-00388,43,Male,Analyst,10534,2,2,2.1,2,190.4,19,17,5,3,2,36-45,High,No,Yes
+EMP-00389,38,Male,"Software Engineer",9173,3,2,12.6,3,143.4,14,12,3,5,2,36-45,High,No,Yes
+EMP-00395,42,Female,"Data Scientist",10406,4,2,3.2,3,186.8,14,11,3,4,2,36-45,High,No,Yes
+EMP-00404,43,Male,Manager,6877,3,2,8.4,3,158.1,15,8,3,2,2,36-45,Medium,No,Yes
+EMP-00409,42,Female,"Software Engineer",9724,3,1,18.4,8,158.8,10,10,3,1,2,36-45,High,No,Yes
+EMP-00412,38,Male,"Sales Executive",10089,1,2,10.2,7,168.6,14,13,1,2,2,36-45,High,No,Yes
+EMP-00419,36,Female,Manager,6209,3,3,10.1,7,169.2,12,10,4,3,2,36-45,Medium,No,Yes
+EMP-00420,35,Male,"HR Specialist",8758,4,3,11.1,2,180,15,11,1,3,2,26-35,Medium,No,Yes
+EMP-00421,40,Female,"Software Engineer",9553,3,2,2.2,3,144.4,19,11,2,3,2,36-45,High,No,Yes
+EMP-00423,40,Male,"Sales Executive",7768,3,4,2,8,194.6,13,12,0,4,2,36-45,Medium,No,Yes
+EMP-00435,41,Male,Analyst,10366,2,1,4.7,7,233.1,4,3,4,4,2,36-45,High,Yes,Yes
+EMP-00439,40,Male,"Sales Executive",9616,1,2,18.1,4,158.7,12,9,6,2,2,36-45,High,No,Yes
+EMP-00447,28,Male,"Software Engineer",6895,1,1,12.9,7,164.9,4,4,3,2,2,26-35,Medium,No,Yes
+EMP-00449,45,Female,"HR Specialist",8820,3,3,8.1,5,184.1,24,15,0,3,2,36-45,Medium,No,Yes
+EMP-00470,35,Female,"Data Scientist",6514,2,3,5,6,155.4,11,10,6,3,2,26-35,Medium,No,Yes
+EMP-00496,41,Male,Manager,7274,2,3,32.5,2,160.1,20,19,6,3,2,36-45,Medium,No,Yes
+EMP-00497,42,Female,"HR Specialist",8165,3,4,9.5,4,198.4,19,11,2,3,2,36-45,Medium,No,Yes
+EMP-00505,35,Female,"Sales Executive",6249,1,4,4.9,6,171.3,12,12,1,3,2,26-35,Medium,No,Yes
+EMP-00509,49,Male,Manager,10925,3,2,1,6,172.4,25,21,4,4,2,45+,High,No,Yes
+EMP-00512,41,Female,Analyst,7007,4,2,4.2,5,209.7,13,11,4,5,2,36-45,Medium,Yes,Yes
+EMP-00525,36,Female,"Sales Executive",9693,2,2,25.4,4,185.6,12,6,4,2,2,36-45,High,No,Yes
+EMP-00528,43,Male,"Data Scientist",11635,1,3,7.7,8,217.8,8,8,3,3,2,36-45,High,Yes,Yes
+EMP-00554,30,Female,"Data Scientist",6260,1,2,4.5,4,164.5,5,4,2,5,2,26-35,Medium,No,Yes
+EMP-00558,38,Male,"Data Scientist",9505,2,3,3.7,5,171.2,16,8,3,5,2,36-45,High,No,Yes
+EMP-00559,44,Female,"HR Specialist",8964,2,3,4.7,6,164.4,9,9,6,4,2,36-45,Medium,No,Yes
+EMP-00560,43,Female,"Software Engineer",11767,1,2,7.4,2,174.8,23,9,0,2,2,36-45,High,No,Yes
+EMP-00566,48,Female,Analyst,11683,3,2,21.8,5,188.2,24,18,3,2,2,45+,High,No,Yes
+EMP-00583,40,Male,Manager,9375,3,3,10.3,7,144.3,14,12,5,2,2,36-45,High,No,Yes
+EMP-00588,39,Male,Manager,9487,4,2,13.8,2,154.2,10,10,5,3,2,36-45,High,No,Yes
+EMP-00593,44,Male,"Sales Executive",7785,3,2,2.7,5,201.5,17,10,6,2,2,36-45,Medium,Yes,Yes
+EMP-00602,45,Female,Manager,11519,2,3,4.5,5,169.6,15,15,6,2,2,36-45,High,No,Yes
+EMP-00605,28,Female,"Data Scientist",8349,2,1,18.4,6,171.9,7,4,5,4,2,26-35,Medium,No,Yes
+EMP-00609,35,Female,"HR Specialist",6303,1,3,19.5,5,170.7,13,10,2,3,2,26-35,Medium,No,Yes
+EMP-00612,58,Male,Manager,14038,3,1,6.2,4,188.2,29,29,6,3,2,45+,High,No,Yes
+EMP-00615,42,Male,"Sales Executive",9157,2,2,8.1,6,161.1,17,10,5,3,2,36-45,High,No,Yes
+EMP-00622,48,Female,Manager,11167,3,2,1.4,5,177.4,21,21,3,3,2,45+,High,No,Yes
+EMP-00623,43,Male,"HR Specialist",8731,3,4,20.1,5,182,17,13,5,3,2,36-45,Medium,No,Yes
+EMP-00628,26,Male,"Data Scientist",7027,2,1,41.4,3,120.5,6,4,6,3,2,26-35,Medium,No,Yes
+EMP-00629,37,Female,"Sales Executive",10199,3,3,34.6,6,170.6,11,8,0,3,2,36-45,High,No,Yes
+EMP-00638,40,Male,"Software Engineer",10077,3,2,24.1,4,169.6,15,10,2,3,2,36-45,High,No,Yes
+EMP-00642,48,Female,Manager,8768,4,3,31.1,3,152.4,18,11,0,3,2,45+,Medium,No,Yes
+EMP-00643,53,Female,"Software Engineer",10605,4,1,11.7,7,137.3,32,17,4,3,2,45+,High,No,Yes
+EMP-00656,38,Female,"Software Engineer",6733,4,1,9.1,2,163.4,14,11,1,2,2,36-45,Medium,No,Yes
+EMP-00661,43,Female,"HR Specialist",10848,2,3,11.7,6,168.2,19,13,6,4,2,36-45,High,No,Yes
+EMP-00664,30,Male,"Software Engineer",5948,1,2,7.9,3,207.9,6,6,5,4,2,26-35,Medium,Yes,Yes
+EMP-00699,42,Male,Analyst,9071,2,3,31.9,6,201,21,17,2,3,2,36-45,High,Yes,Yes
+EMP-00703,57,Male,"HR Specialist",13478,4,3,5.7,4,154.3,32,24,2,5,2,45+,High,No,Yes
+EMP-00705,36,Female,"Data Scientist",8737,3,3,3.5,8,193.1,10,9,6,4,2,36-45,Medium,No,Yes
+EMP-00708,40,Female,"Data Scientist",9234,4,4,6.6,4,197.4,19,15,4,2,2,36-45,High,No,Yes
+EMP-00709,28,Male,"Data Scientist",5316,1,3,7.7,6,201.6,5,5,1,2,2,26-35,Medium,Yes,Yes
+EMP-00718,31,Male,"Data Scientist",6817,4,2,10.6,5,216.1,8,7,5,2,2,26-35,Medium,Yes,Yes
+EMP-00722,40,Female,"Sales Executive",7484,3,3,10.1,7,165,17,17,4,2,2,36-45,Medium,No,Yes
+EMP-00725,35,Female,"Data Scientist",9203,1,2,24.4,5,206.4,12,12,0,2,2,26-35,High,Yes,Yes
+EMP-00745,42,Female,"HR Specialist",9660,3,4,8.5,5,165.6,20,17,2,5,2,36-45,High,No,Yes
+EMP-00751,47,Female,"HR Specialist",7211,2,2,5.4,2,166.5,8,6,3,3,2,45+,Medium,No,Yes
+EMP-00763,30,Male,Manager,9186,3,1,8.6,6,213.9,7,7,2,1,2,26-35,High,Yes,Yes
+EMP-00769,36,Male,Analyst,5843,1,2,4.7,5,179.4,7,6,3,2,2,36-45,Medium,No,Yes
+EMP-00786,44,Female,"Sales Executive",10652,4,1,10.6,2,181.3,24,8,5,4,2,36-45,High,No,Yes
+EMP-00789,33,Male,"Software Engineer",6650,3,3,25.2,8,157.2,12,9,0,2,2,26-35,Medium,No,Yes
+EMP-00791,46,Female,"Data Scientist",8121,1,2,29,7,173.5,16,16,6,1,2,45+,Medium,No,Yes
+EMP-00795,48,Male,"Software Engineer",12839,3,4,14.2,2,139.3,19,15,5,3,2,45+,High,No,Yes
+EMP-00802,44,Female,"HR Specialist",9226,2,3,14.1,7,167.9,12,10,0,5,2,36-45,High,No,Yes
+EMP-00818,38,Male,"HR Specialist",9393,1,2,8.7,7,173.4,15,9,1,3,2,36-45,High,No,Yes
+EMP-00825,41,Male,Analyst,8115,3,1,8.6,7,160.2,11,9,3,2,2,36-45,Medium,No,Yes
+EMP-00838,46,Male,"Data Scientist",8537,3,4,6.5,8,162.5,22,17,0,1,2,45+,Medium,No,Yes
+EMP-00839,28,Female,"Sales Executive",7657,1,3,3.9,8,160.8,8,6,4,5,2,26-35,Medium,No,Yes
+EMP-00846,43,Male,"Software Engineer",7273,2,2,14.9,4,128,22,22,4,5,2,36-45,Medium,No,Yes
+EMP-00849,35,Female,Manager,6593,2,3,23.7,5,180.8,7,6,0,3,2,26-35,Medium,No,Yes
+EMP-00857,43,Female,Manager,9638,2,2,2.5,3,188.1,17,11,4,3,2,36-45,High,No,Yes
+EMP-00862,41,Female,Analyst,7918,3,4,12.1,5,167.9,16,12,2,5,2,36-45,Medium,No,Yes
+EMP-00866,36,Male,Manager,6622,3,2,5.8,4,133.7,15,15,5,4,2,36-45,Medium,No,Yes
+EMP-00868,51,Female,"HR Specialist",12804,1,3,8,5,182.5,27,13,6,3,2,45+,High,No,Yes
+EMP-00871,48,Male,Manager,10328,3,4,9,4,163.6,26,14,0,4,2,45+,High,No,Yes
+EMP-00872,30,Male,"Software Engineer",7849,1,1,11.7,4,137,5,4,3,3,2,26-35,Medium,No,Yes
+EMP-00874,44,Male,"Software Engineer",9871,3,2,7.4,8,199.4,8,7,4,2,2,36-45,High,No,Yes
+EMP-00878,33,Male,Manager,10105,1,3,12.2,7,176.9,12,8,2,4,2,26-35,High,No,Yes
+EMP-00905,39,Male,"Data Scientist",6926,4,3,19.7,7,179.7,18,14,5,2,2,36-45,Medium,No,Yes
+EMP-00907,40,Female,"Sales Executive",10113,4,1,33.9,5,162.5,14,14,5,2,2,36-45,High,No,Yes
+EMP-00914,36,Female,"Sales Executive",6486,1,4,27.2,8,191.1,8,6,5,2,2,36-45,Medium,No,Yes
+EMP-00943,44,Female,"Data Scientist",11059,2,1,1.9,3,207.7,11,7,3,5,2,36-45,High,Yes,Yes
+EMP-00947,22,Male,"Data Scientist",3000,1,1,14.4,2,187,0,0,5,2,2,18-25,Low,No,No
+EMP-00959,38,Female,"Software Engineer",8929,4,2,4,5,173.3,13,12,3,4,2,36-45,Medium,No,Yes
+EMP-00963,35,Female,"Data Scientist",8774,3,2,14.9,7,131.6,14,11,3,4,2,26-35,Medium,No,Yes
+EMP-00968,39,Female,"Sales Executive",9214,1,4,3.4,6,177.9,19,16,0,4,2,36-45,High,No,Yes
+EMP-00977,37,Female,Manager,10285,3,4,12.5,8,192.3,15,14,5,2,2,36-45,High,No,Yes
+EMP-00983,34,Male,"Data Scientist",7328,4,2,4.9,7,189.6,11,11,5,3,2,26-35,Medium,No,Yes
+EMP-00988,45,Female,Analyst,8539,3,4,18.6,5,134.7,18,14,1,4,2,36-45,Medium,No,Yes
+EMP-00997,28,Male,"Sales Executive",5996,1,1,13.8,4,187.6,3,3,2,3,2,26-35,Medium,No,Yes
+EMP-00998,34,Male,Manager,5715,2,1,12.4,2,157.1,13,9,1,3,2,26-35,Medium,No,Yes
+EMP-01015,39,Female,"HR Specialist",7939,4,2,8.1,2,197.6,14,10,4,2,2,36-45,Medium,No,Yes
+EMP-01031,37,Female,"Data Scientist",8667,3,3,5.7,3,149,13,11,1,3,2,36-45,Medium,No,Yes
+EMP-01042,34,Male,"Data Scientist",6399,4,2,1,5,202.2,9,8,5,3,2,26-35,Medium,Yes,Yes
+EMP-01045,36,Male,"Sales Executive",11189,1,4,5.5,5,223.9,15,7,2,5,2,36-45,High,Yes,Yes
+EMP-01053,44,Male,"Software Engineer",11414,4,3,10.8,6,188.4,19,12,2,4,2,36-45,High,No,Yes
+EMP-01055,39,Male,Analyst,8049,3,4,4,3,195.8,13,12,2,3,2,36-45,Medium,No,Yes
+EMP-01069,31,Female,Manager,6356,3,2,3.8,2,171.9,9,9,5,5,2,26-35,Medium,No,Yes
+EMP-01070,47,Female,"HR Specialist",10483,1,2,3.8,8,154.1,11,8,0,3,2,45+,High,No,Yes
+EMP-01077,32,Female,Analyst,7514,3,1,6.9,6,175.9,8,7,6,4,2,26-35,Medium,No,Yes
+EMP-01083,44,Female,Manager,8470,3,3,1.5,4,179,16,13,6,1,2,36-45,Medium,No,Yes
+EMP-01089,30,Female,"Data Scientist",5970,2,2,24.4,6,209.8,7,5,0,2,2,26-35,Medium,Yes,Yes
+EMP-01097,49,Male,"HR Specialist",8154,3,4,9.5,6,162.8,26,16,1,2,2,45+,Medium,No,Yes
+EMP-01100,38,Female,Analyst,8608,4,3,8,7,126.9,13,13,6,1,2,36-45,Medium,No,Yes
+EMP-01106,40,Male,Manager,7767,4,3,3.3,3,150.1,16,16,0,1,2,36-45,Medium,No,Yes
+EMP-01109,56,Female,"Sales Executive",10347,3,2,5.3,6,167.9,28,24,3,3,2,45+,High,No,Yes
+EMP-01113,43,Male,"HR Specialist",8248,3,3,8.7,5,181.7,17,14,6,2,2,36-45,Medium,No,Yes
+EMP-01121,42,Female,"Data Scientist",10530,4,3,6.3,8,176.7,12,12,0,3,2,36-45,High,No,Yes
+EMP-01123,41,Female,"Data Scientist",10572,4,2,19.3,5,161.3,17,10,3,5,2,36-45,High,No,Yes
+EMP-01144,37,Female,"Data Scientist",7807,3,4,13.6,2,171.8,16,15,6,4,2,36-45,Medium,No,Yes
+EMP-01145,40,Female,Manager,9567,1,1,18.5,3,185.6,16,14,5,3,2,36-45,High,No,Yes
+EMP-01152,45,Male,"Data Scientist",10422,3,3,6.8,8,197.5,17,12,6,1,2,36-45,High,No,Yes
+EMP-01156,41,Male,"Software Engineer",11080,3,3,7.4,5,126.2,19,19,3,4,2,36-45,High,No,Yes
+EMP-01158,39,Male,"Sales Executive",9900,2,3,13.8,6,193.1,16,15,1,3,2,36-45,High,No,Yes
+EMP-01159,50,Male,Analyst,8918,4,3,7.8,3,190.9,19,14,2,3,2,45+,Medium,No,Yes
+EMP-01161,34,Female,Manager,6522,4,2,5.7,5,214.3,14,10,1,2,2,26-35,Medium,Yes,Yes
+EMP-01165,31,Male,"HR Specialist",6564,4,3,10.3,7,183.4,10,10,1,2,2,26-35,Medium,No,Yes
+EMP-01166,45,Female,"Software Engineer",9185,3,3,1.5,2,161.7,21,21,0,1,2,36-45,High,No,Yes
+EMP-01171,39,Female,"Software Engineer",6591,2,1,7.1,2,167.2,11,9,0,5,2,36-45,Medium,No,Yes
+EMP-01181,53,Male,Manager,11120,2,2,3.6,6,152.2,16,15,0,5,2,45+,High,No,Yes
+EMP-01204,35,Male,Manager,10123,1,2,31.7,2,213.6,6,5,2,3,2,26-35,High,Yes,Yes
+EMP-01206,45,Female,Analyst,11653,3,2,13,5,214.1,19,10,4,3,2,36-45,High,Yes,Yes
+EMP-01208,35,Male,"Sales Executive",9324,3,3,1.6,6,142.7,14,12,1,3,2,26-35,High,No,Yes
+EMP-01210,36,Male,Manager,6765,4,3,2.8,7,172.2,12,11,1,4,2,36-45,Medium,No,Yes
+EMP-01217,27,Female,"Software Engineer",4676,1,4,4.4,8,171.7,7,6,3,2,2,26-35,Low,No,Yes
+EMP-01218,32,Male,"Data Scientist",9455,3,1,13.4,8,120,8,8,3,3,2,26-35,High,No,Yes
+EMP-01225,43,Female,Manager,10391,2,2,11.3,3,222,20,19,2,3,2,36-45,High,Yes,Yes
+EMP-01231,41,Male,"Data Scientist",7472,4,3,6,6,173.3,21,12,0,2,2,36-45,Medium,No,Yes
+EMP-01233,37,Male,Manager,10143,3,2,8.5,8,165.9,14,12,2,4,2,36-45,High,No,Yes
+EMP-01235,47,Female,"Data Scientist",7711,3,4,11.1,2,180.4,26,17,3,3,2,45+,Medium,No,Yes
+EMP-01251,34,Male,Manager,8901,1,2,18.9,6,177.7,10,3,4,1,2,26-35,Medium,No,Yes
+EMP-01252,44,Male,Analyst,8534,4,3,7,6,140.5,20,18,4,2,2,36-45,Medium,No,Yes
+EMP-01257,40,Female,"HR Specialist",8727,2,3,3.2,5,198.9,11,9,5,2,2,36-45,Medium,No,Yes
+EMP-01258,44,Female,Analyst,8978,2,2,10,4,167.6,14,8,4,4,2,36-45,Medium,No,Yes
+EMP-01259,40,Male,"Sales Executive",8498,3,2,5.9,7,143.1,20,17,0,5,2,36-45,Medium,No,Yes
+EMP-01279,34,Female,Manager,8348,1,3,12.2,5,138.6,10,9,6,4,2,26-35,Medium,No,Yes
+EMP-01304,38,Female,"HR Specialist",7639,1,1,25.5,4,140,12,9,0,1,2,36-45,Medium,No,Yes
+EMP-01307,42,Male,"Sales Executive",9714,1,2,14,5,169.8,17,14,1,5,2,36-45,High,No,Yes
+EMP-01314,39,Male,"Sales Executive",7164,4,4,15.6,5,176.6,15,12,5,2,2,36-45,Medium,No,Yes
+EMP-01322,47,Female,Manager,8200,3,2,1,3,185.9,20,15,3,2,2,45+,Medium,No,Yes
+EMP-01323,44,Male,"Sales Executive",8312,3,1,11.6,8,147.7,13,7,1,4,2,36-45,Medium,No,Yes
+EMP-01329,60,Female,Manager,11537,4,2,2.9,8,127.8,30,16,2,3,2,45+,High,No,Yes
+EMP-01357,34,Male,"HR Specialist",8740,4,3,3.4,4,147.1,14,12,0,5,2,26-35,Medium,No,Yes
+EMP-01358,42,Female,"Software Engineer",9870,3,3,28.4,8,128.8,18,10,5,3,2,36-45,High,No,Yes
+EMP-01359,44,Female,"Software Engineer",9563,3,4,4.3,2,178.9,17,17,5,3,2,36-45,High,No,Yes
+EMP-01365,45,Male,"Software Engineer",7942,4,1,4,2,167.7,16,15,0,5,2,36-45,Medium,No,Yes
+EMP-01390,40,Female,Analyst,10697,2,3,6.4,3,194.7,18,11,4,1,2,36-45,High,No,Yes
+EMP-01393,31,Male,"Data Scientist",8639,4,1,4.3,3,194.8,8,7,3,2,2,26-35,Medium,No,Yes
+EMP-01398,40,Female,Manager,10037,3,2,7.7,4,211,18,18,4,3,2,36-45,High,Yes,Yes
+EMP-01403,36,Male,"Data Scientist",7959,4,3,8.1,8,198.6,13,12,1,2,2,36-45,Medium,No,Yes
+EMP-01404,47,Female,"Sales Executive",9467,3,3,9.1,7,189.5,25,15,0,4,2,45+,High,No,Yes
+EMP-01413,35,Female,"Software Engineer",8603,2,1,7.6,6,183.8,6,5,3,3,2,26-35,Medium,No,Yes
+EMP-01420,51,Female,Manager,7952,4,3,24.6,7,182.7,14,12,2,4,2,45+,Medium,No,Yes
+EMP-01425,39,Male,"Software Engineer",8558,4,4,17.3,5,158.6,16,16,0,4,2,36-45,Medium,No,Yes
+EMP-01426,39,Female,"Data Scientist",10769,3,4,1.4,6,194.7,16,14,2,3,2,36-45,High,No,Yes
+EMP-01430,39,Female,"Sales Executive",7712,3,2,2.5,2,173,16,11,3,4,2,36-45,Medium,No,Yes
+EMP-01433,33,Female,"Software Engineer",9489,2,4,22.8,4,192.2,9,8,2,3,2,26-35,High,No,Yes
+EMP-01441,31,Male,"Software Engineer",6993,3,3,19.4,5,149.4,11,10,2,5,2,26-35,Medium,No,Yes
+EMP-01442,43,Female,"Sales Executive",10406,3,3,5,3,167.1,22,21,5,2,2,36-45,High,No,Yes
+EMP-01459,39,Female,"Data Scientist",7454,4,2,17.1,3,157.8,14,9,5,3,2,36-45,Medium,No,Yes
+EMP-01477,42,Female,Analyst,7873,1,2,23.5,2,206.9,18,16,2,5,2,36-45,Medium,Yes,Yes
+EMP-01487,27,Male,"HR Specialist",5670,2,2,31.8,7,184.3,6,4,6,3,2,26-35,Medium,No,Yes
+EMP-01500,47,Female,"Sales Executive",12341,4,3,44.7,4,166.4,19,14,4,3,2,45+,High,No,Yes
+EMP-01506,42,Female,"HR Specialist",9771,3,2,12.3,4,163.8,20,19,2,3,2,36-45,High,No,Yes
+EMP-01512,34,Male,"Data Scientist",10438,2,1,1.7,4,178,10,10,5,4,2,26-35,High,No,Yes
+EMP-01528,36,Female,Manager,7932,4,3,30.8,4,171.4,16,12,6,3,2,36-45,Medium,No,Yes
+EMP-01530,41,Male,"Software Engineer",7010,1,3,12.3,8,153.8,6,6,6,2,2,36-45,Medium,No,Yes
+EMP-01532,38,Male,"HR Specialist",10157,1,3,12.4,7,179.6,10,6,5,4,2,36-45,High,No,Yes
+EMP-01533,45,Female,"Data Scientist",9424,3,1,13.7,3,131.7,23,19,5,3,2,36-45,High,No,Yes
+EMP-01542,31,Male,"HR Specialist",4981,1,2,1.5,6,178.5,5,3,4,5,2,26-35,Low,No,Yes
+EMP-01551,43,Male,"Sales Executive",10210,2,4,16.9,4,186.8,15,8,5,4,2,36-45,High,No,Yes
+EMP-01552,41,Male,"HR Specialist",6256,1,2,10.9,4,183.1,10,4,3,4,2,36-45,Medium,No,Yes
+EMP-01555,43,Female,"Software Engineer",9400,3,3,5.7,6,139.5,12,11,6,3,2,36-45,High,No,Yes
+EMP-01571,45,Female,Analyst,8250,2,2,6.8,4,173.5,18,12,2,4,2,36-45,Medium,No,Yes
+EMP-01573,34,Male,"Data Scientist",8750,2,2,26.8,2,161.5,8,6,6,2,2,26-35,Medium,No,Yes
+EMP-01582,37,Female,"HR Specialist",10343,2,4,9,8,143.4,13,10,6,4,2,36-45,High,No,Yes
+EMP-01584,39,Female,"HR Specialist",10080,2,3,19.9,7,162.1,17,11,6,3,2,36-45,High,No,Yes
+EMP-01587,40,Female,"Data Scientist",7806,2,2,6.8,7,189.7,11,7,3,3,2,36-45,Medium,No,Yes
+EMP-01597,42,Male,Analyst,10162,3,3,5.9,6,156.4,13,13,4,2,2,36-45,High,No,Yes
+EMP-01598,42,Female,"Sales Executive",9492,1,1,23.2,2,163.7,21,19,6,4,2,36-45,High,No,Yes
+EMP-01603,32,Male,Manager,7179,1,2,8.1,4,171,10,7,2,1,2,26-35,Medium,No,Yes
+EMP-01613,44,Female,"Data Scientist",7937,2,2,15.6,5,178.8,19,12,4,4,2,36-45,Medium,No,Yes
+EMP-01618,33,Male,"Software Engineer",9811,3,3,11.7,5,179.5,11,11,2,3,2,26-35,High,No,Yes
+EMP-01621,47,Female,Analyst,10987,4,2,12.1,2,158.7,25,14,1,5,2,45+,High,No,Yes
+EMP-01640,36,Male,"HR Specialist",7812,3,2,13.1,8,153.8,11,8,1,2,2,36-45,Medium,No,Yes
+EMP-01647,53,Male,"Sales Executive",7934,1,4,5.6,3,158.3,15,8,2,2,2,45+,Medium,No,Yes
+EMP-01653,39,Female,"Software Engineer",9601,4,2,4.5,4,158.8,16,14,6,3,2,36-45,High,No,Yes
+EMP-01654,33,Female,"HR Specialist",7115,1,2,6.9,7,198.1,6,3,0,3,2,26-35,Medium,No,Yes
+EMP-01665,34,Female,Manager,6979,4,2,10.9,4,183.2,11,10,2,2,2,26-35,Medium,No,Yes
+EMP-01668,36,Male,Analyst,7784,1,2,13.7,8,167.9,12,6,5,2,2,36-45,Medium,No,Yes
+EMP-01677,38,Male,"Data Scientist",8289,3,2,4.3,7,153,14,11,0,4,2,36-45,Medium,No,Yes
+EMP-01678,45,Female,"Sales Executive",8714,3,3,11.9,7,155.4,14,11,0,4,2,36-45,Medium,No,Yes
+EMP-01692,47,Female,Manager,11958,3,3,6,2,120,20,15,2,2,2,45+,High,No,Yes
+EMP-01693,39,Male,Analyst,11652,2,2,15.5,7,150.4,14,8,6,2,2,36-45,High,No,Yes
+EMP-01701,46,Female,"Software Engineer",10949,2,2,7.7,3,167.1,15,7,0,3,2,45+,High,No,Yes
+EMP-01704,42,Female,"HR Specialist",8636,2,3,5,3,141.9,18,10,2,4,2,36-45,Medium,No,Yes
+EMP-01705,39,Male,"HR Specialist",9126,1,3,3.3,3,176.7,17,12,4,4,2,36-45,High,No,Yes
+EMP-01738,40,Male,"HR Specialist",10535,3,2,11.4,4,199.3,19,11,1,3,2,36-45,High,No,Yes
+EMP-01740,43,Female,"Sales Executive",9118,3,2,8.3,3,139.3,17,17,1,3,2,36-45,High,No,Yes
+EMP-01742,43,Female,Analyst,10567,1,2,7.1,8,152.4,9,6,0,2,2,36-45,High,No,Yes
+EMP-01750,42,Female,Analyst,7417,3,2,16.1,7,211.9,10,7,3,3,2,36-45,Medium,Yes,Yes
+EMP-01757,44,Female,"HR Specialist",8378,4,2,13.3,6,128,16,15,0,4,2,36-45,Medium,No,Yes
+EMP-01768,27,Male,Analyst,7831,2,3,36.2,8,178.8,7,5,6,3,2,26-35,Medium,No,Yes
+EMP-01772,49,Male,"Sales Executive",11381,2,3,3.9,2,194.4,28,18,0,5,2,45+,High,No,Yes
+EMP-01781,39,Female,Analyst,10173,1,4,6.2,5,175.8,9,7,2,5,2,36-45,High,No,Yes
+EMP-01783,31,Female,Manager,8043,1,2,10.6,4,158.9,4,4,0,3,2,26-35,Medium,No,Yes
+EMP-01785,42,Female,Manager,6899,1,1,17.5,3,151.8,9,6,6,4,2,36-45,Medium,No,Yes
+EMP-01790,35,Male,Analyst,6414,1,3,4.6,6,194.7,4,4,4,3,2,26-35,Medium,No,Yes
+EMP-01797,32,Male,Manager,7815,1,2,3,7,173.5,8,8,0,4,2,26-35,Medium,No,Yes
+EMP-01800,43,Female,"Software Engineer",7165,4,3,5.6,2,219.9,20,11,5,3,2,36-45,Medium,Yes,Yes
+EMP-01801,38,Female,"Data Scientist",6106,2,2,16,8,192.8,12,4,4,4,2,36-45,Medium,No,Yes
+EMP-01804,37,Male,"Software Engineer",6673,3,3,8.6,7,175.3,10,9,2,4,2,36-45,Medium,No,Yes
+EMP-01808,35,Male,Analyst,9599,2,3,11.7,2,175.9,13,10,2,4,2,26-35,High,No,Yes
+EMP-01814,32,Female,"HR Specialist",8344,2,2,18.8,7,155.5,12,12,4,1,2,26-35,Medium,No,Yes
+EMP-01818,45,Female,"Software Engineer",11896,2,4,3.2,4,171.2,24,13,0,2,2,36-45,High,No,Yes
+EMP-01822,37,Female,"Data Scientist",10547,3,3,2.5,4,181.5,12,12,4,4,2,36-45,High,No,Yes
+EMP-01826,36,Female,Manager,9038,3,2,28.7,4,205.7,14,9,6,5,2,36-45,High,Yes,Yes
+EMP-01830,40,Male,"HR Specialist",6045,2,3,2.9,6,200.8,14,12,0,3,2,36-45,Medium,Yes,Yes
+EMP-01834,43,Male,"HR Specialist",6856,2,1,6.7,2,173.8,21,4,3,1,2,36-45,Medium,No,Yes
+EMP-01837,33,Female,"Data Scientist",8431,1,3,7.6,2,199.7,9,6,2,3,2,26-35,Medium,No,Yes
+EMP-01838,46,Female,Analyst,10409,2,4,23.1,4,170.8,10,10,1,2,2,45+,High,No,Yes
+EMP-01844,30,Female,Manager,5689,3,1,11.8,6,210.1,8,6,6,4,2,26-35,Medium,Yes,Yes
+EMP-01848,44,Male,"HR Specialist",8815,4,2,14.7,7,120,20,20,3,4,2,36-45,Medium,No,Yes
+EMP-01852,46,Male,Manager,8114,3,3,3,3,200,20,20,2,5,2,45+,Medium,No,Yes
+EMP-01854,42,Female,"HR Specialist",10749,4,3,6,5,189.9,20,16,4,3,2,36-45,High,No,Yes
+EMP-01856,39,Female,"Software Engineer",6515,3,2,7.2,3,150.7,17,13,3,2,2,36-45,Medium,No,Yes
+EMP-01857,43,Female,Analyst,7463,2,1,9.6,5,205.3,13,8,3,3,2,36-45,Medium,Yes,Yes
+EMP-01864,47,Male,"Data Scientist",10498,2,3,14.7,2,137.3,23,15,0,4,2,45+,High,No,Yes
+EMP-01874,34,Male,Manager,7694,3,2,7.4,5,225.7,9,9,0,4,2,26-35,Medium,Yes,Yes
+EMP-01878,45,Female,Manager,9940,4,1,13.2,6,166.7,19,11,5,3,2,36-45,High,No,Yes
+EMP-01886,39,Male,"Software Engineer",9434,4,2,4.3,6,191.5,13,9,3,3,2,36-45,High,No,Yes
+EMP-01889,38,Female,"HR Specialist",6509,2,3,8,2,128,17,14,6,1,2,36-45,Medium,No,Yes
+EMP-01898,31,Male,"Sales Executive",8291,4,2,12.6,7,180.2,10,9,0,5,2,26-35,Medium,No,Yes
+EMP-01912,40,Male,"Software Engineer",9793,3,3,3.6,3,189.3,13,12,5,2,2,36-45,High,No,Yes
+EMP-01917,38,Female,"Software Engineer",8677,2,4,6,5,202.8,14,9,0,5,2,36-45,Medium,Yes,Yes
+EMP-01920,34,Male,Manager,8973,1,2,10.1,7,173.8,9,9,6,4,2,26-35,Medium,No,Yes
+EMP-01924,29,Female,Analyst,9601,2,1,8.3,6,154.5,5,5,3,4,2,26-35,High,No,Yes
+EMP-01931,45,Male,"Software Engineer",7431,2,1,18,8,177.6,22,20,0,3,2,36-45,Medium,No,Yes
+EMP-01937,43,Female,"HR Specialist",11645,2,4,8.1,2,164,18,12,2,3,2,36-45,High,No,Yes
+EMP-01945,28,Female,Analyst,9660,2,1,33.4,8,141.5,8,4,4,3,2,26-35,High,No,Yes
+EMP-01955,44,Male,"Software Engineer",10378,2,4,1.4,4,152.1,20,17,4,4,2,36-45,High,No,Yes
+EMP-01963,36,Female,"Sales Executive",7554,2,1,5,7,143.2,15,9,5,2,2,36-45,Medium,No,Yes
+EMP-01970,35,Male,"HR Specialist",8605,2,4,31.7,8,185.3,9,7,4,1,2,26-35,Medium,No,Yes
+EMP-01976,49,Female,"Sales Executive",9220,2,1,6.5,5,202.6,13,10,0,2,2,45+,High,Yes,Yes
+EMP-01977,36,Female,"Software Engineer",8380,1,3,25.5,7,161.7,12,12,6,4,2,36-45,Medium,No,Yes
+EMP-01979,40,Female,"HR Specialist",7350,3,1,6.5,2,222.4,12,7,2,4,2,36-45,Medium,Yes,Yes
+EMP-01985,31,Female,"Sales Executive",8869,3,1,5.7,2,186.5,10,8,0,2,2,26-35,Medium,No,Yes
+EMP-01993,35,Male,Analyst,7159,2,1,13.3,7,178.8,13,13,6,2,2,26-35,Medium,No,Yes
+EMP-02006,34,Female,Manager,9335,2,1,10.9,8,204.3,12,8,3,4,2,26-35,High,Yes,Yes
+EMP-02014,39,Female,"Sales Executive",7737,2,4,27.7,6,180.2,14,9,0,3,2,36-45,Medium,No,Yes
+EMP-02024,51,Male,Analyst,13226,2,3,8.3,3,158.3,10,9,5,3,2,45+,High,No,Yes
+EMP-02042,36,Male,Manager,11527,4,2,7.9,2,130.8,14,13,3,3,2,36-45,High,No,Yes
+EMP-02048,32,Male,"Data Scientist",6014,1,2,13.8,6,163.3,7,5,6,5,2,26-35,Medium,No,Yes
+EMP-02055,46,Male,"HR Specialist",8725,4,1,2.5,7,196.2,18,13,4,3,2,45+,Medium,No,Yes
+EMP-02058,33,Female,Manager,9075,3,2,11.6,2,160.5,10,9,6,1,2,26-35,High,No,Yes
+EMP-02067,38,Male,Analyst,10890,2,1,12,7,179.7,12,7,5,3,2,36-45,High,No,Yes
+EMP-02075,39,Male,"Data Scientist",8990,2,2,10,5,181.8,16,7,1,5,2,36-45,Medium,No,Yes
+EMP-02080,37,Female,"Software Engineer",10858,2,3,1.8,5,187.4,11,11,6,4,2,36-45,High,No,Yes
+EMP-02081,32,Female,"Software Engineer",5427,2,3,10.8,6,180.3,9,9,5,3,2,26-35,Medium,No,Yes
+EMP-02099,30,Female,"Software Engineer",8941,2,3,22.6,8,200.1,8,6,2,3,2,26-35,Medium,Yes,Yes
+EMP-02100,39,Female,"Software Engineer",9920,3,2,3.2,6,209.5,13,11,6,4,2,36-45,High,Yes,Yes
+EMP-02107,37,Female,"Software Engineer",10127,1,2,2.7,8,182.9,9,9,3,3,2,36-45,High,No,Yes
+EMP-02109,40,Male,"Software Engineer",9895,4,2,13.5,7,180.2,13,11,0,3,2,36-45,High,No,Yes
+EMP-02115,32,Male,"Sales Executive",7979,2,1,23.4,3,188.6,5,3,1,3,2,26-35,Medium,No,Yes
+EMP-02116,46,Female,"Software Engineer",8144,4,2,8.5,4,168.4,20,17,5,1,2,45+,Medium,No,Yes
+EMP-02119,47,Female,Analyst,9854,2,2,4.1,3,169.4,22,8,5,5,2,45+,High,No,Yes
+EMP-02120,41,Male,"Sales Executive",8513,1,2,14.8,5,158.9,19,7,1,3,2,36-45,Medium,No,Yes
+EMP-02130,43,Female,Analyst,10036,3,4,8.6,5,210.2,15,15,5,3,2,36-45,High,Yes,Yes
+EMP-02132,37,Male,"HR Specialist",6244,3,3,5.1,3,213.8,7,7,2,2,2,36-45,Medium,Yes,Yes
+EMP-02133,39,Male,"Sales Executive",8272,2,1,5.6,8,161.7,17,13,5,4,2,36-45,Medium,No,Yes
+EMP-02135,47,Male,"Sales Executive",10914,2,3,2.2,7,151,22,12,6,3,2,45+,High,No,Yes
+EMP-02138,44,Male,"Data Scientist",10115,3,4,7.7,8,194.5,23,11,6,3,2,36-45,High,No,Yes
+EMP-02148,46,Female,Manager,11766,3,2,5.7,7,198.3,23,17,5,4,2,45+,High,No,Yes
+EMP-02157,37,Male,Analyst,6638,2,3,9.3,3,164.8,9,7,6,3,2,36-45,Medium,No,Yes
+EMP-02161,41,Male,"Sales Executive",6879,4,2,3.3,2,163.9,15,13,2,1,2,36-45,Medium,No,Yes
+EMP-02165,45,Female,Analyst,11486,3,3,18.3,6,180.2,19,16,4,3,2,36-45,High,No,Yes
+EMP-02168,42,Female,Analyst,9897,4,3,3.3,6,216.5,12,11,3,3,2,36-45,High,Yes,Yes
+EMP-02169,46,Female,Analyst,9544,1,3,2.1,7,229.1,21,13,1,4,2,45+,High,Yes,Yes
+EMP-02170,42,Male,Manager,9308,4,1,13.1,4,170.5,13,11,2,4,2,36-45,High,No,Yes
+EMP-02173,40,Male,"Software Engineer",9190,1,1,26.7,5,128,16,16,6,4,2,36-45,High,No,Yes
+EMP-02174,32,Female,"Software Engineer",8340,3,2,8.9,2,164.4,10,9,0,4,2,26-35,Medium,No,Yes
+EMP-02183,34,Male,Manager,10425,1,1,12,4,148.9,10,10,4,2,2,26-35,High,No,Yes
+EMP-02191,41,Male,"Sales Executive",11152,1,1,5.9,6,171.3,21,5,1,4,2,36-45,High,No,Yes
+EMP-02205,39,Male,Manager,8037,3,3,12.4,6,159.9,15,10,0,3,2,36-45,Medium,No,Yes
+EMP-02206,60,Male,"Software Engineer",13375,3,1,18.9,8,154.3,20,10,2,3,2,45+,High,No,Yes
+EMP-02207,28,Male,"Data Scientist",6192,2,4,7,2,211.7,7,7,5,1,2,26-35,Medium,Yes,Yes
+EMP-02209,46,Male,"HR Specialist",8475,3,3,11.9,7,189.2,25,12,4,4,2,45+,Medium,No,Yes
+EMP-02219,35,Male,"Software Engineer",8794,2,2,15.4,6,201,10,8,1,3,2,26-35,Medium,Yes,Yes
+EMP-02239,39,Male,"HR Specialist",11081,4,3,3.1,8,208.1,17,13,3,4,2,36-45,High,Yes,Yes
+EMP-02242,35,Female,"Sales Executive",8551,1,3,16.1,7,172.7,10,7,1,3,2,26-35,Medium,No,Yes
+EMP-02248,32,Female,Manager,8055,2,2,19.2,3,171.7,6,6,3,3,2,26-35,Medium,No,Yes
+EMP-02253,39,Male,Analyst,8044,2,3,9.8,3,147.9,17,17,2,3,2,36-45,Medium,No,Yes
+EMP-02254,37,Female,"Data Scientist",7172,3,2,9.8,5,194.7,17,16,6,5,2,36-45,Medium,No,Yes
+EMP-02260,36,Female,Analyst,10579,2,3,10.8,4,169,11,8,4,1,2,36-45,High,No,Yes
+EMP-02262,34,Female,Manager,7148,4,1,2,4,218.6,11,11,6,3,2,26-35,Medium,Yes,Yes
+EMP-02276,44,Female,"HR Specialist",12829,2,2,14.7,6,149.6,20,20,1,1,2,36-45,High,No,Yes
+EMP-02294,39,Female,"HR Specialist",10063,2,2,12.1,5,165.5,11,10,1,3,2,36-45,High,No,Yes
+EMP-02299,46,Female,Manager,8598,4,3,6.3,3,200.2,24,22,6,3,2,45+,Medium,Yes,Yes
+EMP-02302,49,Female,"Software Engineer",10577,4,2,5.9,7,206.4,23,14,6,2,2,45+,High,Yes,Yes
+EMP-02319,33,Female,Analyst,10663,1,2,6.9,4,162.8,8,8,6,5,2,26-35,High,No,Yes
+EMP-02322,40,Female,"Data Scientist",8368,1,2,2.9,6,210,14,12,0,2,2,36-45,Medium,Yes,Yes
+EMP-02325,38,Male,Manager,9624,3,1,7,6,175.3,9,9,0,3,2,36-45,High,No,Yes
+EMP-02328,45,Female,"Software Engineer",11929,3,3,16.9,6,159,18,11,0,3,2,36-45,High,No,Yes
+EMP-02332,49,Female,"HR Specialist",10456,3,3,2.8,7,189.4,12,12,5,2,2,45+,High,No,Yes
+EMP-02333,35,Female,"Software Engineer",6914,3,2,16.4,8,169.4,15,11,4,3,2,26-35,Medium,No,Yes
+EMP-02338,34,Female,"Software Engineer",6001,2,2,2,7,167.9,7,7,0,3,2,26-35,Medium,No,Yes
+EMP-02340,45,Male,Manager,10857,4,1,22.6,3,150.6,18,10,3,3,2,36-45,High,No,Yes
+EMP-02341,38,Male,"HR Specialist",8140,3,3,10.1,7,162.4,13,12,0,3,2,36-45,Medium,No,Yes
+EMP-02353,44,Female,Analyst,9732,2,3,4.9,4,194.3,12,10,1,3,2,36-45,High,No,Yes
+EMP-02354,40,Female,"Sales Executive",10674,3,1,24.7,5,210.6,8,5,3,4,2,36-45,High,Yes,Yes
+EMP-02370,38,Female,"HR Specialist",7820,2,1,3.4,8,166,7,5,6,4,2,36-45,Medium,No,Yes
+EMP-02373,34,Male,Analyst,9464,2,2,7.6,4,178.9,8,6,0,4,2,26-35,High,No,Yes
+EMP-02374,34,Male,Manager,5966,1,2,10.2,6,152.6,8,4,2,3,2,26-35,Medium,No,Yes
+EMP-02376,32,Male,"Software Engineer",5828,4,4,15.8,2,195.8,11,11,6,5,2,26-35,Medium,No,Yes
+EMP-02377,47,Female,Manager,8006,3,3,4.3,4,135.3,21,15,6,4,2,45+,Medium,No,Yes
+EMP-02380,31,Female,Analyst,7797,4,2,5.9,4,183.2,9,9,3,3,2,26-35,Medium,No,Yes
+EMP-02381,42,Male,"HR Specialist",6994,4,4,7.1,3,159,14,13,0,4,2,36-45,Medium,No,Yes
+EMP-02386,36,Male,Analyst,9324,4,1,8.8,7,195.8,14,9,0,3,2,36-45,High,No,Yes
+EMP-02397,45,Female,"HR Specialist",10150,2,3,18.7,6,167.1,19,14,5,2,2,36-45,High,No,Yes
+EMP-02413,33,Female,"Sales Executive",7512,1,1,11.8,8,168.4,3,3,4,3,2,26-35,Medium,No,Yes
+EMP-02421,33,Female,Manager,6289,1,2,14.4,8,162.3,11,4,5,4,2,26-35,Medium,No,Yes
+EMP-02426,43,Male,"Data Scientist",11216,1,2,5.4,8,216.7,11,9,2,3,2,36-45,High,Yes,Yes
+EMP-02427,33,Male,"HR Specialist",10304,1,2,8.2,3,151.2,6,5,3,4,2,26-35,High,No,Yes
+EMP-02435,33,Male,Manager,8394,4,1,12.9,8,196.3,9,8,1,3,2,26-35,Medium,No,Yes
+EMP-02436,56,Male,"Software Engineer",9433,4,3,7.4,5,167.9,35,33,2,5,2,45+,High,No,Yes
+EMP-02445,46,Female,"Software Engineer",12002,3,3,19.3,7,166.6,25,25,0,3,2,45+,High,No,Yes
+EMP-02446,44,Female,Analyst,9644,3,3,5.5,2,187.8,16,12,4,4,2,36-45,High,No,Yes
+EMP-02451,36,Male,"HR Specialist",6901,2,3,10,2,183.2,7,6,1,3,2,36-45,Medium,No,Yes
+EMP-02477,44,Male,"Sales Executive",8959,2,2,5.5,3,147.4,18,10,4,3,2,36-45,Medium,No,Yes
+EMP-02480,40,Female,Manager,8035,2,3,12.2,7,183.3,10,7,4,5,2,36-45,Medium,No,Yes
+EMP-02481,38,Male,"HR Specialist",10003,4,2,5.3,4,208.8,14,12,6,2,2,36-45,High,Yes,Yes
+EMP-02485,38,Female,Analyst,6817,2,2,11.5,2,245.6,14,8,5,3,2,36-45,Medium,Yes,Yes
+EMP-02491,41,Male,"HR Specialist",7517,3,3,29.9,7,168.4,13,9,5,4,2,36-45,Medium,No,Yes
+EMP-02497,52,Female,"Sales Executive",10421,2,3,5.7,7,180.2,15,10,6,3,2,45+,High,No,Yes
+EMP-02507,45,Male,"Sales Executive",11649,1,1,5.8,2,207.6,13,10,6,1,2,36-45,High,Yes,Yes
+EMP-02511,29,Male,"HR Specialist",6132,3,1,13.8,2,217,8,6,6,2,2,26-35,Medium,Yes,Yes
+EMP-02512,48,Female,"Sales Executive",8558,3,2,13.1,5,189.9,18,10,0,3,2,45+,Medium,No,Yes
+EMP-02528,42,Male,Manager,8286,4,2,1,5,179.2,14,14,0,3,2,36-45,Medium,No,Yes
+EMP-02530,37,Female,"Software Engineer",9345,4,3,10,8,200.9,11,11,3,3,2,36-45,High,Yes,Yes
+EMP-02546,43,Female,"HR Specialist",7815,1,1,17.3,5,160.1,8,4,3,4,2,36-45,Medium,No,Yes
+EMP-02547,44,Female,Analyst,9060,4,2,9.5,5,184.1,13,11,5,4,2,36-45,High,No,Yes
+EMP-02554,34,Male,"HR Specialist",8859,2,3,11.1,5,150.5,12,9,5,5,2,26-35,Medium,No,Yes
+EMP-02555,34,Male,"Software Engineer",7010,3,2,26,3,208.3,11,6,2,3,2,26-35,Medium,Yes,Yes
+EMP-02566,29,Female,"HR Specialist",4881,3,2,19.3,8,166.9,9,6,0,3,2,26-35,Low,No,Yes
+EMP-02574,40,Male,"Software Engineer",9832,2,1,11.6,2,180.1,17,5,4,3,2,36-45,High,No,Yes
+EMP-02575,37,Female,"HR Specialist",10189,4,2,16,2,231.4,8,7,6,3,2,36-45,High,Yes,Yes
+EMP-02579,47,Male,"Data Scientist",12601,1,2,7.2,6,160.4,22,8,0,3,2,45+,High,No,Yes
+EMP-02581,43,Female,"Software Engineer",9619,2,3,6,3,179.7,16,9,2,4,2,36-45,High,No,Yes
+EMP-02590,49,Female,Analyst,7960,2,4,6.3,3,178.2,16,11,4,2,2,45+,Medium,No,Yes
+EMP-02594,39,Male,"Sales Executive",7016,3,3,2.3,6,168,14,10,1,4,2,36-45,Medium,No,Yes
+EMP-02613,32,Female,Manager,7424,2,1,10.4,5,163.5,6,6,2,3,2,26-35,Medium,No,Yes
+EMP-02614,49,Male,"Data Scientist",11523,2,3,7.2,4,189.9,15,9,0,3,2,45+,High,No,Yes
+EMP-02630,31,Male,"Sales Executive",9421,3,2,9.3,5,176.2,9,9,3,1,2,26-35,High,No,Yes
+EMP-02632,41,Female,"Sales Executive",8569,3,3,7.1,7,206.1,18,9,2,1,2,36-45,Medium,Yes,Yes
+EMP-02637,33,Male,"Software Engineer",6104,3,3,6.7,2,179.5,13,10,2,2,2,26-35,Medium,No,Yes
+EMP-02638,35,Female,Analyst,7439,3,4,1.7,8,169.7,15,13,5,3,2,26-35,Medium,No,Yes
+EMP-02651,34,Male,"Sales Executive",9575,3,2,15.7,8,193.3,9,8,1,3,2,26-35,High,No,Yes
+EMP-02653,43,Male,"HR Specialist",9437,3,3,3.5,4,227.3,18,8,2,2,2,36-45,High,Yes,Yes
+EMP-02662,37,Female,"Software Engineer",7486,2,3,9.1,8,250,15,5,1,3,2,36-45,Medium,Yes,Yes
+EMP-02669,50,Female,"Sales Executive",10994,3,1,7.3,5,164,19,13,3,2,2,45+,High,No,Yes
+EMP-02675,38,Male,Analyst,11140,1,2,15.1,5,177.2,10,9,6,5,2,36-45,High,No,Yes
+EMP-02677,37,Female,"Software Engineer",9199,3,3,13.4,7,143.4,12,11,1,1,2,36-45,High,No,Yes
+EMP-02680,38,Female,"Software Engineer",9685,4,3,19.6,8,189.2,14,14,6,3,2,36-45,High,No,Yes
+EMP-02689,44,Female,"Data Scientist",10849,3,3,1.1,6,190,17,15,3,5,2,36-45,High,No,Yes
+EMP-02697,45,Male,"Data Scientist",10536,3,3,9.6,6,174.2,16,15,0,4,2,36-45,High,No,Yes
+EMP-02701,37,Male,"Data Scientist",7913,2,3,6.6,5,179.4,11,11,6,3,2,36-45,Medium,No,Yes
+EMP-02709,42,Female,"Data Scientist",11064,3,2,9.7,2,147.1,17,16,6,3,2,36-45,High,No,Yes
+EMP-02714,47,Female,"HR Specialist",9761,2,1,10.3,3,207.3,19,4,0,2,2,45+,High,Yes,Yes
+EMP-02715,45,Female,Analyst,9273,2,3,12.2,4,185.3,22,9,3,1,2,36-45,High,No,Yes
+EMP-02717,47,Male,"Software Engineer",8231,3,3,18.1,2,172.4,20,19,5,3,2,45+,Medium,No,Yes
+EMP-02721,46,Female,Analyst,9608,3,2,8.4,3,206.6,17,13,6,3,2,45+,High,Yes,Yes
+EMP-02722,41,Female,"Data Scientist",8435,1,1,17.4,4,167.3,15,10,3,3,2,36-45,Medium,No,Yes
+EMP-02730,51,Male,"Sales Executive",12416,3,2,26.8,7,195.4,25,22,3,3,2,45+,High,No,Yes
+EMP-02739,41,Male,Manager,7768,2,3,5.4,6,156.7,17,12,2,5,2,36-45,Medium,No,Yes
+EMP-02749,34,Female,Analyst,8816,1,1,13.1,4,122.2,10,9,4,3,2,26-35,Medium,No,Yes
+EMP-02767,46,Male,"Software Engineer",9998,3,1,24.1,7,128.8,9,9,2,3,2,45+,High,No,Yes
+EMP-02786,43,Male,Manager,7204,2,2,5.8,7,162.4,18,6,3,3,2,36-45,Medium,No,Yes
+EMP-02790,35,Male,"Data Scientist",9297,3,2,9.4,3,212.3,15,6,0,5,2,26-35,High,Yes,Yes
+EMP-02795,33,Female,Analyst,10081,3,2,4.5,7,204.5,9,7,2,5,2,26-35,High,Yes,Yes
+EMP-02805,42,Female,"Sales Executive",8030,1,2,13.5,4,204.4,12,3,0,4,2,36-45,Medium,Yes,Yes
+EMP-02808,39,Male,Analyst,7927,4,3,26.9,5,154.4,13,13,3,5,2,36-45,Medium,No,Yes
+EMP-02817,39,Female,Analyst,10204,1,2,1.9,2,193.4,10,7,0,4,2,36-45,High,No,Yes
+EMP-02818,44,Female,Analyst,9923,2,2,12.5,3,216.1,10,5,0,2,2,36-45,High,Yes,Yes
+EMP-02823,46,Male,"Data Scientist",10603,3,1,15.5,2,190.2,24,19,1,3,2,45+,High,No,Yes
+EMP-02828,47,Female,Manager,10829,2,2,10.7,4,204.2,27,20,0,4,2,45+,High,Yes,Yes
+EMP-02838,46,Female,Analyst,11468,4,2,5.1,2,216.5,14,9,1,3,2,45+,High,Yes,Yes
+EMP-02847,38,Female,"Sales Executive",6798,4,3,12.1,8,166.4,16,15,4,2,2,36-45,Medium,No,Yes
+EMP-02856,36,Male,"Data Scientist",9155,1,3,13.8,5,235.4,10,7,3,3,2,36-45,High,Yes,Yes
+EMP-02861,42,Female,"Software Engineer",8932,4,2,3.3,7,130.4,20,16,0,3,2,36-45,Medium,No,Yes
+EMP-02865,42,Female,"Data Scientist",9498,2,2,2.4,8,185.7,11,9,6,4,2,36-45,High,No,Yes
+EMP-02868,40,Female,Analyst,6361,1,4,15.8,3,215.9,15,8,2,2,2,36-45,Medium,Yes,Yes
+EMP-02870,33,Male,Analyst,6803,3,3,1.6,6,150.2,11,10,6,3,2,26-35,Medium,No,Yes
+EMP-02883,39,Female,"Data Scientist",10491,3,1,9.3,7,160.4,17,9,2,3,2,36-45,High,No,Yes
+EMP-02887,34,Male,Analyst,9352,1,2,2.4,3,201.8,7,5,6,3,2,26-35,High,Yes,Yes
+EMP-02888,39,Female,"HR Specialist",6848,1,3,43.6,7,148.9,13,10,3,3,2,36-45,Medium,No,Yes
+EMP-02891,37,Female,Analyst,5770,4,2,14.8,5,225.5,7,7,3,3,2,36-45,Medium,Yes,Yes
+EMP-02908,32,Female,"Sales Executive",9077,4,2,7.5,3,184,9,9,4,1,2,26-35,High,No,Yes
+EMP-02909,48,Female,Analyst,11478,3,3,4,5,188.1,17,12,1,1,2,45+,High,No,Yes
+EMP-02912,33,Female,"Data Scientist",9802,3,3,14.9,2,215.6,11,11,0,1,2,26-35,High,Yes,Yes
+EMP-02915,32,Male,"HR Specialist",5741,1,2,15.4,3,212.2,7,3,4,3,2,26-35,Medium,Yes,Yes
+EMP-02918,42,Female,"Data Scientist",10666,2,2,3,5,167.7,16,15,3,3,2,36-45,High,No,Yes
+EMP-02919,39,Male,"HR Specialist",10129,4,2,5,2,153.8,12,11,5,3,2,36-45,High,No,Yes
+EMP-02929,50,Male,"Data Scientist",11251,1,3,8.9,4,190.6,13,6,5,2,2,45+,High,No,Yes
+EMP-02931,40,Female,Manager,8081,4,3,4.2,3,142.9,17,14,5,2,2,36-45,Medium,No,Yes
+EMP-02946,36,Male,Manager,8026,2,3,11.7,8,145.4,11,10,5,5,2,36-45,Medium,No,Yes
+EMP-02951,34,Female,"Sales Executive",10394,1,3,1.3,3,171,12,9,6,4,2,26-35,High,No,Yes
+EMP-02954,40,Female,Manager,8133,3,3,8.3,2,207,20,15,1,5,2,36-45,Medium,Yes,Yes
+EMP-02966,41,Female,"Software Engineer",10097,2,2,16.8,8,158.1,19,19,0,3,2,36-45,High,No,Yes
+EMP-02981,44,Male,"Sales Executive",7870,2,2,16.8,4,145.9,15,7,1,1,2,36-45,Medium,No,Yes
+EMP-02983,41,Male,Analyst,10679,2,4,25.1,3,170.1,12,9,1,1,2,36-45,High,No,Yes
+EMP-02986,40,Male,Analyst,8116,4,2,26.4,3,200.2,16,13,6,4,2,36-45,Medium,Yes,Yes
+EMP-02987,33,Male,"Sales Executive",9157,3,2,16.4,3,183.3,12,8,5,1,2,26-35,High,No,Yes
+EMP-02988,35,Female,"HR Specialist",10700,3,1,9.9,3,206.4,6,6,5,2,2,26-35,High,Yes,Yes
+EMP-03002,43,Female,"HR Specialist",9027,2,1,12.8,5,135.6,18,16,5,3,2,36-45,High,No,Yes
+EMP-03008,36,Male,Manager,9049,2,4,12.7,3,217.3,12,10,1,3,2,36-45,High,Yes,Yes
+EMP-03010,36,Male,Analyst,10097,2,1,6.7,8,191.2,6,4,6,1,2,36-45,High,No,Yes
+EMP-03012,39,Male,"Data Scientist",9833,3,3,11.4,6,183,16,15,0,1,2,36-45,High,No,Yes
+EMP-03021,36,Male,Analyst,6417,1,3,10.9,2,139.3,13,10,4,3,2,36-45,Medium,No,Yes
+EMP-03022,33,Male,"HR Specialist",6682,2,3,9.7,2,172.6,12,10,3,4,2,26-35,Medium,No,Yes
+EMP-03031,40,Male,Analyst,8973,2,4,18.2,6,174.9,13,12,1,3,2,36-45,Medium,No,Yes
+EMP-03033,44,Male,"HR Specialist",8968,3,3,7.4,7,182.4,10,9,3,4,2,36-45,Medium,No,Yes
+EMP-03035,42,Female,Manager,7055,3,3,1.1,4,192.4,16,12,4,2,2,36-45,Medium,No,Yes
+EMP-03047,42,Female,Manager,10406,3,2,6.2,8,182,12,8,2,2,2,36-45,High,No,Yes
+EMP-03057,33,Female,"HR Specialist",7738,1,2,6.1,3,120,8,7,5,5,2,26-35,Medium,No,Yes
+EMP-03059,51,Male,"Software Engineer",13405,3,3,39,7,176.4,28,12,5,2,2,45+,High,No,Yes
+EMP-03060,42,Female,"Software Engineer",9073,3,2,5.6,2,178,12,11,2,5,2,36-45,High,No,Yes
+EMP-03064,39,Female,"Software Engineer",6928,3,3,8.5,4,176,18,12,0,2,2,36-45,Medium,No,Yes
+EMP-03073,45,Male,Manager,10649,1,3,19.3,5,188.4,10,7,0,3,2,36-45,High,No,Yes
+EMP-03080,34,Female,"Sales Executive",4972,2,1,12.2,2,215.3,5,5,4,3,2,26-35,Low,Yes,Yes
+EMP-03083,40,Female,"Software Engineer",9661,2,3,13.4,4,197.3,13,9,0,3,2,36-45,High,No,Yes
+EMP-03091,49,Female,Manager,10022,3,1,5.4,5,185.7,21,19,1,2,2,45+,High,No,Yes
+EMP-03092,40,Female,Analyst,8806,2,3,14.6,2,131.8,20,17,0,2,2,36-45,Medium,No,Yes
+EMP-03093,31,Male,Analyst,4975,1,1,10.8,6,186.2,3,1,6,2,2,26-35,Low,No,No
+EMP-03104,38,Male,Manager,10219,3,2,24.3,3,131,11,9,6,4,2,36-45,High,No,Yes
+EMP-03113,41,Female,"Data Scientist",8663,3,4,6.1,7,184.3,17,13,3,1,2,36-45,Medium,No,Yes
+EMP-03120,47,Female,"Data Scientist",7752,1,4,10.6,6,160.1,26,14,1,3,2,45+,Medium,No,Yes
+EMP-03130,37,Male,"HR Specialist",7998,4,2,23.6,3,196.1,13,9,3,1,2,36-45,Medium,No,Yes
+EMP-03138,35,Male,"HR Specialist",6136,1,4,10.5,7,181,7,7,5,3,2,26-35,Medium,No,Yes
+EMP-03143,33,Male,"Sales Executive",6348,1,2,14.1,6,227.6,8,4,1,4,2,26-35,Medium,Yes,Yes
+EMP-03144,34,Male,"Software Engineer",9893,4,2,5.4,4,181.3,13,13,1,2,2,26-35,High,No,Yes
+EMP-03150,36,Male,"Software Engineer",9585,3,3,5.8,6,194.3,11,11,4,1,2,36-45,High,No,Yes
+EMP-03151,46,Female,Manager,9225,2,4,18.5,8,189.2,17,13,0,3,2,45+,High,No,Yes
+EMP-03155,44,Female,"Sales Executive",7176,3,3,16.7,7,169.6,16,12,6,5,2,36-45,Medium,No,Yes
+EMP-03161,44,Male,"Data Scientist",9233,2,3,9.3,4,146.2,15,11,1,4,2,36-45,High,No,Yes
+EMP-03164,47,Male,Manager,8732,1,2,6.1,2,183.3,20,10,5,2,2,45+,Medium,No,Yes
+EMP-03180,38,Female,"Data Scientist",6297,2,2,7.2,4,156.2,12,10,0,5,2,36-45,Medium,No,Yes
+EMP-03186,28,Female,Analyst,8854,1,4,23.9,4,184.1,7,5,1,3,2,26-35,Medium,No,Yes
+EMP-03196,40,Female,Analyst,9118,3,4,12.7,2,197.6,17,15,6,2,2,36-45,High,No,Yes
+EMP-03200,33,Female,"Software Engineer",6866,2,4,19.2,2,203.1,10,8,6,1,2,26-35,Medium,Yes,Yes
+EMP-03209,48,Female,"Software Engineer",8412,2,3,5.3,5,131,18,11,0,3,2,45+,Medium,No,Yes
+EMP-03231,36,Female,"HR Specialist",6812,1,2,1,4,151.6,15,6,5,1,2,36-45,Medium,No,Yes
+EMP-03233,36,Female,Analyst,6365,3,2,5.2,6,201.8,10,8,1,4,2,36-45,Medium,Yes,Yes
+EMP-03249,32,Male,"HR Specialist",6625,2,4,6.9,2,182.5,9,9,6,3,2,26-35,Medium,No,Yes
+EMP-03258,39,Female,"HR Specialist",7451,1,3,26.7,8,189.1,11,7,5,4,2,36-45,Medium,No,Yes
+EMP-03263,44,Female,"HR Specialist",10582,2,1,28.9,3,173.8,22,15,3,3,2,36-45,High,No,Yes
+EMP-03272,46,Female,"Data Scientist",8641,4,2,3.8,7,174.9,21,20,5,3,2,45+,Medium,No,Yes
+EMP-03274,39,Female,"Sales Executive",10279,3,2,6.5,6,163,16,11,2,3,2,36-45,High,No,Yes
+EMP-03275,49,Male,"HR Specialist",8746,3,3,18.2,8,195.5,20,17,5,2,2,45+,Medium,No,Yes
+EMP-03279,38,Male,"Sales Executive",7844,1,3,5,2,156,12,6,2,4,2,36-45,Medium,No,Yes
+EMP-03283,57,Male,"HR Specialist",11977,3,3,1.6,2,191.9,12,11,2,4,2,45+,High,No,Yes
+EMP-03290,36,Male,"Data Scientist",10456,3,3,7.1,2,197.6,15,15,3,4,2,36-45,High,No,Yes
+EMP-03292,32,Female,Analyst,7716,2,3,7.7,5,184.8,9,8,0,4,2,26-35,Medium,No,Yes
+EMP-03300,37,Female,"Sales Executive",8173,1,2,13.9,4,146.7,15,8,1,2,2,36-45,Medium,No,Yes
+EMP-03317,41,Male,"HR Specialist",9190,2,3,8.3,6,197.5,13,13,5,3,2,36-45,High,No,Yes
+EMP-03324,31,Female,"Software Engineer",8602,2,3,18.1,3,247.4,7,4,3,3,2,26-35,Medium,Yes,Yes
+EMP-03329,32,Male,"HR Specialist",9323,4,1,29.4,7,212.6,6,6,0,3,2,26-35,High,Yes,Yes
+EMP-03332,42,Male,"Sales Executive",11038,1,1,6.8,7,174.5,19,5,4,2,2,36-45,High,No,Yes
+EMP-03341,46,Male,"HR Specialist",9209,1,3,9.7,7,199,11,6,6,5,2,45+,High,No,Yes
+EMP-03343,43,Male,"Software Engineer",7670,4,2,9.9,5,239,16,7,5,3,2,36-45,Medium,Yes,Yes
+EMP-03348,49,Male,"HR Specialist",9120,3,4,6.3,8,157.9,23,20,4,4,2,45+,High,No,Yes
+EMP-03363,33,Male,"HR Specialist",9362,2,1,10.4,4,152.9,11,8,1,1,2,26-35,High,No,Yes
+EMP-03364,41,Male,"Software Engineer",8352,2,1,11.1,8,132,14,12,6,5,2,36-45,Medium,No,Yes
+EMP-03365,31,Female,"Software Engineer",9171,2,4,6.9,3,204.8,8,8,4,3,2,26-35,High,Yes,Yes
+EMP-03373,43,Female,"Software Engineer",9838,3,2,6.7,4,175.8,8,8,6,3,2,36-45,High,No,Yes
+EMP-03374,29,Female,"Data Scientist",7476,2,2,1.6,3,183,9,5,0,4,2,26-35,Medium,No,Yes
+EMP-03375,40,Female,"Software Engineer",11398,3,2,3.6,2,170.5,17,9,1,2,2,36-45,High,No,Yes
+EMP-03382,36,Female,Analyst,6246,3,1,4.8,6,201.2,9,6,1,4,2,36-45,Medium,Yes,Yes
+EMP-03393,40,Male,"Sales Executive",11276,2,2,6.2,4,173.2,19,16,4,2,2,36-45,High,No,Yes
+EMP-03394,29,Male,Analyst,7470,3,2,1.2,2,196.3,7,7,6,2,2,26-35,Medium,No,Yes
+EMP-03398,40,Male,"Data Scientist",11257,3,3,7.8,2,148.8,15,13,3,4,2,36-45,High,No,Yes
+EMP-03400,26,Female,"HR Specialist",5855,1,2,13,4,215.9,4,3,2,3,2,26-35,Medium,Yes,Yes
+EMP-03410,35,Male,"Software Engineer",7018,2,2,17,5,186.2,11,7,2,2,2,26-35,Medium,No,Yes
+EMP-03417,42,Male,Manager,11333,3,3,2.2,3,166.3,17,11,3,4,2,36-45,High,No,Yes
+EMP-03433,40,Male,"Software Engineer",9626,3,3,5.2,4,173.9,13,11,0,3,2,36-45,High,No,Yes
+EMP-03434,41,Female,"HR Specialist",6734,3,1,5.5,7,215.6,19,11,6,3,2,36-45,Medium,Yes,Yes
+EMP-03435,36,Male,"Data Scientist",6546,2,1,14.3,5,177.3,8,3,2,3,2,36-45,Medium,No,Yes
+EMP-03445,28,Female,Analyst,5836,1,3,21.6,5,174.9,7,7,0,3,2,26-35,Medium,No,Yes
+EMP-03447,49,Male,"Sales Executive",8998,2,1,7.7,4,166.9,22,5,1,2,2,45+,Medium,No,Yes
+EMP-03452,45,Male,Manager,10444,2,1,4.9,8,145.4,21,8,2,3,2,36-45,High,No,Yes
+EMP-03463,41,Male,"Data Scientist",9420,2,3,10.4,3,171.1,19,11,4,3,2,36-45,High,No,Yes
+EMP-03465,36,Male,"Data Scientist",9578,3,3,18.2,6,196.9,12,11,1,2,2,36-45,High,No,Yes
+EMP-03468,39,Female,"Sales Executive",7719,3,3,14.6,7,214.7,15,15,6,1,2,36-45,Medium,Yes,Yes
+EMP-03476,33,Male,"Data Scientist",5752,4,2,5.5,4,208.4,8,8,0,1,2,26-35,Medium,Yes,Yes
+EMP-03480,37,Female,"Sales Executive",6537,4,2,15.3,4,148.5,15,14,0,4,2,36-45,Medium,No,Yes
+EMP-03482,32,Female,"Software Engineer",8211,2,2,7,4,213.7,10,6,4,1,2,26-35,Medium,Yes,Yes
+EMP-03488,51,Female,Manager,10144,4,2,2.1,2,174.9,24,12,1,4,2,45+,High,No,Yes
+EMP-03491,36,Female,"Software Engineer",10746,2,1,9.5,7,140.4,15,11,0,3,2,36-45,High,No,Yes
+EMP-03492,42,Female,"Sales Executive",8465,3,2,17.2,4,179.9,11,9,6,1,2,36-45,Medium,No,Yes
+EMP-03494,41,Male,Analyst,7365,3,3,8.7,6,137.4,15,14,1,4,2,36-45,Medium,No,Yes
+EMP-03525,38,Female,"HR Specialist",9815,3,4,10.8,3,189.3,18,14,0,1,2,36-45,High,No,Yes
+EMP-03528,35,Male,Manager,8356,4,4,3.2,3,191.9,15,13,4,3,2,26-35,Medium,No,Yes
+EMP-03556,36,Female,Manager,6673,4,3,6.2,2,197.7,14,13,5,1,2,36-45,Medium,No,Yes
+EMP-03560,41,Female,"Data Scientist",9321,3,3,2.7,3,155.2,19,13,1,3,2,36-45,High,No,Yes
+EMP-03590,46,Female,"Software Engineer",11589,3,1,5.7,2,154,11,9,2,4,2,45+,High,No,Yes
+EMP-03619,44,Female,"Software Engineer",7122,2,1,27.6,8,210.9,16,8,3,3,2,36-45,Medium,Yes,Yes
+EMP-03622,36,Female,"Data Scientist",10214,2,3,33.8,7,151.2,12,10,4,4,2,36-45,High,No,Yes
+EMP-03624,55,Female,"Sales Executive",10789,1,2,3.7,6,133.2,17,17,5,4,2,45+,High,No,Yes
+EMP-03626,43,Female,"Data Scientist",7466,3,3,12.3,2,190.5,14,8,6,2,2,36-45,Medium,No,Yes
+EMP-03627,37,Male,"Data Scientist",7110,3,3,3.4,5,245.5,10,9,3,4,2,36-45,Medium,Yes,Yes
+EMP-03634,47,Male,Analyst,9555,2,1,24.3,2,180.4,21,4,5,1,2,45+,High,No,Yes
+EMP-03636,31,Male,"Sales Executive",6963,3,2,9.5,7,205,9,7,4,2,2,26-35,Medium,Yes,Yes
+EMP-03637,38,Male,"HR Specialist",8577,3,3,24.4,3,208.4,16,16,6,5,2,36-45,Medium,Yes,Yes
+EMP-03638,40,Female,"Sales Executive",10410,2,3,7,4,250,14,10,0,4,2,36-45,High,Yes,Yes
+EMP-03647,36,Female,"Software Engineer",6111,1,3,24.8,8,171.5,10,5,1,3,2,36-45,Medium,No,Yes
+EMP-03666,38,Female,"Data Scientist",7651,1,3,3.2,3,161.5,8,8,5,4,2,36-45,Medium,No,Yes
+EMP-03669,50,Female,Analyst,11083,2,4,2,8,173.1,14,10,3,4,2,45+,High,No,Yes
+EMP-03670,35,Male,"HR Specialist",7082,4,2,12.9,2,137,13,10,0,2,2,26-35,Medium,No,Yes
+EMP-03676,44,Male,"HR Specialist",9006,3,4,5.5,7,194.3,15,14,3,2,2,36-45,High,No,Yes
+EMP-03696,25,Male,"HR Specialist",7460,1,2,21.2,4,184,5,4,4,3,2,18-25,Medium,No,Yes
+EMP-03707,34,Female,Manager,9838,3,3,6,4,161.4,11,10,3,3,2,26-35,High,No,Yes
+EMP-03708,48,Male,"Software Engineer",8849,3,3,2.5,3,165.1,11,10,5,4,2,45+,Medium,No,Yes
+EMP-03716,36,Male,Manager,6495,3,4,18.3,2,215.1,14,10,0,3,2,36-45,Medium,Yes,Yes
+EMP-03719,45,Female,"Data Scientist",10200,4,3,6.7,5,194.5,19,14,0,1,2,36-45,High,No,Yes
+EMP-03720,35,Male,"Data Scientist",8926,1,3,16.4,2,162.2,11,10,5,3,2,26-35,Medium,No,Yes
+EMP-03733,45,Female,"HR Specialist",11521,2,2,3.2,3,174.1,22,11,0,2,2,36-45,High,No,Yes
+EMP-03749,43,Female,Analyst,7773,4,2,8.3,7,142.3,20,20,5,2,2,36-45,Medium,No,Yes
+EMP-03756,48,Male,"Data Scientist",10681,4,2,7.7,5,179.6,23,20,1,3,2,45+,High,No,Yes
+EMP-03760,41,Male,Analyst,7249,2,3,7.2,8,197.2,9,6,1,3,2,36-45,Medium,No,Yes
+EMP-03762,38,Female,Analyst,9492,3,3,12.1,3,178.6,9,9,0,3,2,36-45,High,No,Yes
+EMP-03763,43,Male,"Data Scientist",8907,3,2,10.8,7,167.9,13,13,3,4,2,36-45,Medium,No,Yes
+EMP-03778,36,Female,"Data Scientist",9374,2,3,8.1,7,196.2,13,9,3,2,2,36-45,High,No,Yes
+EMP-03779,36,Female,Manager,10687,3,1,9.8,3,151.4,14,9,2,4,2,36-45,High,No,Yes
+EMP-03788,37,Female,"Sales Executive",11197,3,3,6.9,5,189.8,12,11,2,3,2,36-45,High,No,Yes
+EMP-03790,35,Female,"HR Specialist",7298,2,2,19.3,5,183.3,6,4,1,3,2,26-35,Medium,No,Yes
+EMP-03799,42,Female,"HR Specialist",8237,1,2,13.6,2,164,6,6,4,4,2,36-45,Medium,No,Yes
+EMP-03812,42,Male,"HR Specialist",7668,2,2,4.7,4,141.4,9,9,4,3,2,36-45,Medium,No,Yes
+EMP-03817,46,Male,"Sales Executive",12542,2,1,2.5,4,164.1,17,13,1,3,2,45+,High,No,Yes
+EMP-03819,46,Female,Manager,9267,1,1,18,6,154.3,5,5,2,3,2,45+,High,No,Yes
+EMP-03828,52,Male,"Data Scientist",11890,2,3,15.7,4,168.3,12,11,6,2,2,45+,High,No,Yes
+EMP-03830,52,Female,"HR Specialist",7826,2,2,5.2,6,135.4,28,22,0,5,2,45+,Medium,No,Yes
+EMP-03850,37,Female,"Software Engineer",9464,3,2,3.3,6,153.4,10,10,2,2,2,36-45,High,No,Yes
+EMP-03852,41,Male,"HR Specialist",6920,3,3,15.7,6,130.8,18,10,3,5,2,36-45,Medium,No,Yes
+EMP-03853,36,Female,"HR Specialist",6399,3,2,8.3,8,183,13,13,1,2,2,36-45,Medium,No,Yes
+EMP-03868,42,Female,Analyst,7868,4,3,3.6,3,172.1,22,13,5,3,2,36-45,Medium,No,Yes
+EMP-03873,35,Female,"HR Specialist",7796,2,3,9.4,3,165.9,10,8,5,4,2,26-35,Medium,No,Yes
+EMP-03878,33,Female,"Software Engineer",6749,4,2,5.3,3,220.7,9,8,2,3,2,26-35,Medium,Yes,Yes
+EMP-03886,46,Male,Analyst,8807,1,2,8.6,8,215.3,5,4,2,4,2,45+,Medium,Yes,Yes
+EMP-03889,44,Male,"Sales Executive",10786,3,2,12.8,6,144.5,15,12,5,1,2,36-45,High,No,Yes
+EMP-03896,36,Male,Manager,7747,3,3,36.2,8,163.2,12,8,0,4,2,36-45,Medium,No,Yes
+EMP-03905,39,Male,Analyst,10268,3,2,15.7,5,135.9,19,15,5,5,2,36-45,High,No,Yes
+EMP-03912,47,Male,"HR Specialist",12087,3,3,8.5,5,129.7,23,19,0,3,2,45+,High,No,Yes
+EMP-03921,32,Male,Analyst,6635,3,1,38.9,5,230.3,7,7,5,1,2,26-35,Medium,Yes,Yes
+EMP-03923,33,Female,Analyst,6672,2,1,23.6,8,156.3,11,9,5,4,2,26-35,Medium,No,Yes
+EMP-03953,26,Male,Analyst,5390,2,2,9.7,2,206,5,3,6,1,2,26-35,Medium,Yes,Yes
+EMP-03960,46,Male,"Sales Executive",8620,3,4,15.4,2,212.9,14,13,4,3,2,45+,Medium,Yes,Yes
+EMP-03966,38,Female,"Data Scientist",9173,2,3,15.5,6,214.5,17,12,3,2,2,36-45,High,Yes,Yes
+EMP-03977,49,Male,"Sales Executive",12233,2,2,2.7,7,162.2,21,16,5,3,2,45+,High,No,Yes
+EMP-03981,46,Female,Manager,10429,2,4,13.3,2,202.5,19,14,3,2,2,45+,High,Yes,Yes
+EMP-03984,39,Male,Analyst,10359,2,2,21.7,3,170.4,6,6,1,3,2,36-45,High,No,Yes
+EMP-03986,53,Female,"HR Specialist",11862,3,2,19.7,5,184.1,21,17,2,3,2,45+,High,No,Yes
+EMP-03989,38,Male,"HR Specialist",8720,3,1,21.4,2,193.7,8,8,4,3,2,36-45,Medium,No,Yes
+EMP-03994,34,Male,"Sales Executive",6415,2,1,17.6,7,202,7,7,2,3,2,26-35,Medium,Yes,Yes
+EMP-03998,34,Female,"Sales Executive",7509,3,2,14.2,6,191.5,11,8,5,3,2,26-35,Medium,No,Yes
+EMP-04009,48,Male,"Sales Executive",10072,1,4,13.2,6,181.6,10,7,0,2,2,45+,High,No,Yes
+EMP-04018,46,Male,Manager,10690,3,1,5.8,2,200,16,12,3,4,2,45+,High,No,Yes
+EMP-04034,41,Female,"Data Scientist",10121,2,1,8.2,4,197.7,16,9,3,3,2,36-45,High,No,Yes
+EMP-04036,34,Male,"Data Scientist",6113,3,1,14.1,3,182.6,12,6,5,3,2,26-35,Medium,No,Yes
+EMP-04041,36,Male,"Sales Executive",10975,2,3,12.9,8,177.3,16,10,1,5,2,36-45,High,No,Yes
+EMP-04044,39,Female,"Sales Executive",7780,2,2,5.4,8,139.3,9,8,2,2,2,36-45,Medium,No,Yes
+EMP-04045,27,Male,Analyst,5060,2,1,11.4,4,206.4,5,5,6,3,2,26-35,Medium,Yes,Yes
+EMP-04046,35,Male,Analyst,10469,1,4,14.7,7,173.5,15,13,1,3,2,26-35,High,No,Yes
+EMP-04051,29,Female,"Sales Executive",7071,2,3,38.8,6,184.8,6,4,0,3,2,26-35,Medium,No,Yes
+EMP-04053,37,Male,"Sales Executive",8027,3,2,3.7,8,181.6,14,9,3,3,2,36-45,Medium,No,Yes
+EMP-04058,37,Female,Analyst,9714,3,3,13.3,4,214.7,17,9,2,5,2,36-45,High,Yes,Yes
+EMP-04060,44,Male,"HR Specialist",11709,3,3,15.3,8,201.8,20,20,5,1,2,36-45,High,Yes,Yes
+EMP-04067,38,Female,"Software Engineer",9038,4,4,21.6,8,223,18,13,5,4,2,36-45,High,Yes,Yes
+EMP-04068,39,Female,"Data Scientist",6820,1,4,10.9,2,146.4,13,8,0,4,2,36-45,Medium,No,Yes
+EMP-04070,39,Female,"Software Engineer",9304,3,1,6.9,6,205.8,10,10,0,2,2,36-45,High,Yes,Yes
+EMP-04094,38,Female,"Software Engineer",7491,3,2,14.6,5,157.3,17,13,6,3,2,36-45,Medium,No,Yes
+EMP-04095,40,Female,Analyst,10657,3,4,5.1,7,200.4,15,12,3,3,2,36-45,High,Yes,Yes
+EMP-04096,40,Male,"Data Scientist",9385,1,2,9,6,181.5,10,8,4,4,2,36-45,High,No,Yes
+EMP-04097,37,Female,Manager,8663,2,3,9.7,4,145.6,12,11,2,3,2,36-45,Medium,No,Yes
+EMP-04099,33,Male,"Software Engineer",6617,2,2,16.9,8,168.3,7,5,0,2,2,26-35,Medium,No,Yes
+EMP-04108,47,Female,"Data Scientist",8799,3,2,19.6,6,191.8,24,22,1,2,2,45+,Medium,No,Yes
+EMP-04117,48,Female,"Data Scientist",9768,4,3,8.8,6,176.6,16,15,2,1,2,45+,High,No,Yes
+EMP-04136,38,Male,"Sales Executive",6497,2,4,19.1,3,158.9,8,8,2,4,2,36-45,Medium,No,Yes
+EMP-04137,33,Female,Manager,7792,2,1,15,4,182,13,10,2,3,2,26-35,Medium,No,Yes
+EMP-04146,36,Female,Analyst,7787,4,1,4.9,5,210.9,11,9,2,2,2,36-45,Medium,Yes,Yes
+EMP-04150,39,Male,"Data Scientist",10448,1,2,10.3,5,144.9,18,12,6,1,2,36-45,High,No,Yes
+EMP-04158,37,Female,Analyst,8993,3,4,20.8,8,190.5,14,12,4,3,2,36-45,Medium,No,Yes
+EMP-04161,41,Female,"HR Specialist",7252,3,1,7.1,2,159.3,14,9,2,5,2,36-45,Medium,No,Yes
+EMP-04167,50,Female,"Software Engineer",10475,3,1,15.7,3,195.8,10,10,6,5,2,45+,High,No,Yes
+EMP-04168,50,Male,"Software Engineer",11223,4,2,22.4,4,164,20,10,3,5,2,45+,High,No,Yes
+EMP-04175,45,Female,"Sales Executive",10848,4,4,8.1,8,185.2,21,20,5,5,2,36-45,High,No,Yes
+EMP-04178,44,Female,"HR Specialist",10631,3,3,15.3,4,198.9,23,11,4,2,2,36-45,High,No,Yes
+EMP-04180,42,Male,"Data Scientist",11351,1,2,7,7,149.8,17,8,5,3,2,36-45,High,No,Yes
+EMP-04182,37,Female,Manager,6824,1,2,28.5,2,168,7,7,5,2,2,36-45,Medium,No,Yes
+EMP-04194,43,Male,"Data Scientist",9176,2,3,18.7,3,183.4,15,8,5,3,2,36-45,High,No,Yes
+EMP-04195,48,Male,Analyst,11905,4,4,4.8,2,144.9,15,15,0,3,2,45+,High,No,Yes
+EMP-04200,39,Male,"Sales Executive",7402,2,3,6.4,5,167.3,16,10,4,4,2,36-45,Medium,No,Yes
+EMP-04202,44,Female,"Sales Executive",9571,3,2,5.3,3,124.5,24,13,5,4,2,36-45,High,No,Yes
+EMP-04222,31,Male,Analyst,4949,3,2,15.3,6,135.1,10,8,1,2,2,26-35,Low,No,Yes
+EMP-04224,25,Female,Manager,5640,1,1,13.9,3,191.9,4,3,3,4,2,18-25,Medium,No,Yes
+EMP-04238,43,Male,"HR Specialist",6588,1,3,13.4,8,217.6,20,18,3,5,2,36-45,Medium,Yes,Yes
+EMP-04241,32,Female,"HR Specialist",5436,3,2,7.6,5,177.8,12,9,1,4,2,26-35,Medium,No,Yes
+EMP-04243,49,Female,"HR Specialist",10171,1,3,12,2,159.3,15,15,4,3,2,45+,High,No,Yes
+EMP-04271,52,Female,Manager,9143,3,3,1.7,6,148.1,24,20,6,3,2,45+,High,No,Yes
+EMP-04280,51,Female,"Software Engineer",10037,4,3,8.6,2,215.2,23,19,0,3,2,45+,High,Yes,Yes
+EMP-04301,54,Female,"HR Specialist",11419,1,4,7.2,6,160.7,31,10,2,1,2,45+,High,No,Yes
+EMP-04304,34,Female,Manager,6947,3,2,27.4,8,203.6,8,7,3,2,2,26-35,Medium,Yes,Yes
+EMP-04318,34,Female,"Software Engineer",9556,2,4,12.4,2,175.1,13,10,5,4,2,26-35,High,No,Yes
+EMP-04326,36,Female,Analyst,5800,1,3,2.5,5,147.2,10,8,6,3,2,36-45,Medium,No,Yes
+EMP-04332,31,Female,"Software Engineer",7596,1,2,5.6,5,207.7,9,9,4,4,2,26-35,Medium,Yes,Yes
+EMP-04338,40,Female,"Data Scientist",10179,1,4,7.2,4,131.2,11,11,6,4,2,36-45,High,No,Yes
+EMP-04347,41,Female,"Data Scientist",10964,3,2,32.7,8,189.3,17,6,0,1,2,36-45,High,No,Yes
+EMP-04360,33,Female,"HR Specialist",8287,1,2,1.5,5,127.9,8,6,2,4,2,26-35,Medium,No,Yes
+EMP-04378,37,Male,Analyst,8621,3,2,5.3,6,151.1,12,9,6,3,2,36-45,Medium,No,Yes
+EMP-04384,46,Male,"Software Engineer",10957,3,3,39.9,7,182.2,24,12,5,4,2,45+,High,No,Yes
+EMP-04386,39,Male,"Software Engineer",9982,4,1,10.2,7,176.2,18,11,5,4,2,36-45,High,No,Yes
+EMP-04389,31,Male,"HR Specialist",5193,3,2,13,6,190.3,9,6,1,2,2,26-35,Medium,No,Yes
+EMP-04397,37,Male,"HR Specialist",10008,3,1,16.8,2,219.7,16,11,2,3,2,36-45,High,Yes,Yes
+EMP-04399,32,Male,"Software Engineer",9522,2,1,5.6,8,155.7,11,9,4,2,2,26-35,High,No,Yes
+EMP-04404,53,Female,"Data Scientist",8657,3,3,5.2,2,199.2,32,15,2,2,2,45+,Medium,No,Yes
+EMP-04410,31,Female,"HR Specialist",7576,2,2,1.3,8,149.7,9,7,3,2,2,26-35,Medium,No,Yes
+EMP-04416,40,Female,"Software Engineer",8205,1,2,13.5,5,160,7,5,6,2,2,36-45,Medium,No,Yes
+EMP-04418,25,Male,Analyst,4770,1,2,26.5,3,200.3,2,2,5,4,2,18-25,Low,Yes,No
+EMP-04444,44,Male,Manager,7235,3,3,23.5,5,208.7,17,7,5,2,2,36-45,Medium,Yes,Yes
+EMP-04453,39,Female,"Data Scientist",6339,1,1,5.3,3,177.5,10,10,0,2,2,36-45,Medium,No,Yes
+EMP-04455,47,Female,Manager,9740,2,2,12.2,4,151.6,20,9,3,1,2,45+,High,No,Yes
+EMP-04456,27,Female,"Data Scientist",6416,2,2,22.5,3,137.7,7,6,1,4,2,26-35,Medium,No,Yes
+EMP-04459,45,Male,"Sales Executive",10459,3,2,5.4,5,168.3,22,15,6,4,2,36-45,High,No,Yes
+EMP-04471,40,Male,"HR Specialist",8116,3,1,37.6,5,172.3,16,7,4,2,2,36-45,Medium,No,Yes
+EMP-04472,36,Female,Analyst,7245,3,1,18.7,2,183.9,11,11,6,4,2,36-45,Medium,No,Yes
+EMP-04487,43,Female,"Data Scientist",11092,4,3,10.2,6,138.2,15,13,3,3,2,36-45,High,No,Yes
+EMP-04490,36,Male,Manager,6862,1,1,14.8,5,181.2,11,7,2,5,2,36-45,Medium,No,Yes
+EMP-04496,39,Male,"HR Specialist",10868,2,2,12.1,8,153.6,13,12,0,5,2,36-45,High,No,Yes
+EMP-04502,45,Female,Analyst,12466,3,3,7.4,7,191.4,18,12,3,4,2,36-45,High,No,Yes
+EMP-04504,32,Female,"Software Engineer",6825,2,4,24.9,4,139.9,11,11,3,3,2,26-35,Medium,No,Yes
+EMP-04505,41,Female,"Software Engineer",8453,3,4,25.1,3,196.9,11,10,3,2,2,36-45,Medium,No,Yes
+EMP-04506,39,Female,"Sales Executive",9490,1,1,7.8,4,153.3,19,10,4,3,2,36-45,High,No,Yes
+EMP-04509,32,Female,"Sales Executive",7067,2,3,9.5,5,172.9,12,8,3,3,2,26-35,Medium,No,Yes
+EMP-04516,32,Female,"HR Specialist",8730,2,1,5.6,7,192.9,9,8,5,3,2,26-35,Medium,No,Yes
+EMP-04517,47,Male,Manager,11309,4,3,4.9,7,164.8,18,17,6,3,2,45+,High,No,Yes
+EMP-04519,25,Male,Manager,7327,1,3,6.1,3,211.3,4,4,2,2,2,18-25,Medium,Yes,Yes
+EMP-04520,33,Female,Analyst,6525,2,1,14.1,2,149.1,10,6,4,2,2,26-35,Medium,No,Yes
+EMP-04525,35,Male,"HR Specialist",7374,1,2,19.4,2,179.5,11,4,6,3,2,26-35,Medium,No,Yes
+EMP-04526,38,Male,"HR Specialist",6990,3,4,7,7,246,17,16,6,1,2,36-45,Medium,Yes,Yes
+EMP-04532,35,Male,"Data Scientist",7205,2,2,7.1,4,144.1,7,7,3,5,2,26-35,Medium,No,Yes
+EMP-04535,28,Male,"Sales Executive",7149,1,2,10.1,2,190.9,6,5,0,2,2,26-35,Medium,No,Yes
+EMP-04540,27,Male,"Data Scientist",5957,1,3,16.5,4,182.9,5,5,0,3,2,26-35,Medium,No,Yes
+EMP-04554,44,Female,"Data Scientist",11907,4,1,7.3,5,179.6,19,15,1,4,2,36-45,High,No,Yes
+EMP-04559,39,Female,"Sales Executive",9668,2,3,2.2,2,187.6,11,9,6,3,2,36-45,High,No,Yes
+EMP-04561,30,Female,Manager,5412,3,1,10.9,3,140.2,9,8,0,5,2,26-35,Medium,No,Yes
+EMP-04566,40,Male,"Data Scientist",9029,2,2,2.5,5,153,11,11,5,3,2,36-45,High,No,Yes
+EMP-04572,44,Male,"Data Scientist",9499,1,1,19.7,8,250,1,1,4,3,2,36-45,High,Yes,No
+EMP-04582,34,Male,"HR Specialist",6150,2,2,2.5,8,137.9,8,8,0,4,2,26-35,Medium,No,Yes
+EMP-04587,43,Female,Analyst,7688,2,1,9.2,6,143.9,11,7,1,4,2,36-45,Medium,No,Yes
+EMP-04602,44,Male,Manager,7248,4,3,7.4,7,197.3,21,11,5,4,2,36-45,Medium,No,Yes
+EMP-04606,48,Male,"HR Specialist",8936,4,1,10,6,148.3,22,13,0,3,2,45+,Medium,No,Yes
+EMP-04607,47,Male,"Sales Executive",6640,3,3,10.1,2,174,24,23,5,3,2,45+,Medium,No,Yes
+EMP-04612,51,Male,Manager,8607,4,2,25.2,2,192.5,26,18,5,5,2,45+,Medium,No,Yes
+EMP-04618,38,Female,Analyst,9248,3,2,5.9,4,183.2,8,8,5,4,2,36-45,High,No,Yes
+EMP-04633,36,Female,"Data Scientist",9359,4,3,17.5,6,139.3,13,12,5,4,2,36-45,High,No,Yes
+EMP-04641,42,Male,"Data Scientist",10343,1,2,8.5,6,198.5,15,10,5,3,2,36-45,High,No,Yes
+EMP-04647,33,Female,Manager,7190,4,2,18.2,7,198.8,12,10,3,2,2,26-35,Medium,No,Yes
+EMP-04650,38,Male,"HR Specialist",11380,3,1,4.5,2,166.1,15,13,2,1,2,36-45,High,No,Yes
+EMP-04652,39,Male,"Software Engineer",9219,3,2,4.4,4,191.2,17,14,2,3,2,36-45,High,No,Yes
+EMP-04653,48,Male,"Data Scientist",9033,4,2,7.2,7,152.2,18,17,5,1,2,45+,High,No,Yes
+EMP-04658,47,Male,"Data Scientist",11689,3,4,1.1,3,165.9,23,20,4,3,2,45+,High,No,Yes
+EMP-04667,46,Female,"Data Scientist",12632,3,2,4.3,4,146.2,24,11,6,3,2,45+,High,No,Yes
+EMP-04672,30,Female,Analyst,5326,4,2,17.7,5,210.2,7,7,5,2,2,26-35,Medium,Yes,Yes
+EMP-04689,43,Male,Analyst,9462,3,2,2.4,3,174.8,8,8,1,3,2,36-45,High,No,Yes
+EMP-04693,36,Male,"HR Specialist",8267,3,2,7.2,2,167.4,13,11,6,2,2,36-45,Medium,No,Yes
+EMP-04696,40,Male,"Software Engineer",7931,4,3,1.2,7,179.5,17,16,2,3,2,36-45,Medium,No,Yes
+EMP-04698,44,Male,"HR Specialist",11046,2,3,12.7,8,167.6,16,14,4,4,2,36-45,High,No,Yes
+EMP-04713,38,Male,Manager,6312,2,4,17.8,3,145.3,12,11,0,1,2,36-45,Medium,No,Yes
+EMP-04714,39,Female,Manager,9274,1,3,1,2,183.3,15,11,2,4,2,36-45,High,No,Yes
+EMP-04720,53,Male,Manager,8890,1,1,15.3,5,180.4,15,15,5,3,2,45+,Medium,No,Yes
+EMP-04725,41,Female,"HR Specialist",7430,1,2,3,6,192.1,14,8,6,3,2,36-45,Medium,No,Yes
+EMP-04727,38,Male,"Data Scientist",10483,3,3,2,5,164.8,16,10,0,3,2,36-45,High,No,Yes
+EMP-04730,43,Male,"Data Scientist",9214,4,2,9.4,2,183.6,20,11,2,4,2,36-45,High,No,Yes
+EMP-04736,37,Female,"Software Engineer",8435,3,2,12.1,3,184.6,16,15,3,2,2,36-45,Medium,No,Yes
+EMP-04746,33,Female,"Software Engineer",6375,3,3,10.4,6,210.7,13,8,0,5,2,26-35,Medium,Yes,Yes
+EMP-04756,43,Male,"HR Specialist",7972,3,3,15.3,6,190.5,13,11,0,3,2,36-45,Medium,No,Yes
+EMP-04768,42,Female,Manager,9996,1,2,4.8,3,190.8,22,12,5,5,2,36-45,High,No,Yes
+EMP-04770,31,Male,"Software Engineer",6504,3,3,3.4,6,199.2,10,8,5,2,2,26-35,Medium,No,Yes
+EMP-04784,37,Male,"Sales Executive",9125,3,2,7.4,3,149.5,13,10,5,3,2,36-45,High,No,Yes
+EMP-04789,41,Male,"Software Engineer",11157,1,4,17.3,5,210.5,16,9,5,3,2,36-45,High,Yes,Yes
+EMP-04796,42,Male,"HR Specialist",7274,3,3,10,2,214.3,12,11,5,1,2,36-45,Medium,Yes,Yes
+EMP-04808,44,Female,Manager,8387,3,2,8.1,7,182.4,10,9,0,3,2,36-45,Medium,No,Yes
+EMP-04809,34,Female,Analyst,8201,3,1,9.2,4,191,11,11,5,3,2,26-35,Medium,No,Yes
+EMP-04811,27,Female,Analyst,9625,2,1,12,5,156.4,5,5,6,3,2,26-35,High,No,Yes
+EMP-04814,48,Male,Manager,10353,3,1,10.5,4,161.9,9,8,6,3,2,45+,High,No,Yes
+EMP-04818,42,Male,Analyst,11349,3,3,17.6,6,167.1,12,11,5,3,2,36-45,High,No,Yes
+EMP-04820,43,Female,"Data Scientist",8651,2,2,17.2,8,187.6,22,8,0,2,2,36-45,Medium,No,Yes
+EMP-04828,44,Female,"Sales Executive",7089,3,2,2.7,4,182.3,21,15,2,1,2,36-45,Medium,No,Yes
+EMP-04829,42,Male,"Data Scientist",8696,1,2,4.1,2,176.2,11,11,6,3,2,36-45,Medium,No,Yes
+EMP-04835,48,Male,"Software Engineer",11520,4,3,11.9,8,178,19,16,3,2,2,45+,High,No,Yes
+EMP-04853,34,Male,"Software Engineer",6142,3,1,3.7,4,169.3,11,9,5,2,2,26-35,Medium,No,Yes
+EMP-04856,33,Male,"Data Scientist",7922,2,3,27.3,5,145.7,13,13,3,3,2,26-35,Medium,No,Yes
+EMP-04875,44,Male,Analyst,8478,1,4,7.5,5,201.5,15,6,6,3,2,36-45,Medium,Yes,Yes
+EMP-04885,52,Male,"Software Engineer",8894,3,4,8.5,6,177.7,29,23,3,3,2,45+,Medium,No,Yes
+EMP-04894,45,Male,"Software Engineer",10645,2,3,20.2,2,173.5,21,20,2,4,2,36-45,High,No,Yes
+EMP-04899,38,Female,"Sales Executive",9016,2,2,33.1,2,178.3,13,5,3,3,2,36-45,High,No,Yes
+EMP-04903,41,Female,Manager,8276,1,3,9.2,2,189.1,10,10,2,2,2,36-45,Medium,No,Yes
+EMP-04905,30,Female,"Software Engineer",5545,4,2,10,2,194.1,8,8,4,3,2,26-35,Medium,No,Yes
+EMP-04918,42,Female,"HR Specialist",9313,1,3,16.7,6,154.5,11,9,5,5,2,36-45,High,No,Yes
+EMP-04930,40,Female,Analyst,11079,4,2,20.3,6,172,17,12,0,4,2,36-45,High,No,Yes
+EMP-04933,53,Female,"HR Specialist",8357,4,4,26.8,8,171.7,29,12,0,3,2,45+,Medium,No,Yes
+EMP-04937,59,Male,"HR Specialist",13873,2,2,4.1,3,174.7,26,21,2,3,2,45+,High,No,Yes
+EMP-04944,35,Female,"HR Specialist",9480,3,3,2.8,3,149.9,13,13,3,2,2,26-35,High,No,Yes
+EMP-04945,46,Male,"Data Scientist",8359,4,4,3.8,8,164.3,24,14,5,5,2,45+,Medium,No,Yes
+EMP-04951,49,Male,"HR Specialist",12440,2,1,5.9,7,195.7,26,9,4,4,2,45+,High,No,Yes
+EMP-04957,55,Male,"Sales Executive",11292,1,2,24,8,192,16,13,1,5,2,45+,High,No,Yes
+EMP-04961,53,Female,Manager,8724,2,2,1,3,224.8,13,11,2,3,2,45+,Medium,Yes,Yes
+EMP-04976,42,Male,Manager,8718,2,4,8.8,3,183,13,9,3,3,2,36-45,Medium,No,Yes
+EMP-05004,39,Female,"Sales Executive",6241,3,2,12.5,4,169.6,17,8,2,3,2,36-45,Medium,No,Yes
+EMP-05012,44,Female,"HR Specialist",11438,4,2,8.4,4,175.8,13,13,6,2,2,36-45,High,No,Yes
+EMP-05025,41,Male,"Data Scientist",11423,2,2,29.9,4,168,14,7,2,2,2,36-45,High,No,Yes
+EMP-05027,35,Female,Manager,8189,2,2,10,6,182.1,5,5,1,3,2,26-35,Medium,No,Yes
+EMP-05029,40,Male,"Sales Executive",10077,3,2,23.5,3,196.2,19,9,3,2,2,36-45,High,No,Yes
+EMP-05031,38,Male,Analyst,9469,2,3,16.1,8,179.2,12,9,5,3,2,36-45,High,No,Yes
+EMP-05034,45,Female,"Data Scientist",11559,1,1,22.3,4,175.6,22,11,1,1,2,36-45,High,No,Yes
+EMP-05044,27,Female,"Software Engineer",5566,1,1,2.5,4,212.8,1,1,0,4,2,26-35,Medium,Yes,No
+EMP-05056,37,Female,"Data Scientist",8536,3,3,20,5,153.9,11,11,6,3,2,36-45,Medium,No,Yes
+EMP-05058,40,Male,"Data Scientist",9056,2,3,3.7,3,189.7,15,12,0,2,2,36-45,High,No,Yes
+EMP-05060,36,Male,"Data Scientist",6009,2,3,8.7,2,200.9,14,6,0,4,2,36-45,Medium,Yes,Yes
+EMP-05068,38,Male,Manager,10576,3,3,10.4,6,225.3,16,16,3,1,2,36-45,High,Yes,Yes
+EMP-05081,49,Male,"Data Scientist",10870,3,1,6.7,7,120.8,20,11,5,2,2,45+,High,No,Yes
+EMP-05100,36,Male,Manager,9786,2,2,7.5,8,142.6,15,14,5,2,2,36-45,High,No,Yes
+EMP-05103,35,Female,Manager,8618,3,3,13.8,4,203.3,14,11,1,4,2,26-35,Medium,Yes,Yes
+EMP-05108,43,Female,"Data Scientist",9850,3,1,13.6,8,218.2,18,7,3,3,2,36-45,High,Yes,Yes
+EMP-05115,40,Male,"Sales Executive",7375,4,1,6.1,2,171,17,14,2,3,2,36-45,Medium,No,Yes
+EMP-05124,37,Female,"HR Specialist",9435,2,4,30.2,3,156.7,14,12,4,5,2,36-45,High,No,Yes
+EMP-05125,38,Male,Analyst,6914,4,2,22.4,3,180.1,12,12,2,1,2,36-45,Medium,No,Yes
+EMP-05126,29,Male,"Data Scientist",6762,2,1,18.2,7,204.4,5,3,6,3,2,26-35,Medium,Yes,Yes
+EMP-05139,35,Female,"Data Scientist",6444,2,3,16.9,7,176.3,15,11,2,3,2,26-35,Medium,No,Yes
+EMP-05140,31,Male,"Data Scientist",9703,2,3,8.8,7,193.5,9,8,0,4,2,26-35,High,No,Yes
+EMP-05141,29,Female,"Sales Executive",5405,1,2,15.3,2,202,8,7,2,5,2,26-35,Medium,Yes,Yes
+EMP-05142,33,Female,"Software Engineer",5966,4,1,20.6,7,182.5,11,7,3,2,2,26-35,Medium,No,Yes
+EMP-05143,47,Female,"Software Engineer",11160,2,2,12.4,3,174.2,13,8,4,3,2,45+,High,No,Yes
+EMP-05145,57,Female,Analyst,9207,1,3,15.8,4,163,27,15,2,4,2,45+,High,No,Yes
+EMP-05146,36,Male,"Data Scientist",11199,1,3,9.2,4,200.7,11,11,0,3,2,36-45,High,Yes,Yes
+EMP-05151,33,Female,"Data Scientist",10288,1,2,9.5,3,218.6,10,10,4,1,2,26-35,High,Yes,Yes
+EMP-05157,41,Male,"Sales Executive",10450,1,1,5.1,7,183,4,4,3,4,2,36-45,High,No,Yes
+EMP-05164,35,Female,Analyst,7009,3,1,1,5,181.5,9,8,0,3,2,26-35,Medium,No,Yes
+EMP-05180,37,Male,"HR Specialist",8415,4,1,2.6,2,168.9,11,9,6,3,2,36-45,Medium,No,Yes
+EMP-05183,34,Male,"Software Engineer",9391,3,3,3.5,6,181.2,13,13,0,3,2,26-35,High,No,Yes
+EMP-05192,44,Female,"Data Scientist",11847,1,3,11.1,3,173.1,8,7,5,3,2,36-45,High,No,Yes
+EMP-05197,38,Female,"Software Engineer",11472,3,4,7.4,7,193,14,11,4,5,2,36-45,High,No,Yes
+EMP-05205,46,Female,"Data Scientist",9301,4,2,14.7,5,170.2,24,12,4,3,2,45+,High,No,Yes
+EMP-05208,46,Male,Analyst,7191,1,3,2.3,2,120.2,14,10,6,5,2,45+,Medium,No,Yes
+EMP-05209,34,Female,"HR Specialist",9183,3,2,15.8,7,197.9,7,7,1,3,2,26-35,High,No,Yes
+EMP-05210,47,Female,"HR Specialist",10466,2,2,30,4,188.5,10,9,2,4,2,45+,High,No,Yes
+EMP-05219,37,Male,"Data Scientist",9721,2,3,23.1,2,195.6,16,15,5,4,2,36-45,High,No,Yes
+EMP-05225,41,Female,"HR Specialist",7806,4,2,9.4,7,228.2,17,11,0,4,2,36-45,Medium,Yes,Yes
+EMP-05226,48,Male,Manager,8199,4,3,15.5,3,209.7,20,12,3,4,2,45+,Medium,Yes,Yes
+EMP-05230,43,Female,"HR Specialist",9823,2,3,3.6,2,187.6,19,8,0,4,2,36-45,High,No,Yes
+EMP-05234,46,Male,Manager,9154,2,3,9.2,8,164.4,12,10,5,1,2,45+,High,No,Yes
+EMP-05243,44,Female,"Sales Executive",10282,3,2,2.4,3,204.9,11,7,5,2,2,36-45,High,Yes,Yes
+EMP-05259,38,Female,"Software Engineer",9674,3,2,8.4,5,199.6,12,12,4,1,2,36-45,High,No,Yes
+EMP-05264,45,Male,"Sales Executive",10323,1,3,23.7,7,154,10,9,3,3,2,36-45,High,No,Yes
+EMP-05272,36,Female,Manager,7813,2,2,6.4,6,138.4,13,10,2,4,2,36-45,Medium,No,Yes
+EMP-05276,49,Male,Manager,11753,1,3,6.2,3,153.9,19,7,5,3,2,45+,High,No,Yes
+EMP-05291,40,Male,"Software Engineer",8602,3,1,17.5,5,167.3,15,12,6,5,2,36-45,Medium,No,Yes
+EMP-05292,38,Male,"Sales Executive",9464,4,3,23.4,4,216.9,13,12,1,5,2,36-45,High,Yes,Yes
+EMP-05298,40,Male,Manager,10672,3,2,11.2,7,215.8,18,17,1,2,2,36-45,High,Yes,Yes
+EMP-05302,42,Male,"Data Scientist",12226,2,3,6.1,8,201.3,18,15,5,1,2,36-45,High,Yes,Yes
+EMP-05308,37,Female,"HR Specialist",10892,4,2,2.2,6,170.5,15,12,4,4,2,36-45,High,No,Yes
+EMP-05309,35,Female,Manager,5747,1,4,6.9,4,164.7,14,10,3,1,2,26-35,Medium,No,Yes
+EMP-05312,43,Male,Analyst,8893,3,4,36.6,2,182.6,15,11,0,3,2,36-45,Medium,No,Yes
+EMP-05329,45,Female,Manager,9206,4,2,11.5,7,145.3,23,13,0,1,2,36-45,High,No,Yes
+EMP-05330,30,Male,"Data Scientist",5346,1,3,12.6,2,177.5,6,6,5,3,2,26-35,Medium,No,Yes
+EMP-05340,35,Male,"Software Engineer",10497,2,1,4.1,6,125.1,14,10,6,2,2,26-35,High,No,Yes
+EMP-05346,34,Female,Analyst,5670,3,2,2.5,2,163.6,9,9,3,3,2,26-35,Medium,No,Yes
+EMP-05349,41,Female,Manager,9307,1,2,10.6,4,190.9,10,9,5,3,2,36-45,High,No,Yes
+EMP-05363,36,Male,"Data Scientist",8453,1,4,6.5,5,157.4,12,10,2,3,2,36-45,Medium,No,Yes
+EMP-05371,39,Male,Manager,6814,2,3,13.4,8,155.3,10,9,2,3,2,36-45,Medium,No,Yes
+EMP-05374,39,Female,Analyst,11593,3,1,1.2,5,204.9,16,9,1,3,2,36-45,High,Yes,Yes
+EMP-05378,35,Female,"Data Scientist",7002,3,2,10.6,7,184.2,9,8,2,4,2,26-35,Medium,No,Yes
+EMP-05407,46,Female,"Software Engineer",11687,2,2,7.2,5,226,26,18,1,3,2,45+,High,Yes,Yes
+EMP-05409,44,Female,"Sales Executive",11570,1,2,12.2,2,170.6,19,8,6,5,2,36-45,High,No,Yes
+EMP-05422,35,Male,"Sales Executive",8654,2,4,4.1,7,194.9,11,9,3,4,2,26-35,Medium,No,Yes
+EMP-05423,29,Male,"Software Engineer",7895,2,3,17.3,7,141.8,9,9,2,1,2,26-35,Medium,No,Yes
+EMP-05426,38,Male,"Software Engineer",10842,3,2,4.9,3,166.8,13,13,4,3,2,36-45,High,No,Yes
+EMP-05430,40,Male,"Software Engineer",7150,2,3,9.9,4,209.9,15,10,6,3,2,36-45,Medium,Yes,Yes
+EMP-05442,31,Female,"HR Specialist",7664,2,2,6.8,4,167.1,10,8,5,1,2,26-35,Medium,No,Yes
+EMP-05446,33,Male,"HR Specialist",10448,4,1,13.2,7,169,9,9,2,3,2,26-35,High,No,Yes
+EMP-05449,41,Female,"Sales Executive",9177,1,3,1,6,174.7,13,13,4,3,2,36-45,High,No,Yes
+EMP-05453,33,Female,Manager,7536,2,3,13,3,172.5,9,9,3,3,2,26-35,Medium,No,Yes
+EMP-05455,34,Female,"HR Specialist",7200,2,1,5.9,4,194.6,7,7,3,2,2,26-35,Medium,No,Yes
+EMP-05460,39,Female,"Data Scientist",7067,3,3,8.1,2,148.1,14,14,2,4,2,36-45,Medium,No,Yes
+EMP-05461,41,Male,Analyst,8477,1,2,3.5,4,205.9,17,8,3,3,2,36-45,Medium,Yes,Yes
+EMP-05472,49,Female,"Sales Executive",10880,2,1,1.3,6,162.7,19,9,6,3,2,45+,High,No,Yes
+EMP-05479,47,Female,"HR Specialist",7416,3,4,21.8,3,207.7,26,9,0,4,2,45+,Medium,Yes,Yes
+EMP-05488,38,Male,"HR Specialist",7985,4,1,1.7,7,175.1,14,11,2,1,2,36-45,Medium,No,Yes
+EMP-05489,37,Male,"Sales Executive",9514,3,3,17,6,206.5,16,13,1,4,2,36-45,High,Yes,Yes
+EMP-05493,34,Female,"Sales Executive",8097,4,1,4.2,7,205.4,10,8,2,3,2,26-35,Medium,Yes,Yes
+EMP-05500,49,Male,"Data Scientist",13134,3,4,12.3,4,165.1,26,18,2,4,2,45+,High,No,Yes
+EMP-05502,35,Female,"Sales Executive",7841,3,3,8.7,5,184.8,12,11,2,2,2,26-35,Medium,No,Yes
+EMP-05507,36,Male,"Sales Executive",9178,1,1,12,7,161.2,9,6,5,2,2,36-45,High,No,Yes
+EMP-05519,37,Female,"Sales Executive",8182,2,2,26.6,7,244.7,16,4,5,3,2,36-45,Medium,Yes,Yes
+EMP-05522,33,Male,"Sales Executive",9425,2,3,3.7,8,192.4,9,7,2,3,2,26-35,High,No,Yes
+EMP-05523,33,Female,"HR Specialist",5825,3,3,8.4,3,208,10,7,6,3,2,26-35,Medium,Yes,Yes
+EMP-05525,47,Female,Manager,11032,1,2,4.7,5,177.2,10,10,3,3,2,45+,High,No,Yes
+EMP-05527,54,Male,"Data Scientist",8953,1,3,2.9,3,159.3,8,8,1,5,2,45+,Medium,No,Yes
+EMP-05551,31,Male,"HR Specialist",8635,1,3,9.2,5,148.2,8,8,2,4,2,26-35,Medium,No,Yes
+EMP-05555,49,Female,"HR Specialist",11429,2,2,10.8,7,183.8,26,16,0,2,2,45+,High,No,Yes
+EMP-05580,55,Male,"Data Scientist",12899,3,3,11.6,4,159.7,29,15,1,2,2,45+,High,No,Yes
+EMP-05591,41,Female,"Software Engineer",11604,1,2,29.5,6,143.5,19,19,2,5,2,36-45,High,No,Yes
+EMP-05616,45,Male,Analyst,9782,3,3,7.4,5,168.3,21,15,4,2,2,36-45,High,No,Yes
+EMP-05620,39,Female,"Data Scientist",11140,1,2,25.4,3,192.3,15,13,6,2,2,36-45,High,No,Yes
+EMP-05621,32,Male,"Data Scientist",7575,1,3,4.9,3,172.7,8,7,1,3,2,26-35,Medium,No,Yes
+EMP-05624,32,Female,Manager,6022,2,2,8.4,5,164.4,9,6,0,4,2,26-35,Medium,No,Yes
+EMP-05631,52,Female,Analyst,13032,2,2,7.6,4,179.3,16,9,5,2,2,45+,High,No,Yes
+EMP-05634,39,Female,"HR Specialist",7607,3,3,11.3,3,148.4,17,12,6,1,2,36-45,Medium,No,Yes
+EMP-05648,52,Male,"Sales Executive",9776,2,2,19.2,7,191.5,23,23,5,2,2,45+,High,No,Yes
+EMP-05650,43,Female,"Sales Executive",7227,3,3,7.8,7,181.4,21,21,0,4,2,36-45,Medium,No,Yes
+EMP-05653,38,Female,"Data Scientist",9687,3,3,11.4,3,194.7,9,9,1,3,2,36-45,High,No,Yes
+EMP-05662,38,Male,Manager,7198,3,3,5.8,8,208.3,11,9,6,3,2,36-45,Medium,Yes,Yes
+EMP-05663,37,Female,Analyst,6639,3,1,7.3,5,151.2,15,12,5,3,2,36-45,Medium,No,Yes
+EMP-05689,39,Male,Manager,11216,3,4,19.2,8,196.6,12,11,2,1,2,36-45,High,No,Yes
+EMP-05699,41,Male,"Software Engineer",8170,3,3,1.1,5,148.9,18,18,4,3,2,36-45,Medium,No,Yes
+EMP-05701,35,Male,"Software Engineer",6444,3,2,22.7,7,146.8,10,10,3,3,2,26-35,Medium,No,Yes
+EMP-05704,31,Female,"Data Scientist",7840,3,3,8.5,7,197.7,9,8,1,4,2,26-35,Medium,No,Yes
+EMP-05706,35,Male,"Software Engineer",7091,3,4,22.2,4,187.9,14,13,6,1,2,26-35,Medium,No,Yes
+EMP-05710,32,Male,"HR Specialist",9325,1,2,1.6,3,161,7,5,2,4,2,26-35,High,No,Yes
+EMP-05711,40,Male,"Sales Executive",7038,3,2,1,7,170.2,14,14,6,2,2,36-45,Medium,No,Yes
+EMP-05712,44,Female,Manager,9808,4,3,1.6,7,161.5,16,13,5,3,2,36-45,High,No,Yes
+EMP-05717,34,Female,"Data Scientist",8276,3,2,6.4,8,214.7,9,8,2,5,2,26-35,Medium,Yes,Yes
+EMP-05719,60,Female,Analyst,11882,2,3,11.9,2,189.2,15,15,4,3,2,45+,High,No,Yes
+EMP-05723,33,Female,"Data Scientist",6389,2,4,16.4,8,183,9,7,4,2,2,26-35,Medium,No,Yes
+EMP-05724,30,Male,"Data Scientist",9009,2,2,15,3,182.9,5,5,0,2,2,26-35,High,No,Yes
+EMP-05726,34,Female,Manager,6143,3,3,3.8,7,196.2,12,10,1,1,2,26-35,Medium,No,Yes
+EMP-05729,50,Male,Analyst,9661,2,2,7.2,4,176,10,6,0,4,2,45+,High,No,Yes
+EMP-05742,33,Female,"Software Engineer",5662,3,2,4.9,7,188.9,12,10,5,3,2,26-35,Medium,No,Yes
+EMP-05757,46,Female,Manager,9163,4,2,9.3,2,162.7,19,13,2,4,2,45+,High,No,Yes
+EMP-05758,38,Male,"Sales Executive",9763,2,1,3.8,8,189,9,7,5,1,2,36-45,High,No,Yes
+EMP-05777,46,Female,"HR Specialist",11208,4,2,5.6,7,189.2,20,19,6,3,2,45+,High,No,Yes
+EMP-05783,49,Male,Manager,10576,3,3,2.8,2,160.3,19,17,1,2,2,45+,High,No,Yes
+EMP-05784,27,Male,Analyst,8478,2,3,30.8,3,131.1,7,7,1,2,2,26-35,Medium,No,Yes
+EMP-05801,40,Female,Manager,7970,3,3,16.1,2,166.7,12,12,3,1,2,36-45,Medium,No,Yes
+EMP-05802,52,Male,"HR Specialist",11336,4,1,14.3,5,174.5,18,12,0,4,2,45+,High,No,Yes
+EMP-05803,33,Female,"HR Specialist",6340,2,3,2.9,4,204.6,12,11,3,4,2,26-35,Medium,Yes,Yes
+EMP-05804,38,Female,"Software Engineer",8040,4,3,6.7,3,208.9,12,11,0,5,2,36-45,Medium,Yes,Yes
+EMP-05805,41,Female,"Sales Executive",9228,4,2,14.1,2,201.8,19,14,1,3,2,36-45,High,Yes,Yes
+EMP-05810,38,Male,"Software Engineer",9302,2,2,19.2,6,192.6,17,11,5,3,2,36-45,High,No,Yes
+EMP-05811,43,Male,"Sales Executive",11739,4,3,8,4,207.3,20,19,0,4,2,36-45,High,Yes,Yes
+EMP-05823,42,Female,"HR Specialist",6626,3,2,3.5,3,194,22,16,4,5,2,36-45,Medium,No,Yes
+EMP-05824,37,Female,Manager,8401,2,2,5.6,3,189.7,12,6,6,4,2,36-45,Medium,No,Yes
+EMP-05826,33,Male,Manager,6096,1,2,1,2,180.5,4,4,5,3,2,26-35,Medium,No,Yes
+EMP-05837,32,Female,"Sales Executive",8128,3,1,8.5,7,157.7,11,9,4,3,2,26-35,Medium,No,Yes
+EMP-05839,31,Female,"Data Scientist",8119,2,1,14.7,4,175.1,9,8,4,3,2,26-35,Medium,No,Yes
+EMP-05844,44,Male,Manager,10250,3,3,3.1,4,195.4,23,23,6,3,2,36-45,High,No,Yes
+EMP-05855,43,Female,"Sales Executive",11659,1,2,17.2,6,176.1,20,17,4,4,2,36-45,High,No,Yes
+EMP-05867,35,Female,"Software Engineer",7408,3,2,7.8,3,168.6,13,9,3,4,2,26-35,Medium,No,Yes
+EMP-05882,50,Female,"Software Engineer",9766,1,3,6.2,7,155.8,17,11,4,4,2,45+,High,No,Yes
+EMP-05893,43,Male,Manager,7780,1,2,4.6,7,120,19,11,6,4,2,36-45,Medium,No,Yes
+EMP-05896,39,Male,"HR Specialist",8921,1,3,21.3,6,182.2,14,12,3,3,2,36-45,Medium,No,Yes
+EMP-05897,38,Female,Manager,10229,1,1,8.7,3,131.8,8,7,0,3,2,36-45,High,No,Yes
+EMP-05899,41,Female,"Software Engineer",6233,3,3,13.9,8,163.4,12,9,1,2,2,36-45,Medium,No,Yes
+EMP-05901,29,Male,"Data Scientist",6608,1,1,6.8,2,168.7,3,2,3,4,2,26-35,Medium,No,No
+EMP-05924,51,Male,"Data Scientist",10634,2,3,5.6,4,195,19,16,4,1,2,45+,High,No,Yes
+EMP-05925,47,Female,"HR Specialist",10011,2,2,12.8,8,239.7,15,5,0,3,2,45+,High,Yes,Yes
+EMP-05931,27,Female,Manager,7608,3,1,7.8,8,148.2,7,7,6,1,2,26-35,Medium,No,Yes
+EMP-05932,39,Male,"HR Specialist",10710,3,4,18.6,8,199.1,19,16,3,4,2,36-45,High,No,Yes
+EMP-05934,31,Male,"Sales Executive",5931,1,4,5.4,8,154.8,7,7,0,3,2,26-35,Medium,No,Yes
+EMP-05938,37,Female,Analyst,8823,2,2,5.4,6,154.3,12,7,4,3,2,36-45,Medium,No,Yes
+EMP-05942,31,Female,Manager,4627,2,3,17.2,5,184.7,10,9,1,5,2,26-35,Low,No,Yes
+EMP-05947,36,Male,"HR Specialist",8177,3,2,13.4,8,150.3,14,14,5,4,2,36-45,Medium,No,Yes
+EMP-05953,36,Female,"Sales Executive",7403,3,2,14.2,5,153.3,13,8,6,1,2,36-45,Medium,No,Yes
+EMP-05957,41,Male,Manager,9990,1,1,18.6,5,181.3,4,4,6,2,2,36-45,High,No,Yes
+EMP-05960,59,Female,Analyst,9760,3,4,4.9,4,183.2,23,18,3,4,2,45+,High,No,Yes
+EMP-05973,40,Male,"Sales Executive",8621,4,2,34.1,2,194.8,16,12,3,4,2,36-45,Medium,No,Yes
+EMP-05975,36,Male,Manager,8364,1,1,6.4,3,146.6,13,8,5,3,2,36-45,Medium,No,Yes
+EMP-05979,38,Female,"Sales Executive",8085,2,3,5.1,6,166.1,16,15,6,5,2,36-45,Medium,No,Yes
+EMP-05988,40,Male,Analyst,11488,3,3,1,4,186.2,11,11,4,3,2,36-45,High,No,Yes
+EMP-05995,39,Female,Manager,11018,3,4,4.1,5,182.8,17,12,6,3,2,36-45,High,No,Yes
+EMP-05998,41,Male,"Data Scientist",9339,4,2,30.7,3,120.4,15,12,3,3,2,36-45,High,No,Yes
+EMP-06000,32,Male,"HR Specialist",8031,2,2,5.5,5,200.2,10,6,1,2,2,26-35,Medium,Yes,Yes
+EMP-06005,45,Female,"Data Scientist",8118,1,3,9.4,2,209.3,14,12,5,2,2,36-45,Medium,Yes,Yes
+EMP-06023,40,Female,"Software Engineer",8588,4,3,8.8,7,193,19,16,1,2,2,36-45,Medium,No,Yes
+EMP-06030,39,Male,Manager,8532,2,1,9.9,7,128.3,14,12,5,3,2,36-45,Medium,No,Yes
+EMP-06035,27,Female,"HR Specialist",4889,2,2,9.1,7,131.6,7,7,2,4,2,26-35,Low,No,Yes
+EMP-06042,53,Female,"Software Engineer",13540,3,3,4.9,8,149.9,14,12,0,2,2,45+,High,No,Yes
+EMP-06043,52,Female,"Software Engineer",10934,2,1,7.2,2,187,24,18,4,5,2,45+,High,No,Yes
+EMP-06047,45,Female,"Software Engineer",10783,4,2,6.3,5,209,15,14,4,4,2,36-45,High,Yes,Yes
+EMP-06058,43,Female,"Software Engineer",10646,2,2,4.3,5,188.3,19,6,0,3,2,36-45,High,No,Yes
+EMP-06060,42,Male,"Data Scientist",9011,3,2,18.9,3,208.9,16,12,4,5,2,36-45,High,Yes,Yes
+EMP-06063,29,Male,"Sales Executive",6596,2,3,3.7,3,245,4,4,4,2,2,26-35,Medium,Yes,Yes
+EMP-06064,49,Male,"HR Specialist",10949,3,2,11.1,2,214.1,23,11,2,3,2,45+,High,Yes,Yes
+EMP-06069,49,Female,"HR Specialist",11438,2,2,4.6,5,142.7,12,11,4,2,2,45+,High,No,Yes
+EMP-06074,51,Female,"HR Specialist",12242,4,3,5.3,8,189.8,22,17,1,2,2,45+,High,No,Yes
+EMP-06085,44,Female,"Data Scientist",9435,3,1,1.9,5,160.5,18,17,6,3,2,36-45,High,No,Yes
+EMP-06087,36,Female,"Sales Executive",7589,2,2,1.2,2,224.8,8,4,0,2,2,36-45,Medium,Yes,Yes
+EMP-06094,37,Female,"Sales Executive",8753,1,3,1.5,5,160.3,12,11,1,4,2,36-45,Medium,No,Yes
+EMP-06097,40,Male,"Sales Executive",7364,4,3,16.1,6,187,14,12,3,1,2,36-45,Medium,No,Yes
+EMP-06098,43,Male,"Data Scientist",6800,4,3,5.4,2,175.8,17,11,6,1,2,36-45,Medium,No,Yes
+EMP-06101,39,Male,"HR Specialist",6669,3,3,19.3,6,174.1,14,13,1,1,2,36-45,Medium,No,Yes
+EMP-06121,36,Male,"Data Scientist",10307,3,3,11.9,7,163.1,14,12,1,4,2,36-45,High,No,Yes
+EMP-06135,42,Male,"Data Scientist",9174,2,4,12.4,3,146.4,16,11,1,3,2,36-45,High,No,Yes
+EMP-06138,39,Male,"Data Scientist",11208,4,4,1.2,4,215,15,14,1,3,2,36-45,High,Yes,Yes
+EMP-06139,39,Female,"HR Specialist",9298,1,3,9.5,8,139.5,7,7,6,3,2,36-45,High,No,Yes
+EMP-06159,45,Female,"Data Scientist",10257,3,3,6.7,6,217.8,22,17,5,2,2,36-45,High,Yes,Yes
+EMP-06168,34,Female,"Data Scientist",6669,1,4,1.8,7,159,12,7,2,1,2,26-35,Medium,No,Yes
+EMP-06169,56,Female,"HR Specialist",11151,4,3,7.6,4,175.9,24,19,0,3,2,45+,High,No,Yes
+EMP-06170,38,Male,Analyst,7211,3,4,8.1,6,169.5,17,14,0,2,2,36-45,Medium,No,Yes
+EMP-06173,43,Male,Manager,11071,2,4,12,4,178.9,12,9,0,4,2,36-45,High,No,Yes
+EMP-06176,42,Female,"Software Engineer",8303,4,3,12.5,4,172,18,16,3,3,2,36-45,Medium,No,Yes
+EMP-06191,35,Male,"Data Scientist",7617,4,1,3.6,8,191,9,9,0,3,2,26-35,Medium,No,Yes
+EMP-06201,36,Male,Analyst,7765,4,2,6.5,5,133.3,16,13,1,3,2,36-45,Medium,No,Yes
+EMP-06203,37,Male,"HR Specialist",10560,1,2,8.7,4,159.1,13,9,1,2,2,36-45,High,No,Yes
+EMP-06204,46,Male,Manager,8902,1,4,17.8,7,152.8,16,10,5,4,2,45+,Medium,No,Yes
+EMP-06207,41,Male,Manager,10392,4,3,5.9,7,190.9,18,11,0,4,2,36-45,High,No,Yes
+EMP-06223,46,Female,Analyst,9481,4,3,12,8,164.7,16,12,3,5,2,45+,High,No,Yes
+EMP-06225,37,Female,"HR Specialist",6840,3,3,12.1,8,176.8,15,8,6,2,2,36-45,Medium,No,Yes
+EMP-06226,34,Male,Manager,7907,2,2,1.6,6,176.3,10,6,3,3,2,26-35,Medium,No,Yes
+EMP-06228,32,Male,Analyst,8019,3,2,20.2,4,143.7,11,11,2,3,2,26-35,Medium,No,Yes
+EMP-06232,46,Male,"Software Engineer",12042,3,2,2.8,5,174.9,11,10,1,4,2,45+,High,No,Yes
+EMP-06245,48,Male,"Sales Executive",11814,3,4,9.5,5,167.6,14,13,1,3,2,45+,High,No,Yes
+EMP-06247,49,Female,"Sales Executive",12724,2,3,16.2,7,202,7,7,1,2,2,45+,High,Yes,Yes
+EMP-06250,42,Male,"HR Specialist",11308,1,1,1.6,6,179.7,11,3,4,3,2,36-45,High,No,Yes
+EMP-06251,43,Female,"Sales Executive",10976,2,3,4.6,7,182.4,15,9,1,3,2,36-45,High,No,Yes
+EMP-06258,36,Male,Analyst,6643,1,3,4.5,6,174.5,11,7,4,3,2,36-45,Medium,No,Yes
+EMP-06264,32,Male,Manager,7305,3,2,13.5,3,181.2,12,8,6,3,2,26-35,Medium,No,Yes
+EMP-06269,41,Male,"HR Specialist",8779,3,3,16.6,6,120,18,11,0,2,2,36-45,Medium,No,Yes
+EMP-06273,49,Male,"HR Specialist",10761,3,1,4.1,3,181.6,11,7,6,3,2,45+,High,No,Yes
+EMP-06275,44,Male,"HR Specialist",9659,3,2,11.7,5,168.7,20,19,2,1,2,36-45,High,No,Yes
+EMP-06276,49,Female,"Data Scientist",11391,4,2,3.3,5,131.4,22,16,2,4,2,45+,High,No,Yes
+EMP-06291,34,Male,"Sales Executive",7162,2,3,30.7,4,202.3,11,6,1,3,2,26-35,Medium,Yes,Yes
+EMP-06293,41,Female,"Data Scientist",8520,2,1,11.7,6,152.6,16,11,4,3,2,36-45,Medium,No,Yes
+EMP-06310,42,Female,"Data Scientist",10767,3,2,4.5,4,146,12,10,6,3,2,36-45,High,No,Yes
+EMP-06315,49,Female,"Software Engineer",12022,3,2,25.2,8,147.4,27,10,0,3,2,45+,High,No,Yes
+EMP-06316,32,Female,"Software Engineer",5581,3,2,28.5,8,157.8,10,10,1,2,2,26-35,Medium,No,Yes
+EMP-06325,48,Male,"Sales Executive",7512,1,4,4.8,4,184.4,21,20,2,4,2,45+,Medium,No,Yes
+EMP-06328,47,Male,Analyst,7760,4,3,9.5,3,176,15,11,5,1,2,45+,Medium,No,Yes
+EMP-06332,34,Female,"Software Engineer",7154,2,2,9.5,7,154.8,13,9,4,2,2,26-35,Medium,No,Yes
+EMP-06333,37,Female,"Software Engineer",7448,4,2,10.4,2,200.5,11,9,1,2,2,36-45,Medium,Yes,Yes
+EMP-06337,52,Male,"Data Scientist",10439,2,2,3.5,6,195.7,30,18,6,4,2,45+,High,No,Yes
+EMP-06339,43,Male,"Sales Executive",8853,1,1,8,7,219.1,9,2,1,3,2,36-45,Medium,Yes,No
+EMP-06347,33,Female,"Data Scientist",5702,3,1,11.6,3,146.2,9,8,3,3,2,26-35,Medium,No,Yes
+EMP-06356,37,Female,"Software Engineer",10165,2,3,1.1,2,163.8,16,10,0,2,2,36-45,High,No,Yes
+EMP-06358,46,Male,Manager,9335,4,1,14.3,5,214.2,22,13,6,5,2,45+,High,Yes,Yes
+EMP-06359,35,Male,"HR Specialist",7914,1,3,8.3,8,157.5,11,9,0,3,2,26-35,Medium,No,Yes
+EMP-06374,38,Female,Manager,7391,1,2,8.4,2,190.8,14,11,0,2,2,36-45,Medium,No,Yes
+EMP-06378,40,Female,"Data Scientist",8391,1,2,1.6,3,145.3,11,6,6,3,2,36-45,Medium,No,Yes
+EMP-06389,44,Male,Analyst,9376,4,1,7.5,2,182.8,21,12,1,3,2,36-45,High,No,Yes
+EMP-06398,37,Male,"Software Engineer",8741,1,4,8.7,8,174.3,12,9,5,5,2,36-45,Medium,No,Yes
+EMP-06403,40,Male,"HR Specialist",11097,3,4,12.8,8,153.8,15,15,4,3,2,36-45,High,No,Yes
+EMP-06409,41,Female,"HR Specialist",7627,4,3,22,4,190.9,17,12,6,4,2,36-45,Medium,No,Yes
+EMP-06414,36,Female,"Sales Executive",9387,3,2,2.7,4,146.3,11,10,1,3,2,36-45,High,No,Yes
+EMP-06420,32,Female,"Sales Executive",8496,2,2,3.2,2,168.3,12,11,0,3,2,26-35,Medium,No,Yes
+EMP-06430,43,Male,Manager,10191,4,3,5.6,3,174.3,21,12,6,3,2,36-45,High,No,Yes
+EMP-06433,37,Male,"Data Scientist",11115,3,3,4.8,6,157,14,13,0,3,2,36-45,High,No,Yes
+EMP-06434,38,Female,"Software Engineer",7491,3,3,3.5,3,160.3,11,10,0,3,2,36-45,Medium,No,Yes
+EMP-06441,43,Female,"Sales Executive",9485,2,4,6.7,3,121.3,15,13,4,5,2,36-45,High,No,Yes
+EMP-06447,41,Female,"Data Scientist",11441,3,1,10.2,6,153.3,11,10,2,4,2,36-45,High,No,Yes
+EMP-06451,46,Female,"Software Engineer",11263,3,3,9.1,4,161,21,20,3,3,2,45+,High,No,Yes
+EMP-06453,41,Female,Manager,7662,1,3,3.2,7,162.2,13,6,0,5,2,36-45,Medium,No,Yes
+EMP-06456,41,Female,Manager,7220,3,3,13.8,4,193.9,18,10,3,4,2,36-45,Medium,No,Yes
+EMP-06458,31,Male,"Software Engineer",5987,1,2,9.3,8,172.3,6,4,5,3,2,26-35,Medium,No,Yes
+EMP-06464,31,Female,"Sales Executive",5954,3,2,16.4,4,141,11,11,5,5,2,26-35,Medium,No,Yes
+EMP-06465,26,Female,"Software Engineer",5722,1,2,15.9,4,197.5,6,5,1,4,2,26-35,Medium,No,Yes
+EMP-06474,36,Female,"HR Specialist",11113,3,2,10.3,5,159.7,16,9,4,3,2,36-45,High,No,Yes
+EMP-06478,32,Male,"Sales Executive",8524,3,3,1.3,2,169.4,11,11,5,2,2,26-35,Medium,No,Yes
+EMP-06483,44,Male,"HR Specialist",10989,2,1,1.2,7,169.6,13,6,0,3,2,36-45,High,No,Yes
+EMP-06504,42,Female,"Software Engineer",7462,2,3,14.5,6,187.5,16,6,6,1,2,36-45,Medium,No,Yes
+EMP-06516,39,Female,"Sales Executive",10044,4,4,10,4,218,12,12,4,3,2,36-45,High,Yes,Yes
+EMP-06519,53,Male,"Software Engineer",9835,3,4,12.8,5,206.8,30,26,5,5,2,45+,High,Yes,Yes
+EMP-06529,40,Female,"Software Engineer",8266,2,1,10.5,2,227.4,14,10,0,4,2,36-45,Medium,Yes,Yes
+EMP-06547,36,Female,"Data Scientist",9508,3,3,11,8,174.6,12,11,5,3,2,36-45,High,No,Yes
+EMP-06554,30,Male,Analyst,8581,1,2,7.7,2,216.5,4,4,0,3,2,26-35,Medium,Yes,Yes
+EMP-06555,38,Female,"Sales Executive",9747,3,3,31.7,4,190.9,11,9,2,5,2,36-45,High,No,Yes
+EMP-06561,57,Female,"Data Scientist",11855,3,2,6.9,6,156.6,31,14,0,3,2,45+,High,No,Yes
+EMP-06580,36,Female,Analyst,7524,2,2,6.4,6,181.4,7,5,6,3,2,36-45,Medium,No,Yes
+EMP-06590,45,Male,"Software Engineer",10775,3,3,9.3,5,185.6,19,18,6,3,2,36-45,High,No,Yes
+EMP-06591,43,Female,Analyst,8125,3,1,9.4,6,193.3,10,7,5,3,2,36-45,Medium,No,Yes
+EMP-06593,41,Female,"Sales Executive",8388,3,1,3.8,3,158.3,17,15,6,2,2,36-45,Medium,No,Yes
+EMP-06604,30,Female,"Data Scientist",7696,1,3,13.5,6,167.2,6,5,1,4,2,26-35,Medium,No,Yes
+EMP-06615,37,Female,Manager,7385,2,1,35.5,7,162.3,11,7,4,3,2,36-45,Medium,No,Yes
+EMP-06618,44,Male,"HR Specialist",10387,2,3,5.8,2,176.7,18,14,3,3,2,36-45,High,No,Yes
+EMP-06627,36,Female,Manager,7210,2,3,5.4,8,156.9,15,11,1,2,2,36-45,Medium,No,Yes
+EMP-06633,44,Male,"Software Engineer",12681,4,2,3.6,8,161.3,14,12,1,2,2,36-45,High,No,Yes
+EMP-06634,34,Female,Manager,5790,4,2,5.3,3,175.4,14,13,4,4,2,26-35,Medium,No,Yes
+EMP-06660,37,Male,"HR Specialist",10812,1,3,1,3,199.8,14,13,0,3,2,36-45,High,No,Yes
+EMP-06668,30,Female,"Software Engineer",8112,2,2,19.5,6,166.4,7,7,5,3,2,26-35,Medium,No,Yes
+EMP-06689,41,Male,Manager,11178,3,3,5.1,2,164.8,21,20,5,1,2,36-45,High,No,Yes
+EMP-06697,37,Female,"HR Specialist",8747,3,2,1,6,202.1,16,13,0,3,2,36-45,Medium,Yes,Yes
+EMP-06698,27,Female,Manager,4525,1,3,11.3,8,203.4,5,3,1,1,2,26-35,Low,Yes,Yes
+EMP-06713,34,Male,Analyst,5074,2,3,14.5,4,130.8,11,11,2,2,2,26-35,Medium,No,Yes
+EMP-06715,46,Female,Manager,9480,2,2,9,4,164.7,12,10,5,3,2,45+,High,No,Yes
+EMP-06717,46,Male,Analyst,9338,3,3,14.1,7,205,25,21,6,4,2,45+,High,Yes,Yes
+EMP-06723,37,Male,Analyst,8260,2,2,8.4,2,154.5,12,12,6,3,2,36-45,Medium,No,Yes
+EMP-06724,41,Male,Manager,12242,1,3,5.3,7,121.3,19,15,1,1,2,36-45,High,No,Yes
+EMP-06728,41,Female,"Data Scientist",8730,1,2,31.7,8,205.6,12,7,2,4,2,36-45,Medium,Yes,Yes
+EMP-06731,40,Female,"Sales Executive",7861,3,3,5.5,4,172.5,11,9,5,4,2,36-45,Medium,No,Yes
+EMP-06750,41,Male,"Data Scientist",9338,4,3,2.9,3,174.3,20,20,0,1,2,36-45,High,No,Yes
+EMP-06764,31,Male,"Software Engineer",4430,2,1,5.2,2,168.8,8,8,4,2,2,26-35,Low,No,Yes
+EMP-06767,47,Female,"Sales Executive",9197,3,3,7.6,2,173.7,17,10,6,5,2,45+,High,No,Yes
+EMP-06776,48,Male,Analyst,10528,1,1,6.9,2,175.1,7,4,3,4,2,45+,High,No,Yes
+EMP-06785,30,Female,"Sales Executive",9600,3,2,10.9,6,159.5,8,8,3,5,2,26-35,High,No,Yes
+EMP-06788,35,Female,"HR Specialist",8695,1,3,8.8,6,193.6,11,8,4,3,2,26-35,Medium,No,Yes
+EMP-06796,32,Male,"HR Specialist",8744,3,2,6.1,7,165.6,11,10,0,3,2,26-35,Medium,No,Yes
+EMP-06812,39,Female,"Data Scientist",10137,4,2,13.7,7,189.8,12,12,1,3,2,36-45,High,No,Yes
+EMP-06833,38,Female,"Data Scientist",9998,4,3,4.3,5,131.6,18,14,1,3,2,36-45,High,No,Yes
+EMP-06841,39,Male,Manager,7738,3,1,20.9,5,132.2,7,7,3,2,2,36-45,Medium,No,Yes
+EMP-06853,44,Male,"Software Engineer",10270,2,2,4.9,7,183.5,9,8,4,3,2,36-45,High,No,Yes
+EMP-06860,46,Female,Analyst,10871,1,3,7.2,4,187.5,12,11,0,4,2,45+,High,No,Yes
+EMP-06867,39,Male,"Software Engineer",7305,1,1,2.9,5,154.8,13,8,0,3,2,36-45,Medium,No,Yes
+EMP-06870,46,Female,"HR Specialist",8289,2,1,10.8,4,192,23,4,2,3,2,45+,Medium,No,Yes
+EMP-06877,34,Female,"Data Scientist",9895,2,3,17.7,8,156.2,10,9,4,3,2,26-35,High,No,Yes
+EMP-06879,41,Female,Manager,9053,2,1,15.6,8,157.3,19,16,4,3,2,36-45,High,No,Yes
+EMP-06882,52,Female,"Software Engineer",12706,1,3,2.1,2,120,10,10,1,4,2,45+,High,No,Yes
+EMP-06883,40,Male,"HR Specialist",7013,2,3,8.4,8,210.1,15,15,4,3,2,36-45,Medium,Yes,Yes
+EMP-06887,43,Female,Analyst,9937,3,2,8.2,8,165,16,9,0,3,2,36-45,High,No,Yes
+EMP-06896,29,Female,"HR Specialist",9405,1,2,8.2,8,186.9,8,5,1,4,2,26-35,High,No,Yes
+EMP-06906,49,Female,"Software Engineer",12030,2,4,1.4,7,163.8,26,16,6,5,2,45+,High,No,Yes
+EMP-06909,46,Female,"Data Scientist",7552,1,2,10.9,7,143.3,20,6,2,2,2,45+,Medium,No,Yes
+EMP-06912,41,Female,"Data Scientist",8628,2,2,13.2,3,213.6,18,8,5,3,2,36-45,Medium,Yes,Yes
+EMP-06917,39,Female,Manager,8215,2,3,5.7,5,201.3,18,9,6,2,2,36-45,Medium,Yes,Yes
+EMP-06918,47,Female,Manager,11349,3,4,3.5,7,155.9,18,15,0,5,2,45+,High,No,Yes
+EMP-06927,44,Female,"Data Scientist",8786,1,4,7.1,3,219.9,13,13,1,4,2,36-45,Medium,Yes,Yes
+EMP-06930,40,Male,Manager,9485,3,2,8.8,8,174.6,8,8,6,2,2,36-45,High,No,Yes
+EMP-06940,41,Female,Analyst,7303,4,3,23.7,7,178.8,13,13,2,3,2,36-45,Medium,No,Yes
+EMP-06941,36,Male,Analyst,11347,1,3,4.5,3,182.4,13,13,5,1,2,36-45,High,No,Yes
+EMP-06943,39,Male,"Data Scientist",9810,3,2,6.4,7,150.1,14,10,2,1,2,36-45,High,No,Yes
+EMP-06951,40,Female,"Software Engineer",9877,3,2,5.1,4,167.2,17,13,1,4,2,36-45,High,No,Yes
+EMP-06954,46,Female,"HR Specialist",9690,1,3,8,7,181.1,15,11,0,3,2,45+,High,No,Yes
+EMP-06956,33,Female,Manager,6316,1,3,5.2,8,188.5,11,8,3,4,2,26-35,Medium,No,Yes
+EMP-06961,38,Female,Manager,7109,3,3,7,3,177.2,12,10,2,3,2,36-45,Medium,No,Yes
+EMP-06963,52,Female,"Data Scientist",12574,3,3,4.1,7,188,22,22,2,1,2,45+,High,No,Yes
+EMP-06965,40,Male,Manager,7840,1,3,3.8,8,136.1,9,8,1,2,2,36-45,Medium,No,Yes
+EMP-06980,40,Male,Manager,10394,3,2,9.3,8,196,13,9,5,4,2,36-45,High,No,Yes
+EMP-06994,42,Female,Manager,9354,2,2,9,3,176.5,17,15,0,2,2,36-45,High,No,Yes
+EMP-07003,36,Male,Manager,9727,3,1,5.7,6,171.7,10,10,2,4,2,36-45,High,No,Yes
+EMP-07024,44,Female,"Data Scientist",8060,3,2,9.7,2,170.1,18,9,4,3,2,36-45,Medium,No,Yes
+EMP-07028,43,Female,"Software Engineer",7967,2,2,1,7,135.9,20,12,2,4,2,36-45,Medium,No,Yes
+EMP-07035,43,Female,Manager,11393,3,2,11.8,5,174.8,19,8,6,4,2,36-45,High,No,Yes
+EMP-07062,32,Female,"Software Engineer",4883,3,3,2.2,3,167.3,11,10,0,4,2,26-35,Low,No,Yes
+EMP-07065,42,Female,"HR Specialist",9901,3,2,22.3,4,161.2,20,18,0,2,2,36-45,High,No,Yes
+EMP-07072,43,Male,Manager,10054,4,3,5.7,3,239.1,18,13,6,3,2,36-45,High,Yes,Yes
+EMP-07075,38,Female,"Sales Executive",11095,4,3,10,7,180.7,18,15,2,2,2,36-45,High,No,Yes
+EMP-07077,31,Female,"HR Specialist",7282,2,2,19.9,8,153.1,10,5,3,2,2,26-35,Medium,No,Yes
+EMP-07081,53,Female,"Data Scientist",11209,1,1,26.9,2,168,16,13,0,4,2,45+,High,No,Yes
+EMP-07092,22,Female,Manager,8439,1,1,28.9,4,187,1,0,6,4,2,18-25,Medium,No,No
+EMP-07097,39,Female,"Sales Executive",8184,4,1,1,4,166.8,12,12,2,5,2,36-45,Medium,No,Yes
+EMP-07099,40,Male,"Software Engineer",7070,3,2,50,2,136,19,15,1,1,2,36-45,Medium,No,Yes
+EMP-07109,37,Male,"Data Scientist",8478,1,3,7.7,4,204.5,11,9,1,5,2,36-45,Medium,Yes,Yes
+EMP-07113,43,Male,"Data Scientist",7297,4,2,8.6,8,162.4,21,12,1,2,2,36-45,Medium,No,Yes
+EMP-07116,39,Female,"HR Specialist",9387,4,3,8.9,2,156.1,18,17,0,3,2,36-45,High,No,Yes
+EMP-07122,52,Female,"Software Engineer",13594,2,2,16.7,5,122.8,18,12,5,1,2,45+,High,No,Yes
+EMP-07125,37,Female,Manager,8948,2,2,6.3,4,142.1,12,9,0,2,2,36-45,Medium,No,Yes
+EMP-07130,42,Male,"HR Specialist",7075,2,4,6.2,2,154.1,16,14,2,3,2,36-45,Medium,No,Yes
+EMP-07138,37,Female,"Sales Executive",6756,2,2,2.7,2,177.1,14,11,6,2,2,36-45,Medium,No,Yes
+EMP-07139,44,Male,"Data Scientist",11457,4,4,6.4,6,144.2,16,15,2,3,2,36-45,High,No,Yes
+EMP-07145,39,Male,Manager,11059,2,2,13.2,5,205.1,15,6,6,3,2,36-45,High,Yes,Yes
+EMP-07146,37,Male,"Software Engineer",8235,1,1,6.4,2,196.7,12,10,5,1,2,36-45,Medium,No,Yes
+EMP-07160,43,Female,"Data Scientist",9629,3,3,9.2,3,175.7,19,12,2,2,2,36-45,High,No,Yes
+EMP-07163,45,Male,Manager,10913,3,2,6.6,3,155.2,12,12,5,4,2,36-45,High,No,Yes
+EMP-07165,45,Male,"Data Scientist",8881,2,1,4.8,5,152,21,7,6,4,2,36-45,Medium,No,Yes
+EMP-07173,34,Male,"HR Specialist",6209,3,2,12,4,212.6,8,7,4,2,2,26-35,Medium,Yes,Yes
+EMP-07186,38,Female,Manager,11440,1,3,12,2,165.6,16,10,0,4,2,36-45,High,No,Yes
+EMP-07203,40,Female,"HR Specialist",8846,1,2,4.8,4,173.5,6,4,2,2,2,36-45,Medium,No,Yes
+EMP-07205,40,Female,"HR Specialist",7226,3,3,14.2,4,194,11,11,2,4,2,36-45,Medium,No,Yes
+EMP-07217,46,Female,Manager,11997,2,1,8.3,3,166.8,18,9,1,1,2,45+,High,No,Yes
+EMP-07219,44,Female,"Data Scientist",7669,2,4,7.7,5,187.4,15,12,3,3,2,36-45,Medium,No,Yes
+EMP-07238,35,Male,"Software Engineer",5891,2,2,7.7,3,124.1,13,10,0,4,2,26-35,Medium,No,Yes
+EMP-07243,42,Female,Manager,10155,4,2,6.7,6,171.7,14,14,6,4,2,36-45,High,No,Yes
+EMP-07263,32,Female,"Software Engineer",9433,1,3,5.4,5,180.7,11,5,3,4,2,26-35,High,No,Yes
+EMP-07264,33,Female,Manager,9876,3,1,1,4,167.4,12,12,4,2,2,26-35,High,No,Yes
+EMP-07269,44,Female,"Software Engineer",10713,4,2,1.9,8,196.8,23,15,5,5,2,36-45,High,No,Yes
+EMP-07277,35,Female,"Data Scientist",7335,4,1,9.3,6,168,14,9,0,5,2,26-35,Medium,No,Yes
+EMP-07286,51,Female,"HR Specialist",10537,3,4,2.9,3,159.3,31,17,0,3,2,45+,High,No,Yes
+EMP-07288,41,Male,"Sales Executive",8122,2,3,3.3,8,185.5,11,9,5,1,2,36-45,Medium,No,Yes
+EMP-07296,40,Male,"HR Specialist",8469,2,3,2.1,3,204.4,16,12,2,4,2,36-45,Medium,Yes,Yes
+EMP-07300,32,Male,"Software Engineer",6390,2,2,21.8,2,187.8,7,4,4,3,2,26-35,Medium,No,Yes
+EMP-07306,45,Female,Analyst,11223,3,1,10.8,4,196.7,19,19,2,2,2,36-45,High,No,Yes
+EMP-07311,56,Male,Analyst,12040,4,3,1,8,229.9,27,17,4,2,2,45+,High,Yes,Yes
+EMP-07312,36,Male,Analyst,8383,3,1,2,2,204.6,6,6,2,3,2,36-45,Medium,Yes,Yes
+EMP-07313,32,Female,"Data Scientist",8384,2,1,7.2,5,127.5,10,8,6,3,2,26-35,Medium,No,Yes
+EMP-07314,40,Female,"HR Specialist",9862,3,2,17.2,5,173.5,16,15,2,3,2,36-45,High,No,Yes
+EMP-07315,37,Female,"Sales Executive",6517,3,3,46.8,2,153.7,14,12,2,2,2,36-45,Medium,No,Yes
+EMP-07318,42,Male,"HR Specialist",11503,3,3,10.6,2,173,19,12,3,2,2,36-45,High,No,Yes
+EMP-07319,38,Male,"Software Engineer",6578,1,3,2.2,5,212.8,18,13,5,5,2,36-45,Medium,Yes,Yes
+EMP-07325,37,Male,Manager,9707,3,2,8,6,187.6,17,11,4,1,2,36-45,High,No,Yes
+EMP-07332,54,Male,"Data Scientist",10909,2,2,16.3,8,156.4,28,19,4,5,2,45+,High,No,Yes
+EMP-07343,43,Male,Manager,8413,4,4,20,3,184.6,14,13,3,2,2,36-45,Medium,No,Yes
+EMP-07362,46,Female,"Data Scientist",11073,2,3,4,2,201.7,25,11,3,3,2,45+,High,Yes,Yes
+EMP-07370,39,Female,"HR Specialist",8675,4,2,12.7,2,196.3,15,10,1,4,2,36-45,Medium,No,Yes
+EMP-07378,42,Female,Manager,8530,3,1,20.9,3,147.1,14,14,0,2,2,36-45,Medium,No,Yes
+EMP-07381,30,Female,"HR Specialist",6294,2,4,10.8,6,185.9,10,8,4,3,2,26-35,Medium,No,Yes
+EMP-07387,42,Male,"Data Scientist",8008,2,3,8.8,2,178.7,18,13,6,4,2,36-45,Medium,No,Yes
+EMP-07391,36,Female,"HR Specialist",10662,3,1,15.9,6,150.5,10,10,6,4,2,36-45,High,No,Yes
+EMP-07402,37,Male,Analyst,8024,3,1,21.9,7,158,10,6,4,3,2,36-45,Medium,No,Yes
+EMP-07417,52,Male,"Software Engineer",10073,4,4,2.4,7,211.4,31,30,2,5,2,45+,High,Yes,Yes
+EMP-07427,46,Male,Analyst,9877,4,3,10.3,8,188.7,24,18,2,2,2,45+,High,No,Yes
+EMP-07428,42,Male,"Software Engineer",8602,3,1,18.7,2,169.4,20,17,3,3,2,36-45,Medium,No,Yes
+EMP-07434,34,Female,"Sales Executive",8201,2,2,7.2,7,176.7,8,8,6,5,2,26-35,Medium,No,Yes
+EMP-07436,34,Female,"Software Engineer",7281,2,4,15.8,5,201.9,10,9,6,2,2,26-35,Medium,Yes,Yes
+EMP-07443,42,Female,"Software Engineer",10379,4,3,6.4,7,188.4,15,14,4,3,2,36-45,High,No,Yes
+EMP-07446,34,Male,"Software Engineer",7805,3,1,17.7,7,190.8,12,11,6,3,2,26-35,Medium,No,Yes
+EMP-07455,29,Female,"Data Scientist",8077,3,1,9.8,7,199,7,7,6,5,2,26-35,Medium,No,Yes
+EMP-07461,37,Female,"Sales Executive",8656,1,4,14.8,6,177.4,10,10,3,3,2,36-45,Medium,No,Yes
+EMP-07465,50,Male,Manager,10746,1,3,4,2,198.2,21,17,5,4,2,45+,High,No,Yes
+EMP-07467,36,Female,"Sales Executive",7503,1,2,8.1,5,155.3,6,4,2,2,2,36-45,Medium,No,Yes
+EMP-07473,31,Male,Manager,5142,3,3,8.1,5,168.4,8,8,5,3,2,26-35,Medium,No,Yes
+EMP-07482,38,Female,Manager,10088,2,1,8.4,5,121.6,13,10,6,4,2,36-45,High,No,Yes
+EMP-07492,30,Male,"Data Scientist",5850,2,1,7.9,7,125.5,7,7,3,3,2,26-35,Medium,No,Yes
+EMP-07508,38,Female,"Data Scientist",7695,3,3,1.2,6,150.3,14,13,6,5,2,36-45,Medium,No,Yes
+EMP-07512,33,Male,"Sales Executive",6292,2,3,25.1,6,132.1,12,11,5,2,2,26-35,Medium,No,Yes
+EMP-07518,33,Female,"Sales Executive",8433,3,2,1,7,197.9,9,8,3,3,2,26-35,Medium,No,Yes
+EMP-07521,52,Male,Manager,12414,3,2,4.7,4,146.5,10,10,6,3,2,45+,High,No,Yes
+EMP-07522,50,Male,Analyst,8931,3,4,4,7,173,27,26,5,3,2,45+,Medium,No,Yes
+EMP-07526,36,Male,"Software Engineer",6288,3,3,14.3,6,170.4,9,9,2,3,2,36-45,Medium,No,Yes
+EMP-07528,41,Male,"HR Specialist",9001,3,2,8.2,4,169.5,15,8,5,1,2,36-45,High,No,Yes
+EMP-07531,31,Female,"HR Specialist",6895,4,2,10.9,5,159.8,9,9,5,1,2,26-35,Medium,No,Yes
+EMP-07533,35,Male,"HR Specialist",11404,3,2,15,5,178.5,12,8,0,3,2,26-35,High,No,Yes
+EMP-07556,37,Female,"HR Specialist",8472,1,2,3.9,7,177.7,13,10,6,5,2,36-45,Medium,No,Yes
+EMP-07557,36,Male,Manager,10894,2,2,10.2,5,161.3,9,9,2,3,2,36-45,High,No,Yes
+EMP-07559,37,Female,"Data Scientist",10003,3,1,7.2,2,168.6,17,16,5,3,2,36-45,High,No,Yes
+EMP-07566,37,Male,"Data Scientist",8209,2,3,7.2,3,198.5,12,12,5,5,2,36-45,Medium,No,Yes
+EMP-07570,38,Male,Analyst,7189,4,3,12.2,2,188.5,11,11,4,3,2,36-45,Medium,No,Yes
+EMP-07572,31,Female,Analyst,9391,3,2,9.2,2,158.7,9,8,0,4,2,26-35,High,No,Yes
+EMP-07586,40,Male,"Software Engineer",11754,1,2,10.1,2,213.5,7,7,0,4,2,36-45,High,Yes,Yes
+EMP-07591,39,Male,Analyst,10738,3,3,5.5,3,162.4,15,14,4,3,2,36-45,High,No,Yes
+EMP-07592,28,Female,"Sales Executive",4679,1,1,11,5,195.3,1,1,1,3,2,26-35,Low,No,No
+EMP-07597,45,Male,Analyst,8723,4,2,2.7,3,200.2,12,9,0,3,2,36-45,Medium,Yes,Yes
+EMP-07604,36,Male,Analyst,5772,3,3,30.3,4,169.1,14,10,5,5,2,36-45,Medium,No,Yes
+EMP-07605,41,Female,"HR Specialist",9017,2,3,10,5,173.9,12,12,5,3,2,36-45,High,No,Yes
+EMP-07615,41,Male,"HR Specialist",11939,3,1,9.4,6,208,13,10,3,1,2,36-45,High,Yes,Yes
+EMP-07617,38,Female,"Sales Executive",10206,3,2,1.4,4,156.9,14,14,6,3,2,36-45,High,No,Yes
+EMP-07623,35,Female,"Data Scientist",8775,2,3,17.6,2,174.7,15,7,3,3,2,26-35,Medium,No,Yes
+EMP-07628,46,Female,"Sales Executive",8645,2,4,13.1,6,125.4,17,15,2,2,2,45+,Medium,No,Yes
+EMP-07633,36,Male,Manager,6532,1,4,3.1,8,143.6,15,11,0,4,2,36-45,Medium,No,Yes
+EMP-07634,37,Male,"Sales Executive",6440,3,3,4.1,4,161.5,13,9,5,4,2,36-45,Medium,No,Yes
+EMP-07635,39,Male,"Sales Executive",9993,3,3,9,8,146.1,17,11,0,3,2,36-45,High,No,Yes
+EMP-07636,39,Female,"Sales Executive",7674,3,2,11.3,4,173.7,11,11,3,3,2,36-45,Medium,No,Yes
+EMP-07637,40,Female,Analyst,12015,2,2,10.3,4,171.4,13,7,5,3,2,36-45,High,No,Yes
+EMP-07679,43,Female,"HR Specialist",6879,1,2,10.5,4,164.7,21,12,4,4,2,36-45,Medium,No,Yes
+EMP-07680,40,Male,"Data Scientist",8085,3,3,22.9,4,195.1,18,14,2,3,2,36-45,Medium,No,Yes
+EMP-07683,34,Male,"HR Specialist",9036,1,2,19.2,4,185.4,8,4,5,3,2,26-35,High,No,Yes
+EMP-07696,25,Male,Manager,5745,2,1,24.3,5,199.8,2,2,0,3,2,18-25,Medium,No,No
+EMP-07713,36,Male,"Data Scientist",7290,2,2,24.7,3,134.8,12,10,5,5,2,36-45,Medium,No,Yes
+EMP-07721,29,Male,"HR Specialist",9997,2,2,5.4,5,202.1,8,8,4,1,2,26-35,High,Yes,Yes
+EMP-07724,36,Male,"Sales Executive",6781,3,2,2.7,8,207.1,11,10,3,4,2,36-45,Medium,Yes,Yes
+EMP-07740,49,Male,Manager,11993,2,2,1.8,6,193.9,14,10,6,3,2,45+,High,No,Yes
+EMP-07767,41,Female,"HR Specialist",8137,3,3,7.3,6,185.8,13,11,1,2,2,36-45,Medium,No,Yes
+EMP-07773,34,Male,"Software Engineer",5667,1,3,18.8,7,206.2,10,9,1,4,2,26-35,Medium,Yes,Yes
+EMP-07778,44,Male,Analyst,8418,1,3,8.9,8,137.2,17,15,3,5,2,36-45,Medium,No,Yes
+EMP-07787,42,Female,"HR Specialist",10838,3,4,14,6,123,16,15,4,5,2,36-45,High,No,Yes
+EMP-07789,44,Male,Analyst,10810,4,2,13.6,7,180.5,18,11,6,3,2,36-45,High,No,Yes
+EMP-07800,43,Male,"Software Engineer",10276,1,2,4.8,5,175.5,11,5,3,1,2,36-45,High,No,Yes
+EMP-07805,41,Female,"Data Scientist",11826,2,4,7.3,2,161.5,15,13,6,1,2,36-45,High,No,Yes
+EMP-07812,34,Male,Manager,9632,1,2,6,7,189.6,6,5,4,3,2,26-35,High,No,Yes
+EMP-07820,38,Female,"Data Scientist",9387,2,2,9.3,4,169,13,6,2,4,2,36-45,High,No,Yes
+EMP-07830,44,Female,"HR Specialist",9445,2,1,10,3,175.6,22,22,6,4,2,36-45,High,No,Yes
+EMP-07841,38,Male,"Software Engineer",7357,1,2,12.7,4,175,13,11,2,3,2,36-45,Medium,No,Yes
+EMP-07842,40,Female,"HR Specialist",9631,4,3,10,3,174,18,18,4,3,2,36-45,High,No,Yes
+EMP-07843,39,Male,"HR Specialist",7924,3,3,13.5,5,162.2,12,12,1,4,2,36-45,Medium,No,Yes
+EMP-07862,43,Male,"Sales Executive",9765,1,2,5.5,3,213.4,14,5,1,3,2,36-45,High,Yes,Yes
+EMP-07864,44,Female,Manager,9670,2,3,5.2,7,162.4,23,14,4,3,2,36-45,High,No,Yes
+EMP-07865,34,Female,Manager,8807,1,2,17.8,8,141.9,13,8,0,2,2,26-35,Medium,No,Yes
+EMP-07869,50,Female,Analyst,8213,1,2,6.8,5,168.5,27,13,4,2,2,45+,Medium,No,Yes
+EMP-07878,46,Male,Analyst,9612,2,2,5.8,4,231.2,17,16,6,2,2,45+,High,Yes,Yes
+EMP-07891,49,Male,Manager,10551,2,3,17.1,3,145.9,13,9,3,5,2,45+,High,No,Yes
+EMP-07912,44,Male,Analyst,9419,2,4,4.9,7,169.2,17,15,5,4,2,36-45,High,No,Yes
+EMP-07921,40,Female,"Data Scientist",11216,2,4,17.8,3,148.9,17,17,5,1,2,36-45,High,No,Yes
+EMP-07938,35,Female,"HR Specialist",7338,3,3,14.4,7,179.6,10,9,5,4,2,26-35,Medium,No,Yes
+EMP-07939,46,Female,"HR Specialist",7773,3,1,8.3,5,168.2,22,11,3,3,2,45+,Medium,No,Yes
+EMP-07945,44,Female,"HR Specialist",11227,2,4,4.6,3,155.2,21,11,0,3,2,36-45,High,No,Yes
+EMP-07950,38,Male,Analyst,8993,4,2,16.6,5,153.5,11,11,3,4,2,36-45,Medium,No,Yes
+EMP-07956,31,Male,"Data Scientist",5663,1,2,19.1,3,186.7,7,4,5,3,2,26-35,Medium,No,Yes
+EMP-07959,48,Female,"HR Specialist",11686,4,3,5.1,6,143.3,17,17,3,3,2,45+,High,No,Yes
+EMP-07966,40,Male,Manager,10197,3,2,8.1,3,207.3,12,8,6,2,2,36-45,High,Yes,Yes
+EMP-07967,36,Female,Analyst,10573,2,2,3.2,5,225.1,10,7,1,3,2,36-45,High,Yes,Yes
+EMP-07984,33,Female,"HR Specialist",8199,1,3,12.7,7,185.6,10,9,1,3,2,26-35,Medium,No,Yes
+EMP-07989,51,Female,Analyst,10619,3,3,11,7,183.8,21,18,1,3,2,45+,High,No,Yes
+EMP-08003,42,Female,Analyst,8910,3,2,7.4,2,154.1,17,13,3,1,2,36-45,Medium,No,Yes
+EMP-08014,51,Female,"Software Engineer",9767,1,2,6.8,7,202.3,24,18,1,1,2,45+,High,Yes,Yes
+EMP-08015,39,Male,"HR Specialist",6728,2,4,5.1,7,163.1,14,10,0,5,2,36-45,Medium,No,Yes
+EMP-08030,42,Male,"Data Scientist",9153,4,2,5.5,4,230.9,14,13,2,3,2,36-45,High,Yes,Yes
+EMP-08040,33,Female,"Software Engineer",8693,2,2,4,4,184.6,11,9,3,5,2,26-35,Medium,No,Yes
+EMP-08042,36,Male,"HR Specialist",9417,1,4,1,7,143.5,15,12,3,2,2,36-45,High,No,Yes
+EMP-08044,38,Male,Analyst,7778,2,4,29.7,3,130.4,15,14,1,3,2,36-45,Medium,No,Yes
+EMP-08046,47,Female,"HR Specialist",8104,2,2,18,7,180.3,26,23,5,3,2,45+,Medium,No,Yes
+EMP-08050,41,Male,Analyst,11093,2,3,4.9,6,154.2,21,19,3,3,2,36-45,High,No,Yes
+EMP-08052,37,Male,Manager,8745,3,2,6.3,2,162.8,16,16,1,4,2,36-45,Medium,No,Yes
+EMP-08057,41,Male,Manager,9116,3,4,1.7,3,166.4,14,14,6,2,2,36-45,High,No,Yes
+EMP-08059,37,Female,"HR Specialist",6277,3,2,18.9,5,185.6,17,11,1,1,2,36-45,Medium,No,Yes
+EMP-08066,31,Female,"HR Specialist",7694,2,3,32.1,6,164.2,8,6,5,2,2,26-35,Medium,No,Yes
+EMP-08082,39,Male,Analyst,10134,3,2,13.7,7,205.4,14,7,4,4,2,36-45,High,Yes,Yes
+EMP-08090,42,Male,"Sales Executive",10948,1,3,13.9,3,162.9,13,9,1,3,2,36-45,High,No,Yes
+EMP-08094,48,Female,"HR Specialist",12812,4,1,23.7,6,186.8,20,8,1,1,2,45+,High,No,Yes
+EMP-08097,33,Male,"Software Engineer",8859,2,2,9.4,3,164.9,7,6,3,2,2,26-35,Medium,No,Yes
+EMP-08099,41,Female,"Software Engineer",6641,2,3,2.8,7,188.3,17,15,1,4,2,36-45,Medium,No,Yes
+EMP-08101,42,Female,"HR Specialist",10715,4,3,12.2,4,120,19,15,0,3,2,36-45,High,No,Yes
+EMP-08102,32,Male,"Software Engineer",9540,4,1,11.3,2,202.4,8,7,4,1,2,26-35,High,Yes,Yes
+EMP-08122,49,Male,"Sales Executive",12911,2,3,14.8,5,163.6,21,10,0,5,2,45+,High,No,Yes
+EMP-08131,37,Female,"Sales Executive",10014,4,2,20.3,5,181.9,13,9,4,4,2,36-45,High,No,Yes
+EMP-08134,30,Male,"HR Specialist",6867,1,2,7.1,4,182.8,9,6,0,5,2,26-35,Medium,No,Yes
+EMP-08137,53,Female,Analyst,12120,2,3,10.8,5,218.2,18,14,2,4,2,45+,High,Yes,Yes
+EMP-08142,42,Female,Manager,8122,3,2,12.7,6,144.6,14,12,0,5,2,36-45,Medium,No,Yes
+EMP-08148,22,Male,"HR Specialist",5119,2,1,35.5,5,203.9,0,0,4,4,2,18-25,Medium,Yes,No
+EMP-08151,33,Female,"Sales Executive",5642,3,4,17.7,2,183.6,12,11,0,4,2,26-35,Medium,No,Yes
+EMP-08153,40,Male,Analyst,9801,2,1,5.7,5,155.6,16,16,6,4,2,36-45,High,No,Yes
+EMP-08166,36,Male,Analyst,9791,2,3,1.4,5,206.4,11,9,1,3,2,36-45,High,Yes,Yes
+EMP-08171,37,Male,"HR Specialist",10831,1,4,4.9,2,206.4,16,11,2,2,2,36-45,High,Yes,Yes
+EMP-08172,53,Female,"Data Scientist",11429,3,3,21.5,3,182.8,15,15,5,4,2,45+,High,No,Yes
+EMP-08178,52,Female,"Data Scientist",8508,2,1,13.2,8,145,23,21,5,3,2,45+,Medium,No,Yes
+EMP-08179,45,Male,Manager,7492,4,3,6.7,5,217.2,13,12,5,3,2,36-45,Medium,Yes,Yes
+EMP-08180,47,Female,"Software Engineer",9541,2,3,7.4,3,185.6,19,8,0,3,2,45+,High,No,Yes
+EMP-08182,34,Female,Manager,6619,4,3,13,3,197.9,13,13,1,3,2,26-35,Medium,No,Yes
+EMP-08186,35,Male,Manager,10272,1,3,6.6,7,149.9,10,10,2,4,2,26-35,High,No,Yes
+EMP-08193,38,Female,"HR Specialist",6702,3,3,39,4,194.1,11,10,3,4,2,36-45,Medium,No,Yes
+EMP-08195,51,Female,"HR Specialist",9323,4,2,3.7,6,155.7,11,11,5,3,2,45+,High,No,Yes
+EMP-08200,38,Female,"HR Specialist",10432,3,4,1.8,3,194,14,12,0,3,2,36-45,High,No,Yes
+EMP-08208,38,Male,"Software Engineer",7415,2,1,16.6,5,159.4,15,12,1,3,2,36-45,Medium,No,Yes
+EMP-08223,35,Male,"HR Specialist",6489,2,1,1.3,3,154.6,13,6,0,4,2,26-35,Medium,No,Yes
+EMP-08226,32,Male,"Data Scientist",10411,2,2,5.7,5,161.5,10,10,4,2,2,26-35,High,No,Yes
+EMP-08229,43,Female,Analyst,11936,3,1,6.9,5,161.5,23,15,2,2,2,36-45,High,No,Yes
+EMP-08244,40,Female,Manager,11186,1,2,3.1,4,216.9,11,7,5,5,2,36-45,High,Yes,Yes
+EMP-08251,45,Female,"Software Engineer",10322,2,4,13.9,6,184.1,9,9,4,5,2,36-45,High,No,Yes
+EMP-08256,56,Female,Analyst,10512,2,2,11.3,7,178.1,27,14,2,5,2,45+,High,No,Yes
+EMP-08260,42,Female,"HR Specialist",10349,4,3,13.9,4,150.9,22,21,4,4,2,36-45,High,No,Yes
+EMP-08268,30,Male,Manager,6839,2,3,15.4,7,203.1,7,7,5,2,2,26-35,Medium,Yes,Yes
+EMP-08284,44,Female,"Software Engineer",9099,2,2,2.7,2,188.7,9,8,1,2,2,36-45,High,No,Yes
+EMP-08288,36,Female,"Data Scientist",9808,3,1,10.9,6,159.1,12,8,5,4,2,36-45,High,No,Yes
+EMP-08300,43,Female,"Software Engineer",8450,3,2,9.6,8,218.8,16,12,0,2,2,36-45,Medium,Yes,Yes
+EMP-08304,52,Male,"HR Specialist",11049,4,1,18.8,3,120,15,15,2,2,2,45+,High,No,Yes
+EMP-08307,34,Male,Manager,6504,2,1,12.2,6,190.2,5,4,3,3,2,26-35,Medium,No,Yes
+EMP-08308,45,Female,"Data Scientist",10336,3,2,6.4,6,202,17,17,6,3,2,36-45,High,Yes,Yes
+EMP-08316,34,Female,Manager,8135,2,3,12,3,186.4,10,9,5,5,2,26-35,Medium,No,Yes
+EMP-08320,52,Female,"HR Specialist",10409,1,4,5.1,3,152.4,18,9,3,3,2,45+,High,No,Yes
+EMP-08324,32,Male,"HR Specialist",5927,3,2,18.1,4,204.9,11,10,1,3,2,26-35,Medium,Yes,Yes
+EMP-08326,38,Female,Manager,9066,1,3,7.6,4,162.1,11,11,2,3,2,36-45,High,No,Yes
+EMP-08338,36,Male,Manager,5814,3,2,6.2,5,171.3,14,8,4,3,2,36-45,Medium,No,Yes
+EMP-08342,41,Female,"Data Scientist",9604,2,2,12.9,5,204.4,6,5,6,4,2,36-45,High,Yes,Yes
+EMP-08344,40,Female,"HR Specialist",7216,2,2,7.9,3,151.3,13,9,3,3,2,36-45,Medium,No,Yes
+EMP-08372,44,Male,"Software Engineer",8058,3,4,4.7,3,164.1,16,16,4,3,2,36-45,Medium,No,Yes
+EMP-08375,47,Male,"Sales Executive",12032,4,3,9.1,3,172.3,15,12,5,3,2,45+,High,No,Yes
+EMP-08397,46,Female,Analyst,9268,3,4,1,6,182.3,11,11,6,3,2,45+,High,No,Yes
+EMP-08403,50,Female,"Data Scientist",9571,4,2,10.9,6,189,28,28,6,3,2,45+,High,No,Yes
+EMP-08413,51,Male,"HR Specialist",10637,4,2,9.9,6,209.1,10,10,3,5,2,45+,High,Yes,Yes
+EMP-08429,41,Female,Manager,9125,2,4,11.2,3,135,19,12,5,3,2,36-45,High,No,Yes
+EMP-08430,43,Female,"Sales Executive",9386,3,4,5.9,5,145.6,22,14,0,3,2,36-45,High,No,Yes
+EMP-08443,39,Male,"Software Engineer",6511,3,3,10.6,5,173.6,17,11,6,1,2,36-45,Medium,No,Yes
+EMP-08447,43,Male,"Data Scientist",10532,3,1,12,5,154.1,17,11,1,3,2,36-45,High,No,Yes
+EMP-08448,40,Female,"Software Engineer",11296,4,3,18.5,5,145.7,19,15,4,3,2,36-45,High,No,Yes
+EMP-08452,34,Male,Analyst,10262,3,3,4.9,6,197.3,12,11,5,3,2,26-35,High,No,Yes
+EMP-08475,41,Female,"Sales Executive",9551,2,4,1.5,8,161.3,21,14,3,4,2,36-45,High,No,Yes
+EMP-08479,38,Female,"HR Specialist",8109,2,2,4.1,8,185.4,11,8,4,1,2,36-45,Medium,No,Yes
+EMP-08488,50,Female,Analyst,13113,4,3,2.3,5,158.3,29,26,2,4,2,45+,High,No,Yes
+EMP-08492,48,Male,"Software Engineer",12269,2,2,18.9,3,226.8,4,4,6,4,2,45+,High,Yes,Yes
+EMP-08516,42,Male,Manager,7357,1,4,3.2,6,193.5,19,12,1,3,2,36-45,Medium,No,Yes
+EMP-08532,32,Male,"Sales Executive",9023,1,2,6.8,4,188.6,7,6,0,2,2,26-35,High,No,Yes
+EMP-08537,34,Female,"Sales Executive",9831,4,1,1.7,5,211.4,10,9,4,3,2,26-35,High,Yes,Yes
+EMP-08541,37,Female,"Software Engineer",8061,2,3,9.4,5,209.8,14,10,6,3,2,36-45,Medium,Yes,Yes
+EMP-08548,41,Female,"Software Engineer",8547,3,3,1.5,7,201.9,15,9,2,5,2,36-45,Medium,Yes,Yes
+EMP-08556,40,Female,Analyst,8424,2,3,21.2,7,141.3,8,8,3,1,2,36-45,Medium,No,Yes
+EMP-08558,46,Male,Manager,9080,3,3,8.2,5,190.8,11,10,3,2,2,45+,High,No,Yes
+EMP-08573,42,Female,"HR Specialist",10436,2,2,15.6,4,170.7,14,7,3,4,2,36-45,High,No,Yes
+EMP-08574,39,Male,Manager,10168,1,4,6,6,131.7,12,9,3,3,2,36-45,High,No,Yes
+EMP-08576,40,Female,Analyst,9221,1,1,7.6,7,142.8,10,6,0,2,2,36-45,High,No,Yes
+EMP-08579,37,Female,"Data Scientist",9285,4,1,9.1,5,169.4,10,9,3,3,2,36-45,High,No,Yes
+EMP-08586,30,Female,"Data Scientist",5566,2,3,5.1,8,218.6,9,8,1,3,2,26-35,Medium,Yes,Yes
+EMP-08589,34,Male,"Data Scientist",7052,2,4,19,6,186,11,9,2,3,2,26-35,Medium,No,Yes
+EMP-08596,27,Female,"Sales Executive",6531,1,2,10.4,6,162.8,5,5,3,5,2,26-35,Medium,No,Yes
+EMP-08598,48,Male,"Sales Executive",8480,3,4,22.5,7,176.2,28,24,3,3,2,45+,Medium,No,Yes
+EMP-08599,45,Male,"Software Engineer",10337,3,1,25.1,8,191.2,13,8,6,2,2,36-45,High,No,Yes
+EMP-08616,33,Female,"HR Specialist",6172,1,3,3.9,3,157.2,11,7,5,3,2,26-35,Medium,No,Yes
+EMP-08622,52,Female,"Sales Executive",12682,2,3,4.4,2,161.8,21,16,3,2,2,45+,High,No,Yes
+EMP-08633,42,Female,Manager,10000,3,3,7.7,5,155.2,21,10,2,3,2,36-45,High,No,Yes
+EMP-08635,37,Male,"Software Engineer",7877,2,3,4.7,3,177.8,10,9,1,3,2,36-45,Medium,No,Yes
+EMP-08638,42,Male,"Sales Executive",9703,3,3,8.2,2,179.5,14,13,6,2,2,36-45,High,No,Yes
+EMP-08645,41,Male,Manager,7949,4,2,1.9,6,161,19,12,3,3,2,36-45,Medium,No,Yes
+EMP-08653,36,Male,"Sales Executive",9351,1,2,10.4,2,184.4,9,5,0,3,2,36-45,High,No,Yes
+EMP-08661,44,Female,Analyst,8562,1,2,9.7,4,167.4,5,4,6,5,2,36-45,Medium,No,Yes
+EMP-08668,53,Male,"Software Engineer",9700,3,4,11.1,2,168.5,24,23,3,1,2,45+,High,No,Yes
+EMP-08675,39,Male,"Software Engineer",9653,2,2,1.6,7,157.9,13,7,4,3,2,36-45,High,No,Yes
+EMP-08678,28,Female,Analyst,5874,1,2,23.3,4,190.4,4,1,6,2,2,26-35,Medium,No,No
+EMP-08682,46,Female,Analyst,10713,1,2,5.4,7,158.8,12,9,4,3,2,45+,High,No,Yes
+EMP-08689,35,Female,"Software Engineer",8423,4,1,5.2,3,219.1,11,9,6,3,2,26-35,Medium,Yes,Yes
+EMP-08690,44,Female,Manager,10922,3,3,3.1,7,185.2,18,13,3,3,2,36-45,High,No,Yes
+EMP-08694,41,Female,Manager,9898,2,2,14.7,5,151.6,19,7,5,3,2,36-45,High,No,Yes
+EMP-08696,29,Male,"HR Specialist",8194,1,2,1,4,223.6,8,3,2,3,2,26-35,Medium,Yes,Yes
+EMP-08699,27,Female,"HR Specialist",9569,2,2,19.7,7,169.2,5,5,5,3,2,26-35,High,No,Yes
+EMP-08701,36,Male,"Sales Executive",6698,2,3,5,2,147.3,10,9,4,3,2,36-45,Medium,No,Yes
+EMP-08707,42,Male,Analyst,7661,2,2,7.5,5,169.2,15,15,4,5,2,36-45,Medium,No,Yes
+EMP-08714,45,Male,Manager,10632,3,2,5.3,6,195.7,21,14,2,2,2,36-45,High,No,Yes
+EMP-08720,42,Female,"Data Scientist",11281,2,2,11.4,8,171.6,14,14,2,3,2,36-45,High,No,Yes
+EMP-08723,39,Female,Manager,7967,4,3,25.9,6,186.1,13,13,4,3,2,36-45,Medium,No,Yes
+EMP-08724,51,Male,"Data Scientist",8266,1,1,17.7,7,179,6,5,5,3,2,45+,Medium,No,Yes
+EMP-08738,33,Female,"Data Scientist",8167,2,2,2,5,172.4,10,10,6,2,2,26-35,Medium,No,Yes
+EMP-08759,42,Male,"Data Scientist",7162,2,2,3.3,5,191.3,12,10,5,1,2,36-45,Medium,No,Yes
+EMP-08765,41,Female,"Software Engineer",11000,4,1,25.1,5,196.7,9,7,2,3,2,36-45,High,No,Yes
+EMP-08767,44,Male,Analyst,11773,3,2,7.4,7,172.6,21,17,3,3,2,36-45,High,No,Yes
+EMP-08789,46,Male,Manager,9445,1,2,2,3,172.8,14,6,1,2,2,45+,High,No,Yes
+EMP-08790,44,Female,Manager,11082,3,3,10.8,3,159.9,12,12,6,1,2,36-45,High,No,Yes
+EMP-08793,33,Male,"HR Specialist",8119,2,2,7.8,7,144,13,9,3,1,2,26-35,Medium,No,Yes
+EMP-08795,41,Female,Analyst,10208,2,2,11,8,194.3,14,7,0,3,2,36-45,High,No,Yes
+EMP-08799,47,Female,"Software Engineer",11202,4,3,18.6,7,218,20,10,5,3,2,45+,High,Yes,Yes
+EMP-08802,38,Male,Manager,6339,4,3,30.1,5,186.4,17,17,3,3,2,36-45,Medium,No,Yes
+EMP-08806,42,Female,"Sales Executive",8849,3,2,7.5,8,170.9,16,12,3,1,2,36-45,Medium,No,Yes
+EMP-08826,44,Male,"Data Scientist",7917,3,3,15.6,5,155.1,16,14,0,2,2,36-45,Medium,No,Yes
+EMP-08828,41,Male,"HR Specialist",9091,1,2,6.9,3,155.1,13,13,1,3,2,36-45,High,No,Yes
+EMP-08844,44,Male,"Sales Executive",8082,1,2,4.7,8,184,16,7,6,3,2,36-45,Medium,No,Yes
+EMP-08846,42,Male,Analyst,9934,2,2,17.2,5,187.6,9,7,5,4,2,36-45,High,No,Yes
+EMP-08847,35,Female,"Software Engineer",9309,1,2,18.3,2,223.7,9,6,3,3,2,26-35,High,Yes,Yes
+EMP-08850,27,Female,"Sales Executive",7008,3,1,6,7,188.1,5,5,5,2,2,26-35,Medium,No,Yes
+EMP-08863,31,Female,"Data Scientist",5579,3,1,25.9,4,192,8,8,5,3,2,26-35,Medium,No,Yes
+EMP-08864,47,Male,"Sales Executive",8796,3,3,20.9,5,163.7,25,15,0,2,2,45+,Medium,No,Yes
+EMP-08870,31,Female,"Software Engineer",8698,1,3,5,5,219.1,6,5,6,5,2,26-35,Medium,Yes,Yes
+EMP-08878,40,Male,Manager,10063,3,3,3,2,191,19,13,0,3,2,36-45,High,No,Yes
+EMP-08887,39,Female,Analyst,9686,3,4,8.7,7,196.8,15,10,6,4,2,36-45,High,No,Yes
+EMP-08891,39,Male,"Data Scientist",8586,1,3,10.1,3,196.4,14,11,2,2,2,36-45,Medium,No,Yes
+EMP-08894,40,Male,"Data Scientist",11123,1,4,13.9,8,186.1,18,10,1,3,2,36-45,High,No,Yes
+EMP-08902,46,Male,"HR Specialist",8935,4,4,12.6,2,122.4,21,20,6,4,2,45+,Medium,No,Yes
+EMP-08908,45,Male,"Software Engineer",7997,3,4,14.6,2,182.7,23,11,3,3,2,36-45,Medium,No,Yes
+EMP-08932,39,Female,"Software Engineer",8514,2,2,10.7,8,175.3,18,11,2,4,2,36-45,Medium,No,Yes
+EMP-08944,32,Female,"Data Scientist",5708,3,2,7.3,3,188.5,8,8,5,3,2,26-35,Medium,No,Yes
+EMP-08953,38,Female,"HR Specialist",7369,2,2,8.6,8,153.1,17,13,3,3,2,36-45,Medium,No,Yes
+EMP-08959,50,Male,"Sales Executive",10181,4,2,8.9,6,175,14,12,4,2,2,45+,High,No,Yes
+EMP-08962,47,Female,Manager,7552,3,2,4.5,8,154.6,25,13,2,3,2,45+,Medium,No,Yes
+EMP-08972,30,Male,Manager,10183,3,2,12.8,7,190.5,7,7,1,2,2,26-35,High,No,Yes
+EMP-08981,32,Male,Manager,6244,3,2,18,8,198.9,6,6,5,3,2,26-35,Medium,No,Yes
+EMP-08982,49,Male,"Data Scientist",9665,3,3,6.6,4,168,16,11,3,3,2,45+,High,No,Yes
+EMP-08984,48,Female,Manager,11322,2,4,2.4,4,207.3,17,9,6,4,2,45+,High,Yes,Yes
+EMP-08986,41,Male,"HR Specialist",7411,4,3,14.3,4,132.9,18,17,4,2,2,36-45,Medium,No,Yes
+EMP-08990,30,Female,"Software Engineer",5733,4,1,22.2,8,173.2,8,6,1,1,2,26-35,Medium,No,Yes
+EMP-08991,35,Male,"Software Engineer",6392,3,1,5.1,8,193.1,10,5,5,3,2,26-35,Medium,No,Yes
+EMP-08992,40,Male,"HR Specialist",9106,1,3,3.1,6,130.1,17,13,4,3,2,36-45,High,No,Yes
+EMP-08998,45,Male,Manager,11336,2,1,6.9,8,148.7,9,9,0,4,2,36-45,High,No,Yes
+EMP-09023,37,Male,"HR Specialist",9822,2,3,2.4,3,173.6,15,9,5,3,2,36-45,High,No,Yes
+EMP-09027,29,Male,"Data Scientist",9226,2,1,8.7,6,203.2,8,8,4,4,2,26-35,High,Yes,Yes
+EMP-09028,39,Female,Manager,8541,3,3,18.9,6,137.8,17,17,6,3,2,36-45,Medium,No,Yes
+EMP-09035,37,Male,"Data Scientist",6466,1,2,2.4,7,153.2,5,5,2,3,2,36-45,Medium,No,Yes
+EMP-09049,36,Male,"Software Engineer",8313,3,2,5.5,8,205.6,11,11,2,1,2,36-45,Medium,Yes,Yes
+EMP-09053,39,Male,"Data Scientist",5837,2,4,13.2,6,150.9,15,13,3,4,2,36-45,Medium,No,Yes
+EMP-09062,48,Male,Analyst,10084,3,2,9.9,8,176,19,17,0,4,2,45+,High,No,Yes
+EMP-09064,33,Male,"Sales Executive",8423,3,2,4.8,3,186,8,8,5,2,2,26-35,Medium,No,Yes
+EMP-09077,45,Male,"Data Scientist",8550,3,3,7.2,8,176.1,15,14,6,1,2,36-45,Medium,No,Yes
+EMP-09086,40,Male,"HR Specialist",10038,3,2,3.1,7,154.8,15,13,6,3,2,36-45,High,No,Yes
+EMP-09087,45,Female,Analyst,11221,2,1,27.5,3,162.2,18,13,4,3,2,36-45,High,No,Yes
+EMP-09092,31,Female,"Software Engineer",10163,2,3,5.6,2,200.5,9,8,2,3,2,26-35,High,Yes,Yes
+EMP-09094,41,Male,"Software Engineer",6057,1,3,13.1,5,171.2,14,8,6,3,2,36-45,Medium,No,Yes
+EMP-09098,41,Female,"Sales Executive",10420,3,2,14.5,8,153.6,17,17,1,4,2,36-45,High,No,Yes
+EMP-09108,36,Male,Analyst,9494,2,2,16.4,8,160,6,6,5,3,2,36-45,High,No,Yes
+EMP-09111,44,Male,Analyst,8196,4,1,9.7,8,136.4,17,12,3,2,2,36-45,Medium,No,Yes
+EMP-09118,54,Female,"HR Specialist",11978,3,3,14.5,5,165.1,17,12,3,3,2,45+,High,No,Yes
+EMP-09121,39,Female,"Software Engineer",8866,3,2,1.8,2,182.1,13,13,6,2,2,36-45,Medium,No,Yes
+EMP-09122,59,Male,Manager,9904,1,3,4.9,7,193,31,13,5,2,2,45+,High,No,Yes
+EMP-09131,42,Male,Manager,10521,4,4,1.6,3,201.2,19,16,3,4,2,36-45,High,Yes,Yes
+EMP-09140,33,Male,"HR Specialist",8801,4,2,18,5,185.3,11,10,5,2,2,26-35,Medium,No,Yes
+EMP-09152,46,Female,"Sales Executive",8795,2,4,14.1,2,153.9,12,11,6,3,2,45+,Medium,No,Yes
+EMP-09153,42,Male,"Sales Executive",10936,1,3,27.2,7,222.3,22,17,3,2,2,36-45,High,Yes,Yes
+EMP-09162,49,Male,Manager,12535,3,3,9.1,3,134.3,22,15,6,3,2,45+,High,No,Yes
+EMP-09165,52,Male,"HR Specialist",10019,2,3,2.8,5,133.4,19,12,5,3,2,45+,High,No,Yes
+EMP-09171,60,Male,"Data Scientist",11030,3,4,28.8,6,126,26,24,0,4,2,45+,High,No,Yes
+EMP-09175,45,Female,Analyst,12018,3,2,8.4,7,160.8,9,9,6,1,2,36-45,High,No,Yes
+EMP-09179,40,Male,Analyst,8339,1,1,8.4,8,151.8,15,14,5,3,2,36-45,Medium,No,Yes
+EMP-09187,32,Female,"Data Scientist",6917,2,4,4.7,6,193,12,8,2,3,2,26-35,Medium,No,Yes
+EMP-09198,42,Female,"Data Scientist",10999,3,1,21,4,174.4,16,10,2,3,2,36-45,High,No,Yes
+EMP-09207,30,Male,"Sales Executive",6926,2,2,5.2,3,150,9,6,3,5,2,26-35,Medium,No,Yes
+EMP-09210,45,Female,"Sales Executive",10719,3,2,14.1,4,164.2,22,20,0,4,2,36-45,High,No,Yes
+EMP-09220,40,Female,Analyst,11972,3,2,7.6,6,180.4,14,10,1,2,2,36-45,High,No,Yes
+EMP-09222,46,Female,"Data Scientist",9708,2,4,6.3,2,168.3,24,23,0,5,2,45+,High,No,Yes
+EMP-09225,33,Male,Analyst,6278,4,2,9.5,7,189.6,10,9,5,4,2,26-35,Medium,No,Yes
+EMP-09227,49,Female,Analyst,11406,3,3,2.3,2,155.4,28,12,6,3,2,45+,High,No,Yes
+EMP-09238,44,Male,"Sales Executive",10378,4,1,4.7,6,165.6,16,10,1,1,2,36-45,High,No,Yes
+EMP-09257,37,Female,"Software Engineer",10641,1,3,11.5,2,125,16,13,3,4,2,36-45,High,No,Yes
+EMP-09267,48,Female,"HR Specialist",12199,3,3,25.1,6,154.9,26,14,5,5,2,45+,High,No,Yes
+EMP-09272,33,Female,"Data Scientist",10058,2,2,8.4,2,181.7,10,9,0,2,2,26-35,High,No,Yes
+EMP-09275,45,Female,"Software Engineer",9081,2,2,12.4,4,195.2,15,11,2,3,2,36-45,High,No,Yes
+EMP-09297,44,Male,"HR Specialist",7705,1,1,25.1,6,163.2,7,4,4,3,2,36-45,Medium,No,Yes
+EMP-09317,32,Male,Manager,10917,3,2,16.9,6,153.6,11,10,1,3,2,26-35,High,No,Yes
+EMP-09334,43,Male,Analyst,7790,3,3,8.5,5,143.9,22,20,1,3,2,36-45,Medium,No,Yes
+EMP-09345,37,Female,"Sales Executive",7314,4,2,8.3,7,172.5,15,13,1,3,2,36-45,Medium,No,Yes
+EMP-09346,45,Female,Analyst,9913,4,3,4,3,191.3,13,12,6,2,2,36-45,High,No,Yes
+EMP-09356,44,Female,Manager,9959,4,2,13.8,4,133.5,22,15,5,4,2,36-45,High,No,Yes
+EMP-09366,40,Female,"Sales Executive",9816,2,3,11.2,8,194.9,18,16,2,4,2,36-45,High,No,Yes
+EMP-09368,40,Female,"HR Specialist",10654,2,4,9.2,2,209.5,11,10,3,2,2,36-45,High,Yes,Yes
+EMP-09370,54,Female,"HR Specialist",12050,3,4,8.2,3,162.9,29,27,1,2,2,45+,High,No,Yes
+EMP-09379,47,Male,"Sales Executive",10604,3,3,15.7,4,199.7,11,11,3,4,2,45+,High,No,Yes
+EMP-09386,32,Female,Analyst,7271,2,4,28.8,6,167.4,8,8,5,4,2,26-35,Medium,No,Yes
+EMP-09390,42,Male,Manager,11042,4,3,9.5,3,195,15,13,4,3,2,36-45,High,No,Yes
+EMP-09393,39,Female,"Software Engineer",10761,1,2,11.1,6,163.3,18,15,3,3,2,36-45,High,No,Yes
+EMP-09394,38,Female,"Data Scientist",9029,1,1,18.6,8,188.4,6,1,6,3,2,36-45,High,No,No
+EMP-09398,49,Male,Analyst,10840,3,2,14.7,6,173.2,26,17,6,5,2,45+,High,No,Yes
+EMP-09402,45,Female,Analyst,8980,1,4,32.2,8,203.2,13,6,3,4,2,36-45,Medium,Yes,Yes
+EMP-09426,43,Male,"HR Specialist",7605,4,2,7.5,8,181.2,20,10,2,3,2,36-45,Medium,No,Yes
+EMP-09432,33,Female,"Data Scientist",6097,3,1,4.4,4,204.1,11,10,0,3,2,26-35,Medium,Yes,Yes
+EMP-09442,33,Female,"Data Scientist",8633,1,3,13,3,218.3,9,9,4,4,2,26-35,Medium,Yes,Yes
+EMP-09447,57,Male,"HR Specialist",12897,3,2,4.5,3,126.3,33,30,1,2,2,45+,High,No,Yes
+EMP-09454,31,Female,"HR Specialist",5643,3,1,3.7,2,211.4,4,4,5,1,2,26-35,Medium,Yes,Yes
+EMP-09455,36,Male,Manager,7448,4,3,21.5,2,183.6,15,14,0,3,2,36-45,Medium,No,Yes
+EMP-09461,33,Male,"Sales Executive",5938,1,2,11.8,7,191.6,13,9,1,3,2,26-35,Medium,No,Yes
+EMP-09473,40,Male,Analyst,9993,3,4,4.1,2,173.8,13,13,0,1,2,36-45,High,No,Yes
+EMP-09474,41,Male,Analyst,11382,2,3,5,8,138.1,16,11,0,3,2,36-45,High,No,Yes
+EMP-09475,35,Male,"Data Scientist",7276,2,3,3.5,4,212,7,6,4,4,2,26-35,Medium,Yes,Yes
+EMP-09483,32,Female,Analyst,4957,3,4,19.4,8,202.5,11,8,4,4,2,26-35,Low,Yes,Yes
+EMP-09487,49,Male,"HR Specialist",10274,3,3,2.9,2,187,15,13,5,4,2,45+,High,No,Yes
+EMP-09497,50,Male,Analyst,9702,4,2,3.1,7,138.2,23,13,3,3,2,45+,High,No,Yes
+EMP-09502,45,Male,"Sales Executive",11008,3,3,8.1,6,165.5,23,10,0,3,2,36-45,High,No,Yes
+EMP-09506,40,Male,"HR Specialist",7280,3,2,11.9,3,122.2,11,11,1,2,2,36-45,Medium,No,Yes
+EMP-09512,55,Male,"HR Specialist",12058,4,3,9.2,7,169.6,27,20,1,3,2,45+,High,No,Yes
+EMP-09515,36,Male,"Software Engineer",6380,3,2,6.4,8,165.8,14,12,3,4,2,36-45,Medium,No,Yes
+EMP-09519,40,Female,Manager,8541,3,4,7.6,5,141.5,16,13,1,4,2,36-45,Medium,No,Yes
+EMP-09535,42,Male,Manager,10054,3,4,11.9,2,167.1,18,16,6,5,2,36-45,High,No,Yes
+EMP-09536,40,Female,"Software Engineer",8875,2,3,7.2,8,158.9,13,9,3,2,2,36-45,Medium,No,Yes
+EMP-09563,36,Male,Manager,9261,2,3,8.2,6,163.7,14,9,1,3,2,36-45,High,No,Yes
+EMP-09572,28,Female,Analyst,4314,1,1,15.7,7,120,8,4,6,3,2,26-35,Low,No,Yes
+EMP-09573,37,Female,Analyst,9063,2,2,7.8,7,168.7,14,6,3,3,2,36-45,High,No,Yes
+EMP-09580,34,Male,Analyst,5711,4,3,18.3,8,155.4,10,10,0,2,2,26-35,Medium,No,Yes
+EMP-09581,36,Female,"Sales Executive",10186,3,2,17.8,6,138.9,11,9,1,2,2,36-45,High,No,Yes
+EMP-09583,40,Female,Analyst,10207,3,4,11.8,4,142.8,19,12,6,3,2,36-45,High,No,Yes
+EMP-09585,38,Male,Analyst,10047,4,2,15,6,175.3,14,14,3,4,2,36-45,High,No,Yes
+EMP-09597,45,Female,"Data Scientist",10782,2,3,11.8,5,170.7,14,13,4,2,2,36-45,High,No,Yes
+EMP-09599,42,Male,Manager,9818,3,1,9.7,4,166,11,10,4,3,2,36-45,High,No,Yes
+EMP-09612,37,Male,"Software Engineer",8472,3,2,31.7,3,184.2,11,10,5,2,2,36-45,Medium,No,Yes
+EMP-09615,35,Female,"Data Scientist",6583,3,2,6.8,3,154.6,12,12,3,3,2,26-35,Medium,No,Yes
+EMP-09626,49,Female,"Data Scientist",9612,3,3,13.2,7,155.4,25,12,0,3,2,45+,High,No,Yes
+EMP-09630,34,Male,Manager,7845,4,1,10.3,8,232.4,8,8,1,5,2,26-35,Medium,Yes,Yes
+EMP-09655,26,Male,"Data Scientist",5445,1,2,9.6,5,191,3,2,2,3,2,26-35,Medium,No,No
+EMP-09657,40,Female,"HR Specialist",7697,1,2,7.6,6,182.9,13,6,5,3,2,36-45,Medium,No,Yes
+EMP-09658,42,Female,"Software Engineer",6094,2,3,2.7,3,169.7,19,19,5,1,2,36-45,Medium,No,Yes
+EMP-09665,39,Male,"HR Specialist",9436,2,2,8.9,5,184,18,8,0,3,2,36-45,High,No,Yes
+EMP-09693,40,Male,"Software Engineer",6268,4,3,16.5,8,179.8,16,10,1,1,2,36-45,Medium,No,Yes
+EMP-09696,44,Male,"Data Scientist",9989,1,3,9.4,4,180.9,10,6,0,3,2,36-45,High,No,Yes
+EMP-09706,32,Male,"Sales Executive",5813,2,1,19.7,3,193.5,3,3,5,3,2,26-35,Medium,No,Yes
+EMP-09728,45,Male,Analyst,11388,2,2,17.6,2,154.8,18,7,4,3,2,36-45,High,No,Yes
+EMP-09741,41,Female,"Data Scientist",10359,2,3,18.1,4,168.1,19,19,1,1,2,36-45,High,No,Yes
+EMP-09750,42,Male,"HR Specialist",8816,3,3,11.8,2,207.2,13,10,1,5,2,36-45,Medium,Yes,Yes
+EMP-09751,35,Female,Analyst,11600,1,2,9,4,189.2,7,4,1,3,2,26-35,High,No,Yes
+EMP-09754,34,Female,Manager,5638,3,2,24.7,5,207,10,5,5,3,2,26-35,Medium,Yes,Yes
+EMP-09775,35,Male,Manager,8795,3,1,16.2,5,198.4,10,10,3,1,2,26-35,Medium,No,Yes
+EMP-09776,44,Female,"Sales Executive",7911,2,4,2.5,5,140.5,12,12,6,3,2,36-45,Medium,No,Yes
+EMP-09781,35,Male,Manager,6609,2,3,5.2,3,194.6,15,11,5,3,2,26-35,Medium,No,Yes
+EMP-09788,37,Male,"Data Scientist",10068,4,2,26.6,7,198.3,10,9,4,4,2,36-45,High,No,Yes
+EMP-09798,36,Female,Analyst,6225,1,3,8.7,7,182.6,11,6,3,2,2,36-45,Medium,No,Yes
+EMP-09800,40,Female,Analyst,11077,2,2,2.3,2,185.6,19,10,2,3,2,36-45,High,No,Yes
+EMP-09809,45,Female,"Data Scientist",7742,1,2,9.7,8,194,10,4,2,1,2,36-45,Medium,No,Yes
+EMP-09828,35,Male,"Software Engineer",9504,2,2,6.2,4,120,10,8,6,2,2,26-35,High,No,Yes
+EMP-09839,37,Male,Analyst,8834,3,4,5.3,5,191.6,11,10,4,3,2,36-45,Medium,No,Yes
+EMP-09841,37,Male,Manager,8682,1,2,10.8,6,224,16,5,4,3,2,36-45,Medium,Yes,Yes
+EMP-09848,46,Female,"HR Specialist",8909,2,3,2.3,7,161.2,18,14,2,1,2,45+,Medium,No,Yes
+EMP-09870,45,Female,Analyst,8105,2,1,14.5,2,178.9,23,7,1,3,2,36-45,Medium,No,Yes
+EMP-09876,37,Male,Analyst,8383,3,1,18.9,2,197.1,10,6,1,2,2,36-45,Medium,No,Yes
+EMP-09884,58,Female,Analyst,13430,4,3,4.9,8,205.1,16,15,0,4,2,45+,High,Yes,Yes
+EMP-09891,32,Female,Analyst,6556,2,2,4.6,4,179.9,5,5,1,4,2,26-35,Medium,No,Yes
+EMP-09898,40,Male,"Data Scientist",9320,1,2,16.9,7,145.7,13,12,2,4,2,36-45,High,No,Yes
+EMP-09900,44,Female,"Software Engineer",7841,3,1,8.5,6,177.8,14,9,6,4,2,36-45,Medium,No,Yes
+EMP-09916,40,Male,Analyst,7560,1,1,3.9,6,160.5,8,3,3,4,2,36-45,Medium,No,Yes
+EMP-09917,28,Female,"HR Specialist",4851,4,2,9.3,4,212,7,7,1,4,2,26-35,Low,Yes,Yes
+EMP-09921,41,Male,Manager,9413,4,2,6,7,190.8,18,9,6,3,2,36-45,High,No,Yes
+EMP-09922,45,Male,"Software Engineer",10455,4,2,5.4,8,181.7,15,14,1,4,2,36-45,High,No,Yes
+EMP-09923,27,Male,"Software Engineer",9620,3,2,11.1,3,183.2,7,7,6,4,2,26-35,High,No,Yes
+EMP-09928,38,Male,"Data Scientist",7353,1,2,8.8,8,149,13,9,4,2,2,36-45,Medium,No,Yes
+EMP-09936,46,Female,"Data Scientist",11745,4,3,16.5,3,202.2,12,12,5,1,2,45+,High,Yes,Yes
+EMP-09947,45,Male,Manager,8667,4,3,1,3,180.6,18,13,3,1,2,36-45,Medium,No,Yes
+EMP-09949,36,Male,"HR Specialist",9178,2,3,3.9,6,159.3,13,8,5,3,2,36-45,High,No,Yes
+EMP-09950,35,Female,"Data Scientist",10456,2,2,9.7,7,189.1,15,10,3,4,2,26-35,High,No,Yes
+EMP-09957,40,Female,"Sales Executive",7500,1,2,13,7,144.9,18,8,2,4,2,36-45,Medium,No,Yes
+EMP-09966,36,Female,Manager,7671,2,2,5,2,180.6,10,10,2,2,2,36-45,Medium,No,Yes
+EMP-09973,46,Female,"Data Scientist",8298,3,4,8.4,4,147.6,26,22,3,3,2,45+,Medium,No,Yes
+EMP-09977,46,Male,"Sales Executive",9743,3,4,6.9,4,170.5,19,11,1,1,2,45+,High,No,Yes
+EMP-09979,39,Male,"Sales Executive",7478,1,3,6.7,3,127.2,17,10,4,3,2,36-45,Medium,No,Yes
+EMP-09994,30,Female,Manager,7741,1,2,8.9,8,202.6,10,6,5,4,2,26-35,Medium,Yes,Yes
+EMP-10012,30,Female,"HR Specialist",9549,2,3,5.1,7,239.3,7,7,4,4,2,26-35,High,Yes,Yes
+EMP-10020,35,Male,"Software Engineer",6709,2,2,1.7,3,176.8,9,7,6,2,2,26-35,Medium,No,Yes
+EMP-10021,47,Female,"Software Engineer",9938,3,2,20.2,2,165.7,19,9,0,5,2,45+,High,No,Yes
+EMP-10024,42,Female,"Data Scientist",8433,2,3,5,3,157.8,13,13,0,3,2,36-45,Medium,No,Yes
+EMP-10033,44,Male,Manager,7677,1,3,11.8,7,147.5,21,10,5,2,2,36-45,Medium,No,Yes
+EMP-10036,43,Male,"Software Engineer",9896,2,2,8.5,8,187.2,10,9,0,2,2,36-45,High,No,Yes
+EMP-10051,31,Male,Analyst,7503,2,2,22.4,4,189,4,4,1,3,2,26-35,Medium,No,Yes
+EMP-10072,54,Male,"Data Scientist",11275,2,4,1.3,5,192.5,28,18,5,2,2,45+,High,No,Yes
+EMP-10079,50,Female,Analyst,7926,4,2,4.6,2,162.7,17,10,5,4,2,45+,Medium,No,Yes
+EMP-10084,36,Male,"Sales Executive",5950,4,2,7.4,4,160.8,14,12,0,4,2,36-45,Medium,No,Yes
+EMP-10092,44,Female,"HR Specialist",8099,3,2,8,7,172.3,24,20,3,3,2,36-45,Medium,No,Yes
+EMP-10096,34,Female,Manager,7601,4,4,12.6,3,191.1,11,11,2,2,2,26-35,Medium,No,Yes
+EMP-10119,48,Female,"Sales Executive",11896,1,2,6.8,4,180.9,25,24,6,4,2,45+,High,No,Yes
+EMP-10120,34,Female,Manager,6209,3,2,13.9,8,190.4,9,8,5,5,2,26-35,Medium,No,Yes
+EMP-10122,36,Male,Manager,6450,3,1,13.9,5,120,14,13,0,4,2,36-45,Medium,No,Yes
+EMP-10123,53,Female,Manager,11555,2,1,7,4,126.3,27,19,6,5,2,45+,High,No,Yes
+EMP-10135,41,Female,"Data Scientist",8950,1,1,6.1,2,130.3,16,6,2,1,2,36-45,Medium,No,Yes
+EMP-10138,44,Female,"Software Engineer",11072,2,3,39.2,2,192.7,16,9,1,3,2,36-45,High,No,Yes
+EMP-10146,36,Female,Analyst,10441,4,1,4.1,2,199.5,14,11,3,3,2,36-45,High,No,Yes
+EMP-10163,42,Male,Analyst,7152,3,3,2.1,3,120,18,16,2,3,2,36-45,Medium,No,Yes
+EMP-10164,47,Male,"Software Engineer",11201,4,2,4.5,6,208.4,14,10,2,4,2,45+,High,Yes,Yes
+EMP-10171,52,Female,"Data Scientist",10148,4,3,4.6,3,195.6,24,11,0,2,2,45+,High,No,Yes
+EMP-10178,37,Female,Analyst,6819,1,1,12.1,8,212.5,14,4,3,3,2,36-45,Medium,Yes,Yes
+EMP-10204,47,Female,Manager,10556,3,2,4.6,2,198.3,26,19,2,2,2,45+,High,No,Yes
+EMP-10220,42,Male,"Software Engineer",8303,3,3,12.1,6,188.8,13,11,2,2,2,36-45,Medium,No,Yes
+EMP-10228,45,Male,"HR Specialist",7958,3,3,7.3,8,191,21,19,2,3,2,36-45,Medium,No,Yes
+EMP-10235,37,Male,"Data Scientist",6921,2,3,6.9,3,204.3,15,8,0,2,2,36-45,Medium,Yes,Yes
+EMP-10236,45,Male,Manager,8145,2,3,6.9,7,166.6,18,13,3,1,2,36-45,Medium,No,Yes
+EMP-10268,38,Female,"Data Scientist",11142,3,3,10.7,3,159.8,15,10,1,3,2,36-45,High,No,Yes
+EMP-10275,50,Male,"Data Scientist",12694,3,1,9.4,4,165.6,27,19,3,2,2,45+,High,No,Yes
+EMP-10276,55,Male,"Data Scientist",13152,3,2,7.5,4,162.1,24,11,6,2,2,45+,High,No,Yes
+EMP-10277,39,Male,"Sales Executive",7379,1,2,6.4,2,143.1,16,7,0,5,2,36-45,Medium,No,Yes
+EMP-10279,37,Female,"Data Scientist",7427,1,1,7.7,7,176.2,16,13,5,2,2,36-45,Medium,No,Yes
+EMP-10286,50,Female,Analyst,8735,3,2,8,2,134.1,22,17,6,3,2,45+,Medium,No,Yes
+EMP-10289,43,Female,"HR Specialist",9309,1,1,22.7,4,208.4,1,1,0,3,2,36-45,High,Yes,No
+EMP-10293,47,Female,Analyst,12070,4,3,17.8,2,189.2,24,24,3,2,2,45+,High,No,Yes
+EMP-10303,33,Male,Manager,7226,3,2,30.3,2,205.3,13,8,6,3,2,26-35,Medium,Yes,Yes
+EMP-10312,34,Male,"Software Engineer",8969,2,3,12.9,8,212.5,8,6,5,5,2,26-35,Medium,Yes,Yes
+EMP-10314,42,Male,"HR Specialist",6446,1,3,7.9,3,172.8,20,16,2,3,2,36-45,Medium,No,Yes
+EMP-10318,34,Female,"Data Scientist",6130,3,1,2,8,180.9,10,10,5,5,2,26-35,Medium,No,Yes
+EMP-10329,38,Male,"Data Scientist",10123,2,3,17,4,144.1,13,10,0,3,2,36-45,High,No,Yes
+EMP-10333,36,Male,"Sales Executive",7791,3,1,18.3,2,197.9,11,9,4,3,2,36-45,Medium,No,Yes
+EMP-10338,47,Male,"Sales Executive",11822,2,3,12.5,7,175.8,25,18,1,4,2,45+,High,No,Yes
+EMP-10339,47,Female,"Sales Executive",8918,1,2,2,3,179,17,5,4,2,2,45+,Medium,No,Yes
+EMP-10340,34,Female,"Data Scientist",10299,1,1,37.1,3,229.9,8,5,2,5,2,26-35,High,Yes,Yes
+EMP-10344,38,Male,"Sales Executive",6717,3,2,7.7,6,200.7,10,6,1,4,2,36-45,Medium,Yes,Yes
+EMP-10345,43,Male,Analyst,11337,2,2,7.6,8,195.3,14,14,3,2,2,36-45,High,No,Yes
+EMP-10371,46,Male,Analyst,7680,3,2,12.3,3,182.6,16,11,3,2,2,45+,Medium,No,Yes
+EMP-10391,49,Male,"HR Specialist",12581,1,3,5.3,7,179.4,11,11,4,3,2,45+,High,No,Yes
+EMP-10402,54,Male,"Software Engineer",13360,4,1,8.4,6,187.1,14,10,0,3,2,45+,High,No,Yes
+EMP-10408,44,Male,Manager,9197,1,3,11.9,8,216.3,14,11,5,4,2,36-45,High,Yes,Yes
+EMP-10410,42,Female,"Software Engineer",11065,3,2,6.8,8,174.9,20,17,1,3,2,36-45,High,No,Yes
+EMP-10411,39,Male,Analyst,6887,3,3,10.4,7,188.6,11,9,0,5,2,36-45,Medium,No,Yes
+EMP-10413,34,Female,Manager,10696,2,2,2,2,230.3,11,9,2,5,2,26-35,High,Yes,Yes
+EMP-10420,36,Female,"Data Scientist",7010,2,3,10.2,4,137.7,12,8,3,3,2,36-45,Medium,No,Yes
+EMP-10421,38,Male,"Software Engineer",6977,2,2,1.6,8,166.4,11,6,5,3,2,36-45,Medium,No,Yes
+EMP-10428,37,Male,"Data Scientist",9192,2,2,14.7,4,193.7,11,5,3,3,2,36-45,High,No,Yes
+EMP-10435,33,Male,"HR Specialist",6912,2,4,11.6,6,185.4,12,12,2,3,2,26-35,Medium,No,Yes
+EMP-10437,40,Female,"HR Specialist",6663,2,4,10.4,7,131.5,18,17,2,5,2,36-45,Medium,No,Yes
+EMP-10441,45,Female,"Software Engineer",11205,2,2,11.3,6,120,18,9,5,1,2,36-45,High,No,Yes
+EMP-10457,42,Male,"Software Engineer",9833,2,3,4.8,4,213.4,17,12,1,2,2,36-45,High,Yes,Yes
+EMP-10459,48,Male,"Data Scientist",7646,4,3,9.5,6,148,20,20,1,2,2,45+,Medium,No,Yes
+EMP-10476,39,Male,"Data Scientist",10309,3,3,9,5,165.9,17,16,3,3,2,36-45,High,No,Yes
+EMP-10483,36,Male,"HR Specialist",8396,3,2,6.1,4,175.1,13,10,3,3,2,36-45,Medium,No,Yes
+EMP-10485,44,Male,"HR Specialist",10014,1,3,7.7,2,164.5,21,17,4,3,2,36-45,High,No,Yes
+EMP-10486,37,Male,Analyst,10107,2,2,12.8,4,183.3,6,6,0,3,2,36-45,High,No,Yes
+EMP-10495,33,Male,"Data Scientist",7534,3,4,7.3,8,202,10,10,0,3,2,26-35,Medium,Yes,Yes
+EMP-10529,43,Male,"Software Engineer",9648,3,3,5.4,6,205.1,18,16,1,3,2,36-45,High,Yes,Yes
+EMP-10531,34,Male,Manager,6755,2,1,3.8,8,207.8,7,6,5,4,2,26-35,Medium,Yes,Yes
+EMP-10533,50,Female,"Data Scientist",10848,3,4,2.6,6,174.3,26,20,1,3,2,45+,High,No,Yes
+EMP-10539,43,Female,"Sales Executive",11183,4,3,18.6,2,167,22,13,0,5,2,36-45,High,No,Yes
+EMP-10556,34,Female,"HR Specialist",9143,3,3,5.6,8,180.5,13,11,3,5,2,26-35,High,No,Yes
+EMP-10566,41,Female,"Data Scientist",11293,2,4,5.9,3,132.6,11,11,1,2,2,36-45,High,No,Yes
+EMP-10567,30,Female,"HR Specialist",7128,3,1,17.8,7,174.6,6,6,1,4,2,26-35,Medium,No,Yes
+EMP-10569,42,Female,"Sales Executive",9377,2,2,4.8,2,162.6,12,10,6,4,2,36-45,High,No,Yes
+EMP-10576,41,Female,Manager,10101,2,3,8.7,5,153,19,15,5,3,2,36-45,High,No,Yes
+EMP-10578,39,Female,"Software Engineer",7758,1,1,13.9,3,215.9,8,4,6,5,2,36-45,Medium,Yes,Yes
+EMP-10588,34,Male,Manager,10089,1,3,21.5,2,209.9,6,5,1,2,2,26-35,High,Yes,Yes
+EMP-10589,45,Female,Analyst,7318,2,3,5.5,5,185.6,7,7,4,2,2,36-45,Medium,No,Yes
+EMP-10613,35,Male,Manager,10536,2,3,1.5,7,183.7,12,8,4,5,2,26-35,High,No,Yes
+EMP-10634,32,Female,Manager,10020,3,1,14.7,5,187.8,9,9,2,3,2,26-35,High,No,Yes
+EMP-10635,43,Female,"Data Scientist",7237,1,4,2.9,3,173.8,16,11,0,5,2,36-45,Medium,No,Yes
+EMP-10636,40,Male,"Data Scientist",10153,3,2,1.8,5,182.2,16,13,6,3,2,36-45,High,No,Yes
+EMP-10638,42,Female,Manager,11182,4,3,9.9,4,142.1,17,13,2,2,2,36-45,High,No,Yes
+EMP-10641,43,Male,"HR Specialist",9398,3,1,14.5,6,166.5,8,8,4,4,2,36-45,High,No,Yes
+EMP-10643,35,Female,Manager,7183,3,2,8.2,8,174.1,10,9,5,3,2,26-35,Medium,No,Yes
+EMP-10648,34,Male,"Sales Executive",5187,2,3,13.1,4,173.5,9,9,5,3,2,26-35,Medium,No,Yes
+EMP-10664,37,Male,Manager,7181,2,1,13.9,5,162.6,15,14,2,3,2,36-45,Medium,No,Yes
+EMP-10674,39,Female,"HR Specialist",8708,2,3,24.5,7,153.9,16,14,4,3,2,36-45,Medium,No,Yes
+EMP-10679,38,Male,"Data Scientist",7341,3,2,6.9,2,196,11,9,4,2,2,36-45,Medium,No,Yes
+EMP-10686,34,Female,Analyst,7214,3,2,8.5,6,200.8,11,8,0,2,2,26-35,Medium,Yes,Yes
+EMP-10702,33,Male,Manager,10391,4,2,9.4,4,167.5,12,11,6,1,2,26-35,High,No,Yes
+EMP-10709,38,Female,"Software Engineer",7469,2,3,9.6,5,215.2,18,18,5,3,2,36-45,Medium,Yes,Yes
+EMP-10713,39,Female,"Data Scientist",7388,3,4,1.8,4,191.7,18,11,1,3,2,36-45,Medium,No,Yes
+EMP-10721,43,Male,Manager,7904,2,3,32.1,2,122.6,21,11,5,2,2,36-45,Medium,No,Yes
+EMP-10736,30,Male,"HR Specialist",5719,3,1,9,2,203.1,6,4,0,5,2,26-35,Medium,Yes,Yes
+EMP-10740,37,Male,"HR Specialist",5787,3,3,10.1,5,179.3,10,9,6,3,2,36-45,Medium,No,Yes
+EMP-10752,42,Female,"HR Specialist",10369,1,1,7.8,2,184.3,21,13,6,3,2,36-45,High,No,Yes
+EMP-10757,43,Female,"Sales Executive",10860,4,3,5.5,3,167.7,16,12,3,4,2,36-45,High,No,Yes
+EMP-10761,31,Female,Analyst,6936,2,2,10.7,2,169.1,5,5,6,4,2,26-35,Medium,No,Yes
+EMP-10762,40,Female,Analyst,9963,4,2,18.1,8,162.7,11,11,3,3,2,36-45,High,No,Yes
+EMP-10776,44,Male,"HR Specialist",8263,4,2,1,5,159.3,23,13,5,3,2,36-45,Medium,No,Yes
+EMP-10777,41,Female,"HR Specialist",11509,2,2,5.4,7,183.3,17,13,6,3,2,36-45,High,No,Yes
+EMP-10779,51,Female,"Sales Executive",10607,4,2,4.4,2,173.7,27,15,3,4,2,45+,High,No,Yes
+EMP-10781,34,Female,Analyst,6305,3,1,2.9,8,213.3,13,13,5,3,2,26-35,Medium,Yes,Yes
+EMP-10783,44,Male,"Sales Executive",8180,3,1,4.3,8,195.9,9,9,0,3,2,36-45,Medium,No,Yes
+EMP-10797,37,Male,"Software Engineer",8282,3,2,5.5,7,187.2,17,13,2,3,2,36-45,Medium,No,Yes
+EMP-10802,42,Male,"Software Engineer",8217,4,2,6.3,6,231.1,20,18,6,3,2,36-45,Medium,Yes,Yes
+EMP-10832,35,Male,"Sales Executive",6094,1,3,3.6,7,120,9,8,3,2,2,26-35,Medium,No,Yes
+EMP-10837,42,Male,Analyst,9900,3,2,13.1,5,210.1,7,7,3,3,2,36-45,High,Yes,Yes
+EMP-10844,54,Female,Analyst,12938,3,1,7.1,5,190.3,23,11,6,3,2,45+,High,No,Yes
+EMP-10849,45,Male,Manager,8612,3,2,25.6,8,176.9,22,7,1,1,2,36-45,Medium,No,Yes
+EMP-10851,35,Male,"HR Specialist",7798,1,3,23.4,6,189.7,12,5,4,3,2,26-35,Medium,No,Yes
+EMP-10852,43,Male,"Sales Executive",8137,3,3,11.9,7,182.9,19,14,1,4,2,36-45,Medium,No,Yes
+EMP-10858,39,Male,Manager,6846,4,2,37.6,4,151.3,13,10,3,5,2,36-45,Medium,No,Yes
+EMP-10866,28,Female,"Sales Executive",6058,2,3,24,6,181.9,7,7,2,4,2,26-35,Medium,No,Yes
+EMP-10871,50,Female,"Software Engineer",8631,3,1,6.3,8,181.8,28,13,0,2,2,45+,Medium,No,Yes
+EMP-10874,35,Male,"Sales Executive",8881,1,2,4.1,4,167.2,7,7,3,2,2,26-35,Medium,No,Yes
+EMP-10876,41,Female,Analyst,9476,3,4,23.6,6,171.6,20,18,1,3,2,36-45,High,No,Yes
+EMP-10882,33,Female,"HR Specialist",6542,3,2,1.7,7,181.3,10,7,1,3,2,26-35,Medium,No,Yes
+EMP-10893,37,Female,"Software Engineer",8049,3,2,24.3,7,192.9,9,6,5,3,2,36-45,Medium,No,Yes
+EMP-10902,35,Male,"Data Scientist",6573,2,3,29.8,8,137.4,11,10,1,3,2,26-35,Medium,No,Yes
+EMP-10906,34,Male,"HR Specialist",7511,3,1,16.9,8,178.1,11,11,3,5,2,26-35,Medium,No,Yes
+EMP-10909,39,Female,"Sales Executive",8433,3,3,2.8,3,161.2,13,12,3,4,2,36-45,Medium,No,Yes
+EMP-10915,41,Female,Manager,10247,4,2,4.4,7,176.3,12,10,6,4,2,36-45,High,No,Yes
+EMP-10919,39,Male,"HR Specialist",8849,2,3,9.8,5,164.2,17,14,6,2,2,36-45,Medium,No,Yes
+EMP-10931,44,Female,"Software Engineer",6891,2,2,8,4,188.2,6,6,3,2,2,36-45,Medium,No,Yes
+EMP-10935,58,Male,"Data Scientist",10303,4,3,3.1,2,165.8,27,26,0,4,2,45+,High,No,Yes
+EMP-10937,48,Male,Analyst,8793,3,1,4.3,8,167.4,24,22,4,4,2,45+,Medium,No,Yes
+EMP-10940,36,Male,Manager,7920,4,2,8.4,6,150.6,15,14,6,2,2,36-45,Medium,No,Yes
+EMP-10943,43,Male,Manager,10548,3,3,13.7,2,184.9,18,16,2,4,2,36-45,High,No,Yes
+EMP-10946,44,Male,Analyst,8841,3,4,24.4,5,189.9,11,9,6,4,2,36-45,Medium,No,Yes
+EMP-10954,28,Male,"HR Specialist",8501,3,3,10.1,8,209.9,7,7,2,1,2,26-35,Medium,Yes,Yes
+EMP-10956,32,Male,"Software Engineer",5166,3,2,9.4,8,169.3,9,9,3,2,2,26-35,Medium,No,Yes
+EMP-10965,43,Female,"Software Engineer",8180,4,4,4.6,4,151.5,20,18,3,2,2,36-45,Medium,No,Yes
+EMP-10968,40,Female,"Software Engineer",7152,2,3,11.4,2,177.2,14,9,2,1,2,36-45,Medium,No,Yes
+EMP-10972,44,Male,"Data Scientist",10312,3,2,6.5,6,188.2,22,22,1,1,2,36-45,High,No,Yes
+EMP-10974,46,Male,Manager,7540,3,2,8.3,5,175.6,19,18,0,2,2,45+,Medium,No,Yes
+EMP-10975,43,Female,"Software Engineer",7261,3,1,29.8,7,175.8,21,18,3,3,2,36-45,Medium,No,Yes
+EMP-10978,45,Female,Analyst,8745,3,3,8.5,2,164.3,11,11,1,3,2,36-45,Medium,No,Yes
+EMP-10988,44,Female,"Software Engineer",11308,1,2,18,6,147,16,7,2,4,2,36-45,High,No,Yes
+EMP-10992,39,Male,"Data Scientist",6846,4,3,17.8,3,150.5,18,13,6,2,2,36-45,Medium,No,Yes
+EMP-11001,51,Male,Analyst,9758,1,2,6,6,139.1,11,8,1,1,2,45+,High,No,Yes
+EMP-11043,37,Male,"HR Specialist",11462,2,3,9.2,4,148.9,15,10,4,2,2,36-45,High,No,Yes
+EMP-11049,34,Female,"HR Specialist",8660,3,4,13.7,5,146.8,12,12,6,1,2,26-35,Medium,No,Yes
+EMP-11059,31,Male,Analyst,9849,3,1,1,6,232.6,7,6,6,1,2,26-35,High,Yes,Yes
+EMP-11065,37,Female,"Sales Executive",9149,3,2,10.9,8,174.4,9,8,5,3,2,36-45,High,No,Yes
+EMP-11066,41,Male,"Software Engineer",6506,3,3,1.3,4,167.2,11,11,6,3,2,36-45,Medium,No,Yes
+EMP-11070,39,Female,"Data Scientist",9466,3,3,4.9,6,161.1,14,14,1,3,2,36-45,High,No,Yes
+EMP-11081,32,Female,"Data Scientist",8182,2,3,14.3,5,208.9,9,6,1,2,2,26-35,Medium,Yes,Yes
+EMP-11084,52,Male,"Software Engineer",10848,1,2,29.8,2,120,26,8,1,1,2,45+,High,No,Yes
+EMP-11087,39,Female,Analyst,6578,2,4,6.5,6,152.9,13,9,1,2,2,36-45,Medium,No,Yes
+EMP-11094,34,Female,"HR Specialist",8003,2,2,19.8,3,163.8,12,9,1,4,2,26-35,Medium,No,Yes
+EMP-11095,43,Female,Manager,9972,2,2,6.7,5,183.3,14,11,5,5,2,36-45,High,No,Yes
+EMP-11101,30,Male,"Data Scientist",8361,1,4,22.8,7,183.3,10,5,0,2,2,26-35,Medium,No,Yes
+EMP-11104,34,Female,Manager,7195,2,4,2.8,8,249,6,6,5,3,2,26-35,Medium,Yes,Yes
+EMP-11106,46,Female,"Software Engineer",8166,2,1,14.4,2,120,20,11,5,4,2,45+,Medium,No,Yes
+EMP-11123,44,Female,Analyst,9217,2,4,9.6,5,162.8,13,13,3,3,2,36-45,High,No,Yes
+EMP-11137,35,Female,"HR Specialist",6784,2,2,19.7,5,194,8,4,3,2,2,26-35,Medium,No,Yes
+EMP-11156,41,Male,Analyst,9516,3,2,12,2,193.6,18,10,3,1,2,36-45,High,No,Yes
+EMP-11159,39,Male,Manager,10291,1,1,7.5,4,191.8,10,5,5,2,2,36-45,High,No,Yes
+EMP-11160,35,Male,"Software Engineer",7525,3,3,4.8,2,218.9,13,9,3,2,2,26-35,Medium,Yes,Yes
+EMP-11163,37,Female,"Sales Executive",9532,2,2,8.1,6,190.3,11,8,3,3,2,36-45,High,No,Yes
+EMP-11166,39,Male,Analyst,8197,1,4,17.3,4,154.8,15,7,0,2,2,36-45,Medium,No,Yes
+EMP-11168,43,Female,"HR Specialist",8913,1,2,3.5,4,168.8,23,21,0,2,2,36-45,Medium,No,Yes
+EMP-11172,37,Female,Manager,9348,1,2,7.1,6,164.6,8,8,3,4,2,36-45,High,No,Yes
+EMP-11177,50,Female,"HR Specialist",9599,3,3,2.7,2,236.5,25,14,4,3,2,45+,High,Yes,Yes
+EMP-11189,41,Male,Manager,10711,4,2,6.4,3,171.8,17,10,0,4,2,36-45,High,No,Yes
+EMP-11201,46,Female,"Software Engineer",9389,2,4,4.1,8,157.4,26,25,5,4,2,45+,High,No,Yes
+EMP-11208,44,Male,"HR Specialist",11123,1,1,15,8,168.7,12,10,1,4,2,36-45,High,No,Yes
+EMP-11210,45,Female,"Software Engineer",11705,3,2,28.7,6,161.5,25,18,6,3,2,36-45,High,No,Yes
+EMP-11214,28,Female,Manager,6195,2,2,5.2,2,133.2,7,7,2,3,2,26-35,Medium,No,Yes
+EMP-11217,34,Male,"Data Scientist",7861,3,2,1,7,121.5,11,11,5,3,2,26-35,Medium,No,Yes
+EMP-11224,41,Male,Analyst,11658,1,3,14.3,4,172.9,19,14,5,3,2,36-45,High,No,Yes
+EMP-11225,41,Female,Manager,7766,3,4,3.9,3,168.8,17,13,2,4,2,36-45,Medium,No,Yes
+EMP-11229,33,Male,Manager,6549,3,2,1.5,8,196.3,8,8,0,2,2,26-35,Medium,No,Yes
+EMP-11238,44,Male,Analyst,9607,3,2,13.9,7,151.6,16,14,3,3,2,36-45,High,No,Yes
+EMP-11239,42,Male,"Software Engineer",10066,2,3,1,6,161.8,22,22,1,5,2,36-45,High,No,Yes
+EMP-11244,33,Male,"Software Engineer",8010,1,2,10.5,8,171.7,7,7,6,4,2,26-35,Medium,No,Yes
+EMP-11245,39,Female,"HR Specialist",6761,3,4,1.9,6,177.9,11,11,6,4,2,36-45,Medium,No,Yes
+EMP-11251,40,Female,"Data Scientist",11708,2,3,17.9,7,158.2,11,8,4,3,2,36-45,High,No,Yes
+EMP-11256,42,Female,Analyst,6985,4,3,11.1,3,183.8,12,12,3,4,2,36-45,Medium,No,Yes
+EMP-11263,38,Male,"Data Scientist",8647,4,2,6.4,7,189.2,14,12,6,1,2,36-45,Medium,No,Yes
+EMP-11272,35,Female,Analyst,8910,2,3,7,5,190.2,13,7,2,3,2,26-35,Medium,No,Yes
+EMP-11276,33,Female,"Data Scientist",5353,4,3,8.5,5,220.3,13,9,3,4,2,26-35,Medium,Yes,Yes
+EMP-11284,39,Male,"Software Engineer",6538,2,3,6.8,8,136.4,10,9,1,3,2,36-45,Medium,No,Yes
+EMP-11290,39,Male,Manager,10338,3,2,26.7,3,150.8,17,11,0,5,2,36-45,High,No,Yes
+EMP-11293,44,Female,"Software Engineer",7558,1,2,15,3,147.4,6,6,3,3,2,36-45,Medium,No,Yes
+EMP-11294,36,Female,Manager,9035,3,2,4.8,4,170.8,13,12,1,2,2,36-45,High,No,Yes
+EMP-11295,41,Female,"Sales Executive",6205,4,2,20.6,4,181.1,19,13,0,3,2,36-45,Medium,No,Yes
+EMP-11298,35,Male,"Sales Executive",6884,3,3,19.8,8,206.7,11,9,3,2,2,26-35,Medium,Yes,Yes
+EMP-11313,50,Male,"HR Specialist",10745,3,4,5.5,2,168.3,21,14,0,3,2,45+,High,No,Yes
+EMP-11325,41,Male,"Sales Executive",8544,4,3,7.7,3,155.7,16,13,0,3,2,36-45,Medium,No,Yes
+EMP-11327,44,Male,"Data Scientist",9190,1,3,16.4,8,221.2,13,11,3,5,2,36-45,High,Yes,Yes
+EMP-11334,40,Female,"Software Engineer",11515,4,3,9.2,7,184.9,16,12,6,3,2,36-45,High,No,Yes
+EMP-11337,41,Female,Analyst,11993,2,4,21.3,7,160,18,18,5,3,2,36-45,High,No,Yes
+EMP-11338,40,Female,Manager,7877,2,3,8.6,2,136.2,11,10,3,4,2,36-45,Medium,No,Yes
+EMP-11341,38,Female,Analyst,7734,4,3,1.1,3,230.5,9,9,5,5,2,36-45,Medium,Yes,Yes
+EMP-11344,32,Female,"Software Engineer",9570,1,3,9.1,7,120,10,8,0,2,2,26-35,High,No,Yes
+EMP-11346,40,Male,"Sales Executive",11041,1,3,10.9,5,210.4,15,5,4,1,2,36-45,High,Yes,Yes
+EMP-11359,43,Female,"Software Engineer",8668,3,3,6.5,7,144.8,17,12,2,2,2,36-45,Medium,No,Yes
+EMP-11375,34,Male,Manager,7130,3,3,12.5,6,151.9,11,10,6,2,2,26-35,Medium,No,Yes
+EMP-11382,39,Male,"HR Specialist",11206,4,3,17.2,5,179.8,18,15,6,3,2,36-45,High,No,Yes
+EMP-11385,29,Male,"HR Specialist",7126,2,1,13.3,2,175.2,6,5,6,1,2,26-35,Medium,No,Yes
+EMP-11386,37,Female,"Sales Executive",8710,3,3,10.4,4,134.5,16,11,4,1,2,36-45,Medium,No,Yes
+EMP-11392,43,Female,"Software Engineer",7272,1,1,6.7,2,163.2,14,14,4,3,2,36-45,Medium,No,Yes
+EMP-11409,46,Male,"Software Engineer",8351,4,3,9.8,6,145.6,16,13,1,3,2,45+,Medium,No,Yes
+EMP-11415,31,Female,"Sales Executive",8242,3,2,1.5,4,215.2,9,6,2,4,2,26-35,Medium,Yes,Yes
+EMP-11452,43,Female,"Data Scientist",6981,3,3,7.2,8,210.3,13,8,1,3,2,36-45,Medium,Yes,Yes
+EMP-11462,42,Male,"Software Engineer",6766,3,3,10.3,2,152.4,18,10,0,1,2,36-45,Medium,No,Yes
+EMP-11470,45,Male,Analyst,12836,4,2,9.8,7,163.6,15,15,3,3,2,36-45,High,No,Yes
+EMP-11477,34,Male,"HR Specialist",5497,1,2,9.7,5,161.3,14,14,4,1,2,26-35,Medium,No,Yes
+EMP-11479,41,Male,Manager,9417,1,3,5.7,8,153.8,20,16,6,3,2,36-45,High,No,Yes
+EMP-11494,38,Male,"Software Engineer",8779,2,1,2.4,7,148.4,13,9,4,5,2,36-45,Medium,No,Yes
+EMP-11495,38,Female,"Data Scientist",10241,3,2,9,7,229.5,13,6,0,4,2,36-45,High,Yes,Yes
+EMP-11506,52,Female,"Sales Executive",11735,3,3,20.5,3,188.3,28,19,5,2,2,45+,High,No,Yes
+EMP-11510,40,Female,"Software Engineer",8509,3,2,13.3,2,154.5,12,11,6,3,2,36-45,Medium,No,Yes
+EMP-11523,34,Male,Analyst,9853,3,2,12.4,2,183.4,11,7,2,1,2,26-35,High,No,Yes
+EMP-11525,42,Male,"Data Scientist",8627,2,4,1.3,6,171.8,12,12,2,1,2,36-45,Medium,No,Yes
+EMP-11526,44,Male,"Software Engineer",11430,3,3,5.5,2,191.8,20,19,4,2,2,36-45,High,No,Yes
+EMP-11527,40,Female,Manager,7787,3,3,3.8,6,179,18,18,1,1,2,36-45,Medium,No,Yes
+EMP-11536,31,Male,Analyst,5578,2,3,6.2,5,194,8,8,6,2,2,26-35,Medium,No,Yes
+EMP-11537,39,Male,"Software Engineer",9135,1,4,19.3,3,169.2,13,9,6,1,2,36-45,High,No,Yes
+EMP-11539,33,Male,Analyst,9276,3,3,8.7,7,186.4,13,12,5,5,2,26-35,High,No,Yes
+EMP-11563,47,Male,"Software Engineer",11317,3,2,14.2,6,183.2,21,8,2,3,2,45+,High,No,Yes
+EMP-11573,47,Male,Manager,8030,4,3,3.4,8,167,24,21,0,4,2,45+,Medium,No,Yes
+EMP-11577,39,Female,Manager,6471,4,2,5,4,215.9,18,16,3,3,2,36-45,Medium,Yes,Yes
+EMP-11579,42,Female,Manager,10784,3,2,26.1,2,154.3,21,11,4,2,2,36-45,High,No,Yes
+EMP-11585,42,Female,Analyst,10921,3,2,6.7,8,131.3,19,11,6,3,2,36-45,High,No,Yes
+EMP-11591,44,Male,Analyst,12022,3,2,2.9,5,171.8,16,9,1,3,2,36-45,High,No,Yes
+EMP-11597,49,Male,"Software Engineer",9313,2,3,10.7,8,213.5,7,7,5,3,2,45+,High,Yes,Yes
+EMP-11603,28,Male,"HR Specialist",7220,3,1,16.4,4,180.1,5,5,5,2,2,26-35,Medium,No,Yes
+EMP-11612,51,Female,"Sales Executive",10110,3,2,23.4,5,217,10,6,1,3,2,45+,High,Yes,Yes
+EMP-11614,47,Male,"Software Engineer",8227,3,1,4.9,5,164.5,14,8,6,3,2,45+,Medium,No,Yes
+EMP-11623,53,Male,"Software Engineer",13462,2,2,20.6,2,172.7,26,20,6,2,2,45+,High,No,Yes
+EMP-11626,41,Female,Manager,7647,4,2,20.9,7,189.2,19,19,6,4,2,36-45,Medium,No,Yes
+EMP-11629,32,Male,Manager,7466,1,1,8.2,3,165.1,11,2,3,3,2,26-35,Medium,No,No
+EMP-11639,43,Male,"Software Engineer",11485,2,1,28.7,5,142.9,23,21,2,5,2,36-45,High,No,Yes
+EMP-11643,42,Female,Analyst,6644,3,3,16.1,4,150.8,21,12,3,3,2,36-45,Medium,No,Yes
+EMP-11644,34,Male,"Data Scientist",7161,2,3,9.3,8,176.6,11,9,2,3,2,26-35,Medium,No,Yes
+EMP-11649,40,Male,"Software Engineer",9269,2,2,4.6,3,151.9,13,9,0,3,2,36-45,High,No,Yes
+EMP-11650,52,Male,"Data Scientist",12765,3,3,9,3,147,31,23,5,4,2,45+,High,No,Yes
+EMP-11660,34,Male,"Data Scientist",8456,3,2,14.8,3,202.1,8,7,3,5,2,26-35,Medium,Yes,Yes
+EMP-11662,35,Male,"Software Engineer",8222,1,2,11.3,6,159,7,4,6,2,2,26-35,Medium,No,Yes
+EMP-11671,34,Female,"Software Engineer",8326,3,3,6.6,8,189.3,13,11,1,3,2,26-35,Medium,No,Yes
+EMP-11676,43,Male,Analyst,10396,2,3,15.4,2,181.4,7,7,6,4,2,36-45,High,No,Yes
+EMP-11684,42,Male,"Software Engineer",7667,3,3,22.5,4,163.1,10,10,2,2,2,36-45,Medium,No,Yes
+EMP-11687,35,Female,Manager,6134,3,3,42.9,7,171.6,10,8,4,4,2,26-35,Medium,No,Yes
+EMP-11688,42,Female,"HR Specialist",9087,1,3,26.8,3,165,14,14,6,3,2,36-45,High,No,Yes
+EMP-11714,41,Female,"HR Specialist",8561,3,1,23.8,2,213.4,10,4,3,2,2,36-45,Medium,Yes,Yes
+EMP-11728,50,Female,"Sales Executive",12654,4,4,7,5,191.3,23,20,2,3,2,45+,High,No,Yes
+EMP-11738,46,Male,"Software Engineer",11759,2,3,1,3,143.6,22,14,4,1,2,45+,High,No,Yes
+EMP-11739,38,Male,"Software Engineer",8030,3,1,14.6,5,141.9,14,12,2,2,2,36-45,Medium,No,Yes
+EMP-11746,49,Male,Manager,10724,2,3,3.4,5,185.3,23,23,4,2,2,45+,High,No,Yes
+EMP-11753,40,Female,"Software Engineer",6783,2,2,7.2,7,169.3,16,6,1,5,2,36-45,Medium,No,Yes
+EMP-11756,38,Female,"Data Scientist",11308,3,1,11.1,4,184.5,13,12,3,4,2,36-45,High,No,Yes
+EMP-11768,39,Female,"Sales Executive",8774,3,2,19.8,4,174,13,7,1,2,2,36-45,Medium,No,Yes
+EMP-11771,45,Male,Manager,9460,1,2,31.2,8,167.6,5,3,1,4,2,36-45,High,No,Yes
+EMP-11774,50,Female,"Data Scientist",12089,3,2,8,8,211.3,27,24,5,2,2,45+,High,Yes,Yes
+EMP-11784,36,Male,Analyst,7337,2,3,14.2,7,181.1,13,11,0,1,2,36-45,Medium,No,Yes
+EMP-11787,34,Female,Analyst,7962,1,3,17.2,5,169.8,14,14,5,1,2,26-35,Medium,No,Yes
+EMP-11788,40,Female,Analyst,8497,2,2,24.6,3,174.6,9,9,4,3,2,36-45,Medium,No,Yes
+EMP-11795,41,Male,"Data Scientist",10059,4,4,1.5,3,184.5,20,18,4,4,2,36-45,High,No,Yes
+EMP-11803,45,Male,"Data Scientist",7697,2,3,15.6,7,186.3,8,7,4,1,2,36-45,Medium,No,Yes
+EMP-11810,49,Male,"Sales Executive",12060,3,2,17.5,3,194.6,8,8,3,2,2,45+,High,No,Yes
+EMP-11823,38,Male,Analyst,11063,3,2,10.5,3,195.3,12,7,5,3,2,36-45,High,No,Yes
+EMP-11831,34,Male,"Data Scientist",5892,3,2,3.8,7,186.5,14,9,1,3,2,26-35,Medium,No,Yes
+EMP-11832,43,Male,"Data Scientist",11070,3,2,6.8,8,180.2,21,14,2,3,2,36-45,High,No,Yes
+EMP-11834,38,Female,"Data Scientist",6902,2,1,1.2,8,148.8,9,9,3,4,2,36-45,Medium,No,Yes
+EMP-11857,42,Female,"Sales Executive",10177,1,2,2.1,6,177.5,20,18,4,3,2,36-45,High,No,Yes
+EMP-11858,34,Female,Manager,7682,1,2,10.4,4,223.8,8,6,6,3,2,26-35,Medium,Yes,Yes
+EMP-11863,46,Male,"HR Specialist",8861,2,2,18.6,4,190,22,11,5,5,2,45+,Medium,No,Yes
+EMP-11877,34,Male,"HR Specialist",10767,1,1,16.3,6,188.1,9,9,2,5,2,26-35,High,No,Yes
+EMP-11883,36,Female,"Software Engineer",5412,1,2,21.2,4,154,9,3,0,3,2,36-45,Medium,No,Yes
+EMP-11887,48,Female,"Software Engineer",11848,4,1,13.8,7,179.2,22,18,1,3,2,45+,High,No,Yes
+EMP-11890,36,Male,"Sales Executive",8273,3,2,8.1,7,203.4,9,8,0,2,2,36-45,Medium,Yes,Yes
+EMP-11893,51,Female,"Software Engineer",11119,4,4,10.3,3,217.6,20,15,4,3,2,45+,High,Yes,Yes
+EMP-11896,43,Female,"Sales Executive",9243,3,3,6.9,5,165.8,13,12,2,1,2,36-45,High,No,Yes
+EMP-11900,40,Male,"Software Engineer",11578,4,1,18,6,132.1,18,10,5,3,2,36-45,High,No,Yes
+EMP-11901,47,Female,"Sales Executive",9944,4,3,1,8,210.2,11,11,5,4,2,45+,High,Yes,Yes
+EMP-11915,34,Female,Manager,8311,1,3,8.3,7,146.7,10,9,1,2,2,26-35,Medium,No,Yes
+EMP-11931,37,Female,"Sales Executive",6468,3,4,20.5,2,215.8,9,9,3,4,2,36-45,Medium,Yes,Yes
+EMP-11935,40,Female,"HR Specialist",7824,4,3,16.1,2,172.7,15,13,4,2,2,36-45,Medium,No,Yes
+EMP-11939,28,Female,"Software Engineer",9002,1,4,9.8,7,156,8,7,3,2,2,26-35,High,No,Yes
+EMP-11952,37,Male,"Software Engineer",6382,3,3,12,3,211.4,8,7,0,3,2,36-45,Medium,Yes,Yes
+EMP-11960,42,Male,"Sales Executive",11438,1,1,10.1,4,157.5,20,7,0,3,2,36-45,High,No,Yes
+EMP-11968,29,Female,"Software Engineer",8031,1,1,17.6,5,199.9,4,4,1,3,2,26-35,Medium,No,Yes
+EMP-11969,44,Female,"Software Engineer",9126,3,2,8,7,183.6,15,10,5,2,2,36-45,High,No,Yes
+EMP-11972,29,Female,"Software Engineer",10100,2,3,1.2,8,194.8,8,8,0,5,2,26-35,High,No,Yes
+EMP-11995,37,Male,Manager,7164,2,3,27.5,7,201,5,5,4,5,2,36-45,Medium,Yes,Yes
+EMP-12006,36,Female,"Sales Executive",7865,2,3,3.4,6,153.6,12,12,4,5,2,36-45,Medium,No,Yes
+EMP-12022,37,Male,"HR Specialist",6290,3,4,4.9,6,231.3,13,9,2,3,2,36-45,Medium,Yes,Yes
+EMP-12029,47,Female,Analyst,10583,3,3,6.1,4,193.7,17,11,5,3,2,45+,High,No,Yes
+EMP-12030,39,Male,"HR Specialist",8196,3,3,19.4,7,170,14,9,4,3,2,36-45,Medium,No,Yes
+EMP-12050,44,Female,"Sales Executive",11762,2,4,5.9,4,171.3,20,16,5,3,2,36-45,High,No,Yes
+EMP-12051,40,Female,"HR Specialist",6188,3,1,2,8,153.1,18,14,2,3,2,36-45,Medium,No,Yes
+EMP-12068,45,Female,"HR Specialist",8948,3,1,20.3,4,155.6,17,17,1,3,2,36-45,Medium,No,Yes
+EMP-12074,46,Female,Manager,11120,1,4,4.9,6,211.3,24,12,3,3,2,45+,High,Yes,Yes
+EMP-12081,45,Female,Analyst,7857,2,1,5.5,7,185.4,22,19,1,2,2,36-45,Medium,No,Yes
+EMP-12090,42,Male,Manager,10737,4,3,10,7,187.4,15,12,4,3,2,36-45,High,No,Yes
+EMP-12095,40,Female,Manager,9277,3,2,2.6,2,209.4,17,9,4,4,2,36-45,High,Yes,Yes
+EMP-12097,49,Male,"Data Scientist",11004,2,3,14,2,190.4,24,12,2,1,2,45+,High,No,Yes
+EMP-12099,48,Male,Manager,8622,3,2,12.4,8,160.4,20,17,3,3,2,45+,Medium,No,Yes
+EMP-12105,35,Female,Manager,7509,1,2,13.3,8,155.9,8,8,1,5,2,26-35,Medium,No,Yes
+EMP-12114,42,Male,Manager,9033,2,1,22.4,6,213.7,19,5,0,5,2,36-45,High,Yes,Yes
+EMP-12122,45,Female,"Sales Executive",9244,3,2,13.4,7,180.5,14,9,2,4,2,36-45,High,No,Yes
+EMP-12123,39,Female,"Data Scientist",10967,4,4,16.3,7,203.9,18,12,6,3,2,36-45,High,Yes,Yes
+EMP-12130,42,Female,"Data Scientist",9665,1,2,5.9,4,123.8,20,13,3,4,2,36-45,High,No,Yes
+EMP-12133,48,Female,Manager,7834,4,3,28.4,6,180.4,12,12,3,1,2,45+,Medium,No,Yes
+EMP-12134,42,Female,"Sales Executive",8073,2,2,9,6,211.7,12,12,2,5,2,36-45,Medium,Yes,Yes
+EMP-12146,47,Female,"Data Scientist",8814,1,3,25.3,8,187.4,18,7,6,3,2,45+,Medium,No,Yes
+EMP-12147,41,Female,"Data Scientist",6145,1,3,19.3,7,208.9,21,18,4,4,2,36-45,Medium,Yes,Yes
+EMP-12152,48,Male,"Software Engineer",9844,2,1,11.3,7,171,21,5,5,3,2,45+,High,No,Yes
+EMP-12158,42,Female,"Data Scientist",8959,3,2,9.6,2,123.6,17,10,4,5,2,36-45,Medium,No,Yes
+EMP-12167,43,Male,Manager,8352,3,1,15,7,190.7,19,17,2,3,2,36-45,Medium,No,Yes
+EMP-12218,44,Male,"Software Engineer",9094,3,2,22.2,3,137.3,21,11,2,3,2,36-45,High,No,Yes
+EMP-12243,36,Male,Manager,10719,2,3,4.7,5,189.8,10,9,6,2,2,36-45,High,No,Yes
+EMP-12246,30,Male,Analyst,8803,1,2,21.4,5,178.8,8,8,1,1,2,26-35,Medium,No,Yes
+EMP-12266,50,Female,"Data Scientist",11781,2,3,3.5,5,190.2,15,13,0,3,2,45+,High,No,Yes
+EMP-12267,34,Male,"Data Scientist",6369,4,2,4.8,2,186,9,9,2,2,2,26-35,Medium,No,Yes
+EMP-12268,46,Male,"Sales Executive",10132,4,2,20,6,171.5,25,12,0,5,2,45+,High,No,Yes
+EMP-12294,43,Male,"Software Engineer",9601,3,4,6.8,4,155.2,22,18,5,4,2,36-45,High,No,Yes
+EMP-12298,35,Female,Manager,9186,3,3,19,7,200,14,10,4,1,2,26-35,High,No,Yes
+EMP-12307,44,Male,"HR Specialist",9853,4,2,3.5,4,135.8,14,14,1,2,2,36-45,High,No,Yes
+EMP-12309,42,Female,"Sales Executive",10779,4,1,28.3,6,213.2,10,10,3,2,2,36-45,High,Yes,Yes
+EMP-12323,51,Male,"HR Specialist",9391,2,3,14.6,2,159.6,17,11,2,1,2,45+,High,No,Yes
+EMP-12324,37,Female,"Software Engineer",10037,3,2,3.9,3,163.5,13,11,4,2,2,36-45,High,No,Yes
+EMP-12328,50,Female,Analyst,8750,4,1,9.6,6,156.9,25,16,5,3,2,45+,Medium,No,Yes
+EMP-12330,46,Male,"Data Scientist",11473,4,3,19.6,6,160.2,15,12,2,3,2,45+,High,No,Yes
+EMP-12343,31,Male,"Data Scientist",5013,1,2,7.8,2,154.9,5,4,0,3,2,26-35,Medium,No,Yes
+EMP-12346,36,Female,"Software Engineer",10244,4,3,20.9,8,196.1,11,10,2,4,2,36-45,High,No,Yes
+EMP-12352,43,Male,"Software Engineer",9628,3,3,4.3,8,179.4,15,14,1,2,2,36-45,High,No,Yes
+EMP-12357,41,Female,"Data Scientist",9498,3,3,2.2,7,187.2,19,19,3,3,2,36-45,High,No,Yes
+EMP-12358,39,Female,"Software Engineer",6149,1,4,8.2,5,156.6,13,13,1,3,2,36-45,Medium,No,Yes
+EMP-12366,35,Male,Analyst,6200,3,3,1.5,4,176.8,10,10,0,2,2,26-35,Medium,No,Yes
+EMP-12385,41,Male,"Software Engineer",11823,3,3,12.4,8,149,17,12,5,2,2,36-45,High,No,Yes
+EMP-12388,50,Female,"Data Scientist",12187,3,4,8.6,4,184.1,20,19,0,1,2,45+,High,No,Yes
+EMP-12392,49,Female,"HR Specialist",9884,3,4,7.2,8,151.2,20,19,5,3,2,45+,High,No,Yes
+EMP-12397,48,Male,Analyst,9954,3,2,20.2,2,210.9,26,20,4,4,2,45+,High,Yes,Yes
+EMP-12398,43,Male,Manager,9414,2,2,12.7,7,175.3,18,16,3,4,2,36-45,High,No,Yes
+EMP-12418,50,Female,"Data Scientist",10351,4,3,9.6,2,213.1,17,13,4,3,2,45+,High,Yes,Yes
+EMP-12422,38,Female,"Data Scientist",8631,2,3,6.3,6,183.5,10,8,6,3,2,36-45,Medium,No,Yes
+EMP-12427,44,Male,Manager,10492,2,3,1.3,6,120,16,12,0,3,2,36-45,High,No,Yes
+EMP-12434,45,Male,"Sales Executive",11097,2,3,15.1,7,169.3,21,9,5,5,2,36-45,High,No,Yes
+EMP-12441,42,Female,"Software Engineer",11062,3,4,7.9,7,163.6,22,17,2,3,2,36-45,High,No,Yes
+EMP-12471,50,Female,"HR Specialist",12479,1,1,18,2,177,8,5,1,5,2,45+,High,No,Yes
+EMP-12476,36,Female,Analyst,7376,1,2,2.3,6,120,11,6,3,3,2,36-45,Medium,No,Yes
+EMP-12484,39,Male,"Software Engineer",8483,3,2,10.2,8,151.9,12,9,3,3,2,36-45,Medium,No,Yes
+EMP-12485,37,Female,"Sales Executive",10460,1,2,6.1,8,156.9,7,6,0,3,2,36-45,High,No,Yes
+EMP-12487,39,Male,"Data Scientist",8890,2,1,5.2,8,198.9,8,6,5,3,2,36-45,Medium,No,Yes
+EMP-12488,42,Male,"Data Scientist",10691,2,2,20.1,7,172.6,8,7,1,2,2,36-45,High,No,Yes
+EMP-12491,45,Male,"HR Specialist",9398,2,3,1.9,7,172.4,15,8,1,3,2,36-45,High,No,Yes
+EMP-12508,41,Female,Analyst,8105,2,3,13.1,6,194.3,18,13,3,5,2,36-45,Medium,No,Yes
+EMP-12520,35,Female,"Sales Executive",7537,2,1,2.9,7,157.7,6,5,1,2,2,26-35,Medium,No,Yes
+EMP-12527,20,Female,"HR Specialist",4476,1,2,50,7,181.9,0,0,0,3,2,18-25,Low,No,No
+EMP-12546,36,Male,"HR Specialist",8127,1,4,4.4,2,154.6,15,13,6,2,2,36-45,Medium,No,Yes
+EMP-12552,44,Female,Analyst,11590,3,4,9.1,2,163.5,22,20,6,5,2,36-45,High,No,Yes
+EMP-12553,47,Male,"HR Specialist",8907,3,2,13.6,5,187.4,24,10,6,3,2,45+,Medium,No,Yes
+EMP-12558,36,Male,"Sales Executive",8487,1,3,10.6,4,160,14,10,3,3,2,36-45,Medium,No,Yes
+EMP-12559,58,Female,"Sales Executive",11385,2,4,8,3,143.5,27,11,2,3,2,45+,High,No,Yes
+EMP-12563,40,Female,"HR Specialist",8263,2,2,5.7,3,171.1,15,10,1,2,2,36-45,Medium,No,Yes
+EMP-12574,41,Female,"Data Scientist",11479,4,3,12.7,3,138.7,15,14,5,2,2,36-45,High,No,Yes
+EMP-12575,34,Male,"HR Specialist",6718,2,3,13.5,6,150.5,8,7,3,2,2,26-35,Medium,No,Yes
+EMP-12576,31,Female,"Software Engineer",5541,1,1,13.8,5,158.4,10,9,2,5,2,26-35,Medium,No,Yes
+EMP-12579,40,Male,"Software Engineer",8533,3,2,13.7,8,160.3,11,9,4,3,2,36-45,Medium,No,Yes
+EMP-12585,49,Male,Analyst,10413,2,3,6.9,5,237.8,19,16,1,3,2,45+,High,Yes,Yes
+EMP-12586,46,Male,"Data Scientist",9582,4,3,6.4,2,229.7,20,17,6,5,2,45+,High,Yes,Yes
+EMP-12595,47,Male,"Data Scientist",8962,3,2,4,6,194,16,11,4,3,2,45+,Medium,No,Yes
+EMP-12597,35,Male,Analyst,9508,3,2,21.4,2,169.1,12,11,3,3,2,26-35,High,No,Yes
+EMP-12603,43,Female,"Software Engineer",7128,2,3,1.9,5,185.8,17,7,5,3,2,36-45,Medium,No,Yes
+EMP-12627,55,Female,"Data Scientist",12608,1,1,5.6,4,158.6,21,16,1,3,2,45+,High,No,Yes
+EMP-12633,36,Male,Analyst,6422,1,2,6,7,152.9,12,11,5,3,2,36-45,Medium,No,Yes
+EMP-12636,40,Female,"Data Scientist",10508,4,3,2.8,3,150.7,16,14,1,4,2,36-45,High,No,Yes
+EMP-12644,43,Male,"HR Specialist",10317,3,3,16.7,8,183.9,20,19,4,4,2,36-45,High,No,Yes
+EMP-12658,46,Male,Manager,9360,4,4,7.3,2,214.5,15,15,2,2,2,45+,High,Yes,Yes
+EMP-12678,42,Male,"Software Engineer",10429,3,3,12.2,3,194.4,18,15,3,3,2,36-45,High,No,Yes
+EMP-12679,36,Female,"Data Scientist",10306,4,3,18.3,8,161.5,16,12,6,4,2,36-45,High,No,Yes
+EMP-12684,27,Male,"Data Scientist",7504,1,2,9.9,2,208.6,5,5,0,3,2,26-35,Medium,Yes,Yes
+EMP-12693,34,Male,Manager,10468,2,2,1.4,4,165.2,11,7,5,4,2,26-35,High,No,Yes
+EMP-12698,51,Male,"Data Scientist",9636,2,3,5,8,216.7,17,14,6,3,2,45+,High,Yes,Yes
+EMP-12707,35,Female,Manager,9712,3,1,10.9,7,182.4,12,6,2,3,2,26-35,High,No,Yes
+EMP-12714,43,Female,Manager,7496,4,3,3.1,2,168.7,20,13,3,4,2,36-45,Medium,No,Yes
+EMP-12722,30,Male,Manager,4538,1,1,3,6,183.9,4,3,4,4,2,26-35,Low,No,Yes
+EMP-12725,40,Female,"HR Specialist",9210,2,1,11.4,4,187.7,16,5,4,3,2,36-45,High,No,Yes
+EMP-12726,36,Male,"HR Specialist",7345,1,2,9.1,5,171.6,11,7,1,5,2,36-45,Medium,No,Yes
+EMP-12728,41,Female,"HR Specialist",8586,2,3,17.7,5,193.9,16,14,5,4,2,36-45,Medium,No,Yes
+EMP-12736,32,Female,"Data Scientist",7223,1,2,8.8,3,160.3,10,10,5,4,2,26-35,Medium,No,Yes
+EMP-12737,43,Male,"HR Specialist",7005,2,3,17.6,5,181.9,10,10,2,1,2,36-45,Medium,No,Yes
+EMP-12749,42,Male,Analyst,8182,3,3,7.2,7,196.4,14,8,3,2,2,36-45,Medium,No,Yes
+EMP-12753,43,Male,Analyst,8177,4,3,11.4,4,139.1,20,16,4,3,2,36-45,Medium,No,Yes
+EMP-12767,34,Female,Analyst,4279,3,1,3.9,6,198,12,11,0,2,2,26-35,Low,No,Yes
+EMP-12770,41,Male,"Sales Executive",9603,3,2,5.2,4,202.7,10,9,3,4,2,36-45,High,Yes,Yes
+EMP-12773,37,Female,"Sales Executive",9224,3,1,7.3,7,147.5,14,9,6,3,2,36-45,High,No,Yes
+EMP-12784,36,Male,"Sales Executive",7702,1,2,22.7,5,174.4,7,4,1,4,2,36-45,Medium,No,Yes
+EMP-12794,54,Female,"Sales Executive",9108,4,2,12.7,4,158,33,33,6,2,2,45+,High,No,Yes
+EMP-12798,38,Male,"Sales Executive",9078,1,2,10.4,4,194.6,4,4,6,2,2,36-45,High,No,Yes
+EMP-12800,36,Female,"Software Engineer",6027,2,3,10.8,2,199.6,13,11,5,3,2,36-45,Medium,No,Yes
+EMP-12802,51,Female,"Data Scientist",13161,2,3,21.5,8,188.9,26,20,1,4,2,45+,High,No,Yes
+EMP-12804,43,Female,"Sales Executive",12215,2,4,7.2,3,141.9,21,16,4,3,2,36-45,High,No,Yes
+EMP-12811,42,Female,"HR Specialist",11263,3,2,3.5,7,159.2,13,12,6,2,2,36-45,High,No,Yes
+EMP-12816,35,Male,"Data Scientist",6547,2,3,30.4,5,190.5,14,11,6,4,2,26-35,Medium,No,Yes
+EMP-12830,31,Male,Manager,9963,2,2,7.9,2,225.3,6,5,0,3,2,26-35,High,Yes,Yes
+EMP-12832,29,Male,"Software Engineer",8745,3,2,41.4,2,144.5,9,7,0,3,2,26-35,Medium,No,Yes
+EMP-12837,50,Female,Analyst,11037,1,3,13.5,3,157,26,11,2,3,2,45+,High,No,Yes
+EMP-12844,60,Female,"Data Scientist",13949,2,1,1.4,4,200.5,22,15,5,5,2,45+,High,Yes,Yes
+EMP-12848,43,Female,"Software Engineer",10752,3,4,18.1,8,151.9,19,18,2,2,2,36-45,High,No,Yes
+EMP-12866,35,Male,"HR Specialist",10291,1,3,5.7,5,139.8,9,9,2,5,2,26-35,High,No,Yes
+EMP-12867,43,Male,"Sales Executive",7622,3,3,10.7,6,180.8,22,18,1,3,2,36-45,Medium,No,Yes
+EMP-12868,39,Male,"Sales Executive",6658,2,2,5.5,7,196,10,5,1,1,2,36-45,Medium,No,Yes
+EMP-12869,42,Male,"HR Specialist",9644,2,2,5.3,2,161.5,18,9,4,3,2,36-45,High,No,Yes
+EMP-12871,53,Female,"Software Engineer",8249,3,3,14.4,2,238.6,17,13,0,3,2,45+,Medium,Yes,Yes
+EMP-12875,39,Female,"Software Engineer",7089,3,1,4,4,151.1,14,10,4,3,2,36-45,Medium,No,Yes
+EMP-12883,32,Female,"Sales Executive",7604,1,2,10.2,3,164.2,6,4,2,3,2,26-35,Medium,No,Yes
+EMP-12885,46,Female,Analyst,7256,2,1,33,7,142.6,8,6,6,2,2,45+,Medium,No,Yes
+EMP-12888,35,Male,"Sales Executive",9918,3,1,6.4,7,120,11,10,0,3,2,26-35,High,No,Yes
+EMP-12897,35,Female,Analyst,10240,3,1,9.2,8,193.9,9,8,5,4,2,26-35,High,No,Yes
+EMP-12899,38,Male,Analyst,8297,3,1,8.5,7,214.3,18,11,4,4,2,36-45,Medium,Yes,Yes
+EMP-12904,39,Male,Analyst,8315,2,1,7.8,4,189.8,14,6,2,3,2,36-45,Medium,No,Yes
+EMP-12909,40,Male,"Data Scientist",7476,2,2,10.4,6,235.4,4,4,1,1,2,36-45,Medium,Yes,Yes
+EMP-12914,45,Female,"Data Scientist",11188,2,3,5.9,5,168,16,13,4,3,2,36-45,High,No,Yes
+EMP-12915,34,Female,"Software Engineer",8870,1,3,15.2,8,191.4,12,5,4,1,2,26-35,Medium,No,Yes
+EMP-12916,37,Male,Analyst,6648,1,3,7.3,6,186.2,10,5,2,3,2,36-45,Medium,No,Yes
+EMP-12928,42,Male,"Sales Executive",8451,4,3,3.1,8,120,14,14,0,3,2,36-45,Medium,No,Yes
+EMP-12933,56,Female,"Sales Executive",11792,1,2,3.2,8,173.2,17,14,2,4,2,45+,High,No,Yes
+EMP-12938,50,Female,"Data Scientist",11263,1,2,25.9,6,188.4,26,3,5,3,2,45+,High,No,Yes
+EMP-12940,34,Male,"HR Specialist",9723,4,3,11.9,6,218.3,9,9,1,2,2,26-35,High,Yes,Yes
+EMP-12941,37,Female,Analyst,6737,3,2,26.4,5,153.3,15,8,3,2,2,36-45,Medium,No,Yes
+EMP-12944,37,Male,"HR Specialist",9262,1,4,3.9,2,162.8,16,12,2,2,2,36-45,High,No,Yes
+EMP-12945,43,Female,Analyst,7517,2,3,13.3,6,149.6,15,15,4,2,2,36-45,Medium,No,Yes
+EMP-12956,53,Male,"Data Scientist",12298,3,4,2.3,7,185.8,22,17,2,4,2,45+,High,No,Yes
+EMP-12975,36,Male,"HR Specialist",8388,2,3,7.3,5,191.8,10,7,1,3,2,36-45,Medium,No,Yes
+EMP-12977,50,Female,"Software Engineer",10390,2,2,3,7,206.2,11,7,1,3,2,45+,High,Yes,Yes
+EMP-12978,41,Female,Manager,9579,4,4,18.8,5,158.1,17,15,2,3,2,36-45,High,No,Yes
+EMP-12981,28,Female,"Data Scientist",7506,1,2,16.8,6,148.5,7,4,6,2,2,26-35,Medium,No,Yes
+EMP-12985,37,Female,"HR Specialist",9534,2,1,41.4,2,203.6,4,2,1,3,2,36-45,High,Yes,No
+EMP-12986,33,Male,"Data Scientist",5928,3,1,8.9,4,200.7,6,6,4,1,2,26-35,Medium,Yes,Yes
+EMP-12987,34,Female,"Data Scientist",7887,2,3,21.1,5,168.2,14,9,1,1,2,26-35,Medium,No,Yes
+EMP-13002,41,Male,"Software Engineer",8512,4,2,19.8,2,249.7,8,8,2,4,2,36-45,Medium,Yes,Yes
+EMP-13016,50,Female,"Sales Executive",9509,4,2,7.7,7,165,14,14,3,3,2,45+,High,No,Yes
+EMP-13019,37,Female,"Sales Executive",10225,3,3,9.4,5,191.8,16,15,4,2,2,36-45,High,No,Yes
+EMP-13020,38,Male,Manager,9408,3,1,6.2,7,166.2,12,12,4,4,2,36-45,High,No,Yes
+EMP-13025,47,Male,"Data Scientist",11002,2,2,3.2,7,187.5,12,9,0,3,2,45+,High,No,Yes
+EMP-13031,42,Female,"Software Engineer",9226,4,4,2.5,8,187.1,13,13,1,3,2,36-45,High,No,Yes
+EMP-13036,33,Male,"Data Scientist",8352,1,3,14.5,6,184.5,6,6,3,2,2,26-35,Medium,No,Yes
+EMP-13047,40,Male,"HR Specialist",7050,2,2,23.2,5,202.1,5,5,3,4,2,36-45,Medium,Yes,Yes
+EMP-13058,41,Female,"HR Specialist",7236,2,4,20.1,2,171.5,18,9,3,5,2,36-45,Medium,No,Yes
+EMP-13060,39,Male,"Data Scientist",6434,2,3,9,5,126.8,14,12,4,3,2,36-45,Medium,No,Yes
+EMP-13062,40,Male,"Software Engineer",11564,4,1,6.2,8,200.8,8,8,4,4,2,36-45,High,Yes,Yes
+EMP-13083,33,Female,"HR Specialist",6567,3,1,9.3,8,164.5,13,8,5,5,2,26-35,Medium,No,Yes
+EMP-13101,41,Female,Manager,7212,2,2,4.9,2,205.4,18,14,0,4,2,36-45,Medium,Yes,Yes
+EMP-13103,43,Female,Analyst,10233,2,2,1,5,174.1,10,9,3,3,2,36-45,High,No,Yes
+EMP-13118,37,Male,Analyst,7376,1,3,5.4,2,152.1,8,6,5,3,2,36-45,Medium,No,Yes
+EMP-13120,36,Female,"Software Engineer",6352,3,2,13.3,7,154.4,16,12,4,4,2,36-45,Medium,No,Yes
+EMP-13123,30,Female,Manager,7419,3,1,6.5,4,170.2,7,6,0,4,2,26-35,Medium,No,Yes
+EMP-13124,38,Female,"Software Engineer",8669,1,3,8.9,4,169.3,13,8,5,3,2,36-45,Medium,No,Yes
+EMP-13160,38,Male,"HR Specialist",6551,4,3,6.1,5,172.5,15,13,1,3,2,36-45,Medium,No,Yes
+EMP-13167,43,Male,"Software Engineer",7433,3,3,14.5,4,158.7,18,17,6,3,2,36-45,Medium,No,Yes
+EMP-13168,53,Male,"Data Scientist",13418,4,2,2.5,5,185.5,27,25,0,4,2,45+,High,No,Yes
+EMP-13173,33,Male,"Software Engineer",5319,3,4,14.5,8,211,8,8,1,4,2,26-35,Medium,Yes,Yes
+EMP-13174,37,Female,"Software Engineer",8299,4,3,3.2,7,149.9,15,14,4,2,2,36-45,Medium,No,Yes
+EMP-13183,40,Female,"Data Scientist",10801,2,3,13.5,8,204.8,17,9,4,4,2,36-45,High,Yes,Yes
+EMP-13205,42,Female,Analyst,7735,2,4,6.8,2,173.8,10,9,3,1,2,36-45,Medium,No,Yes
+EMP-13217,49,Female,Manager,9783,3,2,25.2,4,154.5,16,11,4,3,2,45+,High,No,Yes
+EMP-13224,46,Female,"HR Specialist",8671,4,2,29.1,8,206.3,22,18,4,3,2,45+,Medium,Yes,Yes
+EMP-13247,34,Male,"HR Specialist",6741,3,3,19.2,3,126.8,13,10,0,3,2,26-35,Medium,No,Yes
+EMP-13250,38,Female,"HR Specialist",7869,3,3,1,2,182.8,14,13,3,2,2,36-45,Medium,No,Yes
+EMP-13253,52,Male,Manager,10356,3,2,20.7,2,152.4,26,9,5,2,2,45+,High,No,Yes
+EMP-13269,33,Male,"Data Scientist",6122,3,1,10.6,8,156.8,6,6,4,4,2,26-35,Medium,No,Yes
+EMP-13271,35,Female,"Software Engineer",8046,1,1,11.3,3,211.3,3,1,6,2,2,26-35,Medium,Yes,No
+EMP-13281,38,Female,"Data Scientist",6839,4,3,8.2,8,181.5,16,16,4,5,2,36-45,Medium,No,Yes
+EMP-13285,51,Male,"Sales Executive",11102,3,2,10.4,2,191.3,26,19,3,1,2,45+,High,No,Yes
+EMP-13288,42,Male,"HR Specialist",6244,4,2,9.9,7,208.4,17,14,6,1,2,36-45,Medium,Yes,Yes
+EMP-13292,47,Female,Analyst,9553,3,1,34.1,7,155,10,7,1,3,2,45+,High,No,Yes
+EMP-13312,35,Male,"Software Engineer",7839,1,3,2.1,8,156.5,13,9,5,1,2,26-35,Medium,No,Yes
+EMP-13325,35,Male,"Data Scientist",5847,1,3,24,8,171.2,10,9,0,3,2,26-35,Medium,No,Yes
+EMP-13326,35,Male,"Software Engineer",8635,2,2,10.6,3,188.5,15,8,3,2,2,26-35,Medium,No,Yes
+EMP-13328,44,Female,Manager,9049,3,2,15.2,2,159.5,19,10,6,4,2,36-45,High,No,Yes
+EMP-13331,47,Female,"HR Specialist",9165,3,3,12.8,3,205.4,17,15,0,1,2,45+,High,Yes,Yes
+EMP-13334,42,Male,"HR Specialist",7451,4,2,23.4,7,175.1,18,18,3,2,2,36-45,Medium,No,Yes
+EMP-13345,47,Female,"HR Specialist",12201,3,2,10.5,7,185.5,24,20,4,3,2,45+,High,No,Yes
+EMP-13358,40,Male,"Data Scientist",8463,4,2,14.3,5,192,16,13,6,3,2,36-45,Medium,No,Yes
+EMP-13371,39,Female,"Data Scientist",9893,2,2,10.4,2,199.9,10,5,2,3,2,36-45,High,No,Yes
+EMP-13375,28,Male,Analyst,5873,1,2,21.4,5,221.4,3,3,1,4,2,26-35,Medium,Yes,Yes
+EMP-13380,39,Female,"Data Scientist",8493,3,1,4.9,7,154.5,13,9,3,4,2,36-45,Medium,No,Yes
+EMP-13385,45,Male,Analyst,12437,2,4,4,4,193,22,19,0,3,2,36-45,High,No,Yes
+EMP-13394,29,Male,Manager,8064,1,3,11.5,4,126,9,7,5,4,2,26-35,Medium,No,Yes
+EMP-13397,27,Female,Manager,6077,2,1,16.6,4,178.4,4,3,0,3,2,26-35,Medium,No,Yes
+EMP-13408,45,Male,Manager,11974,4,2,4.6,4,166.6,15,13,6,3,2,36-45,High,No,Yes
+EMP-13424,53,Male,"Sales Executive",12335,2,4,30.6,7,139.1,22,21,6,3,2,45+,High,No,Yes
+EMP-13438,37,Female,"Data Scientist",10517,2,3,7,3,178.5,8,8,4,3,2,36-45,High,No,Yes
+EMP-13445,28,Female,"HR Specialist",7568,1,2,12,7,225.3,7,7,3,2,2,26-35,Medium,Yes,Yes
+EMP-13446,41,Female,Manager,10411,3,3,6.3,4,165.9,13,13,4,1,2,36-45,High,No,Yes
+EMP-13447,29,Male,"Software Engineer",7132,1,3,8.6,7,189.8,4,4,6,3,2,26-35,Medium,No,Yes
+EMP-13448,52,Female,Manager,11238,1,2,1,3,204.7,22,19,2,4,2,45+,High,Yes,Yes
+EMP-13451,34,Male,Analyst,9828,3,1,26.5,2,161.5,11,8,5,2,2,26-35,High,No,Yes
+EMP-13460,41,Male,"Sales Executive",7989,3,4,7,7,142,18,16,5,3,2,36-45,Medium,No,Yes
+EMP-13466,32,Male,"HR Specialist",6850,2,2,25.7,4,169.4,7,4,3,4,2,26-35,Medium,No,Yes
+EMP-13469,34,Female,"Sales Executive",9212,4,1,15.6,7,174.6,12,12,5,3,2,26-35,High,No,Yes
+EMP-13484,46,Female,Manager,12174,3,2,10.7,6,158.7,21,18,3,2,2,45+,High,No,Yes
+EMP-13492,39,Female,"Data Scientist",10122,3,2,7.6,6,166.6,11,10,3,3,2,36-45,High,No,Yes
+EMP-13496,33,Male,"Sales Executive",6550,2,3,21.9,7,149.2,12,12,3,1,2,26-35,Medium,No,Yes
+EMP-13501,49,Female,"HR Specialist",7664,3,2,3.1,6,184.5,14,9,2,4,2,45+,Medium,No,Yes
+EMP-13502,47,Male,"Data Scientist",9626,1,3,18,4,165.9,16,9,4,3,2,45+,High,No,Yes
+EMP-13505,43,Male,"Sales Executive",8397,3,2,27.1,8,177.3,16,16,0,4,2,36-45,Medium,No,Yes
+EMP-13521,34,Male,"HR Specialist",10511,1,3,2.1,7,172.5,7,6,5,3,2,26-35,High,No,Yes
+EMP-13531,44,Male,"HR Specialist",8594,3,3,25.9,8,175.9,20,18,1,4,2,36-45,Medium,No,Yes
+EMP-13534,30,Female,"HR Specialist",5369,1,4,6.9,4,187.3,8,8,1,1,2,26-35,Medium,No,Yes
+EMP-13539,43,Female,"HR Specialist",9333,2,3,12,8,197.6,8,7,5,5,2,36-45,High,No,Yes
+EMP-13543,40,Male,"Sales Executive",7973,1,1,5,7,171.6,16,11,2,2,2,36-45,Medium,No,Yes
+EMP-13549,43,Male,"Data Scientist",10952,1,2,6.9,8,163.8,12,5,4,3,2,36-45,High,No,Yes
+EMP-13551,33,Female,"Software Engineer",6772,1,2,18,8,227.3,10,9,0,1,2,26-35,Medium,Yes,Yes
+EMP-13571,26,Female,"Data Scientist",5209,2,3,8.2,7,246.8,3,3,3,3,2,26-35,Medium,Yes,Yes
+EMP-13572,43,Male,"Data Scientist",11274,3,4,23.7,2,120,22,15,3,5,2,36-45,High,No,Yes
+EMP-13575,42,Male,Manager,9925,2,2,21.6,2,214.6,21,10,1,3,2,36-45,High,Yes,Yes
+EMP-13577,47,Female,Manager,8922,3,4,11.8,2,173.9,21,12,5,3,2,45+,Medium,No,Yes
+EMP-13583,38,Male,Analyst,6859,1,2,2.3,8,198.4,8,4,1,3,2,36-45,Medium,No,Yes
+EMP-13586,42,Female,"HR Specialist",8657,2,3,23,4,187.6,14,11,1,4,2,36-45,Medium,No,Yes
+EMP-13593,50,Female,"HR Specialist",9512,4,3,1.5,6,151.4,13,13,0,3,2,45+,High,No,Yes
+EMP-13614,52,Male,"HR Specialist",8790,4,3,5.1,2,168.6,13,12,5,3,2,45+,Medium,No,Yes
+EMP-13623,44,Female,Manager,11739,3,3,3.4,2,174.5,19,17,3,1,2,36-45,High,No,Yes
+EMP-13628,31,Male,"Sales Executive",9804,3,2,3.2,3,193.8,7,7,3,4,2,26-35,High,No,Yes
+EMP-13632,45,Female,"Sales Executive",12057,1,1,7.8,3,124.8,18,16,4,4,2,36-45,High,No,Yes
+EMP-13633,51,Male,"Sales Executive",12339,3,3,5.6,4,120,23,22,1,4,2,45+,High,No,Yes
+EMP-13636,49,Male,"Sales Executive",9265,2,3,5.1,7,226.8,26,20,0,2,2,45+,High,Yes,Yes
+EMP-13643,40,Male,Analyst,9195,3,3,36.1,5,196.9,16,13,6,4,2,36-45,High,No,Yes
+EMP-13650,50,Male,"Sales Executive",9350,1,2,17.6,3,130.8,15,8,3,2,2,45+,High,No,Yes
+EMP-13657,43,Male,Analyst,7856,1,3,12.8,2,180.9,20,5,1,3,2,36-45,Medium,No,Yes
+EMP-13658,33,Female,Analyst,9957,1,3,7.3,7,170.9,9,7,1,4,2,26-35,High,No,Yes
+EMP-13669,36,Female,"Data Scientist",10828,1,3,19.2,7,168.5,10,10,2,3,2,36-45,High,No,Yes
+EMP-13672,38,Female,"Sales Executive",7813,2,1,10,7,199.5,9,8,2,1,2,36-45,Medium,No,Yes
+EMP-13673,41,Male,"Software Engineer",7938,3,2,11.9,2,130.7,11,11,1,2,2,36-45,Medium,No,Yes
+EMP-13681,40,Female,"Software Engineer",7766,2,2,12.8,8,173.6,6,5,1,2,2,36-45,Medium,No,Yes
+EMP-13682,48,Male,Analyst,10458,3,3,7.1,3,199.1,14,14,6,3,2,45+,High,No,Yes
+EMP-13686,35,Male,"HR Specialist",6993,3,2,9.8,7,194.2,10,8,0,1,2,26-35,Medium,No,Yes
+EMP-13694,30,Male,"Data Scientist",9605,1,1,15.5,4,206.2,7,1,1,3,2,26-35,High,Yes,No
+EMP-13710,32,Male,"HR Specialist",6229,1,2,30.3,8,141.7,9,7,3,1,2,26-35,Medium,No,Yes
+EMP-13712,40,Male,"Sales Executive",11449,4,2,10.8,3,183.2,17,11,4,3,2,36-45,High,No,Yes
+EMP-13719,36,Female,"Data Scientist",7469,4,4,1.3,3,209.4,15,11,1,3,2,36-45,Medium,Yes,Yes
+EMP-13721,42,Male,"HR Specialist",9131,3,3,3.1,6,174.7,15,14,3,2,2,36-45,High,No,Yes
+EMP-13725,36,Male,"HR Specialist",10965,3,3,8.1,3,184.5,11,9,1,3,2,36-45,High,No,Yes
+EMP-13746,47,Male,"Sales Executive",9762,2,3,35.3,2,168.4,27,19,4,3,2,45+,High,No,Yes
+EMP-13759,40,Male,Manager,9093,4,3,2.9,8,157.9,17,13,1,2,2,36-45,High,No,Yes
+EMP-13760,28,Female,Analyst,5919,2,2,22.8,4,186,6,6,4,5,2,26-35,Medium,No,Yes
+EMP-13767,54,Female,Analyst,11568,2,1,1,3,165,17,8,0,5,2,45+,High,No,Yes
+EMP-13771,38,Female,"Data Scientist",7753,3,3,25.8,4,156.4,14,13,6,2,2,36-45,Medium,No,Yes
+EMP-13797,40,Female,"Data Scientist",9734,2,3,5.7,3,205.7,19,15,6,1,2,36-45,High,Yes,Yes
+EMP-13806,48,Female,Analyst,11819,2,2,5.9,2,187.6,23,22,0,3,2,45+,High,No,Yes
+EMP-13808,37,Female,"Software Engineer",10142,3,4,24.6,6,214.7,11,10,5,3,2,36-45,High,Yes,Yes
+EMP-13817,39,Male,Manager,8036,3,2,16,7,195.8,8,7,1,1,2,36-45,Medium,No,Yes
+EMP-13818,40,Female,Manager,6901,1,3,2.1,7,167.5,16,16,2,4,2,36-45,Medium,No,Yes
+EMP-13820,48,Male,Manager,8755,3,3,16.7,5,163,12,11,4,1,2,45+,Medium,No,Yes
+EMP-13822,39,Female,"Data Scientist",10216,4,3,8.3,3,190,16,13,4,4,2,36-45,High,No,Yes
+EMP-13829,44,Male,Manager,10854,1,2,16.2,5,188.4,7,4,6,3,2,36-45,High,No,Yes
+EMP-13834,37,Female,"HR Specialist",9406,1,2,12,6,166.1,7,6,6,1,2,36-45,High,No,Yes
+EMP-13840,39,Female,Analyst,10281,2,2,9.1,2,171.9,9,6,2,5,2,36-45,High,No,Yes
+EMP-13845,30,Female,"Software Engineer",5108,3,2,11.6,3,143.6,10,8,4,2,2,26-35,Medium,No,Yes
+EMP-13851,34,Female,"Data Scientist",10274,1,1,4.5,6,156.6,6,6,4,2,2,26-35,High,No,Yes
+EMP-13853,39,Female,"HR Specialist",7375,3,3,7.7,3,180.4,14,14,0,3,2,36-45,Medium,No,Yes
+EMP-13869,47,Male,Manager,8681,2,1,20.4,2,170.3,16,7,6,5,2,45+,Medium,No,Yes
+EMP-13870,49,Male,Analyst,8461,2,3,5.2,3,181,17,16,2,1,2,45+,Medium,No,Yes
+EMP-13878,38,Male,Analyst,8167,2,3,13.9,5,209.3,11,10,4,3,2,36-45,Medium,Yes,Yes
+EMP-13879,31,Male,"Data Scientist",6848,1,2,4.6,8,220.3,8,8,1,2,2,26-35,Medium,Yes,Yes
+EMP-13881,34,Male,Analyst,6771,3,2,6.3,6,181.2,11,10,6,1,2,26-35,Medium,No,Yes
+EMP-13884,41,Male,"Software Engineer",10153,4,4,2.1,3,156.1,21,16,3,2,2,36-45,High,No,Yes
+EMP-13885,41,Male,"Data Scientist",9299,2,2,25.1,8,165.7,10,10,3,3,2,36-45,High,No,Yes
+EMP-13889,47,Male,"Sales Executive",9917,2,3,7.9,4,171,24,17,3,3,2,45+,High,No,Yes
+EMP-13893,42,Female,Manager,9288,2,1,1.5,7,208.1,17,14,6,5,2,36-45,High,Yes,Yes
+EMP-13900,32,Male,Analyst,9165,2,3,5.1,3,189.7,10,8,6,2,2,26-35,High,No,Yes
+EMP-13909,49,Female,"HR Specialist",12108,2,3,11.4,5,201.5,17,14,1,3,2,45+,High,Yes,Yes
+EMP-13923,36,Female,Analyst,6207,1,1,9.6,6,166.9,12,7,1,3,2,36-45,Medium,No,Yes
+EMP-13931,39,Male,"Data Scientist",7048,3,3,19.5,8,136.5,15,12,0,2,2,36-45,Medium,No,Yes
+EMP-13949,46,Male,Analyst,8551,3,2,19.6,3,185.7,18,17,0,1,2,45+,Medium,No,Yes
+EMP-13955,41,Male,"Sales Executive",11700,4,2,11.4,3,188.1,11,11,1,2,2,36-45,High,No,Yes
+EMP-13969,46,Male,Analyst,9505,4,3,15.1,5,169.5,21,11,5,2,2,45+,High,No,Yes
+EMP-13973,41,Male,"HR Specialist",7147,3,1,7.2,5,149.4,9,9,2,5,2,36-45,Medium,No,Yes
+EMP-13975,50,Male,Analyst,10128,4,3,5.5,8,163,14,12,2,3,2,45+,High,No,Yes
+EMP-13982,41,Female,"HR Specialist",6578,2,1,10.5,6,189.1,17,4,6,2,2,36-45,Medium,No,Yes
+EMP-13983,35,Female,"Software Engineer",9599,3,1,11.5,3,132.6,11,8,0,3,2,26-35,High,No,Yes
+EMP-13984,33,Female,"Data Scientist",7036,3,3,17.6,6,169.1,10,8,2,5,2,26-35,Medium,No,Yes
+EMP-13986,46,Female,"Sales Executive",10568,3,3,7.7,3,139.3,20,17,6,1,2,45+,High,No,Yes
+EMP-13992,39,Male,"Software Engineer",10096,3,1,10.5,6,194.6,17,15,4,3,2,36-45,High,No,Yes
+EMP-14000,57,Female,"HR Specialist",10665,3,4,1.1,5,144.2,23,22,0,3,2,45+,High,No,Yes
+EMP-14010,55,Female,"Sales Executive",9026,2,2,3.9,6,173.6,25,10,6,1,2,45+,High,No,Yes
+EMP-14015,37,Male,"HR Specialist",10752,3,3,26.6,2,164.4,9,9,1,1,2,36-45,High,No,Yes
+EMP-14017,34,Male,"HR Specialist",5923,2,3,7.7,2,224.1,8,5,0,2,2,26-35,Medium,Yes,Yes
+EMP-14056,37,Female,"Software Engineer",10054,2,4,25.2,5,145,16,11,0,2,2,36-45,High,No,Yes
+EMP-14059,36,Female,"HR Specialist",9845,1,4,3.7,8,166.1,10,8,4,5,2,36-45,High,No,Yes
+EMP-14060,41,Female,Manager,8131,1,2,8.6,2,182,11,4,6,3,2,36-45,Medium,No,Yes
+EMP-14063,38,Female,Analyst,6247,3,2,1,5,149.9,17,11,4,3,2,36-45,Medium,No,Yes
+EMP-14064,46,Female,Manager,10607,3,1,15,2,141.7,15,9,3,3,2,45+,High,No,Yes
+EMP-14073,38,Male,"Software Engineer",9684,2,3,4.2,7,193.1,14,12,1,1,2,36-45,High,No,Yes
+EMP-14075,40,Female,"Software Engineer",6599,2,3,6.4,2,156,12,12,5,4,2,36-45,Medium,No,Yes
+EMP-14076,36,Male,"HR Specialist",9572,3,2,1.3,6,186.1,10,8,6,3,2,36-45,High,No,Yes
+EMP-14077,34,Male,"Data Scientist",9417,2,1,7,8,156.1,5,5,0,2,2,26-35,High,No,Yes
+EMP-14078,38,Male,"Software Engineer",8660,1,4,8,3,176,12,8,0,3,2,36-45,Medium,No,Yes
+EMP-14081,35,Male,"Software Engineer",8110,1,2,9.1,7,206.1,8,2,0,5,2,26-35,Medium,Yes,No
+EMP-14082,41,Male,"Data Scientist",7187,3,4,14.8,3,120,15,14,2,3,2,36-45,Medium,No,Yes
+EMP-14085,39,Female,"Sales Executive",10874,2,3,5.1,2,149.9,18,14,4,3,2,36-45,High,No,Yes
+EMP-14091,30,Male,"Software Engineer",7526,3,1,3.9,6,158.8,10,10,2,1,2,26-35,Medium,No,Yes
+EMP-14096,42,Male,"Data Scientist",7901,3,2,9.3,7,140.3,15,9,1,3,2,36-45,Medium,No,Yes
+EMP-14098,49,Female,"HR Specialist",9585,3,4,6.9,4,150.2,23,12,5,3,2,45+,High,No,Yes
+EMP-14101,40,Male,Manager,11406,2,3,7.6,6,179.7,15,9,0,3,2,36-45,High,No,Yes
+EMP-14105,44,Male,"Data Scientist",10464,3,2,14.8,7,186.7,19,11,1,4,2,36-45,High,No,Yes
+EMP-14110,41,Male,"Data Scientist",9017,2,1,10.2,7,151.6,9,7,5,3,2,36-45,High,No,Yes
+EMP-14114,32,Male,"HR Specialist",5452,3,3,23.6,5,192.1,9,7,3,4,2,26-35,Medium,No,Yes
+EMP-14118,37,Female,"Data Scientist",7273,2,4,1,4,250,10,10,5,4,2,36-45,Medium,Yes,Yes
+EMP-14122,59,Female,Analyst,14002,4,2,1.5,5,177.7,30,29,4,4,2,45+,High,No,Yes
+EMP-14124,41,Male,Manager,10910,3,3,3.4,5,208.5,12,10,3,4,2,36-45,High,Yes,Yes
+EMP-14127,42,Female,"Sales Executive",6680,3,1,15.1,7,173.5,17,16,2,4,2,36-45,Medium,No,Yes
+EMP-14140,31,Male,"HR Specialist",9538,2,1,15.9,2,148.4,8,7,2,3,2,26-35,High,No,Yes
+EMP-14146,40,Male,Analyst,7795,4,4,2.7,8,172.1,19,19,3,5,2,36-45,Medium,No,Yes
+EMP-14147,40,Female,Analyst,9229,4,2,6.1,6,209.7,18,16,4,3,2,36-45,High,Yes,Yes
+EMP-14149,42,Male,"Data Scientist",11429,3,4,7.8,4,154.8,13,13,2,3,2,36-45,High,No,Yes
+EMP-14150,50,Male,"Data Scientist",11576,3,3,2.1,6,145.5,20,18,2,2,2,45+,High,No,Yes
+EMP-14168,30,Female,"Software Engineer",4659,2,3,5.6,6,194.4,8,7,4,3,2,26-35,Low,No,Yes
+EMP-14169,39,Male,Analyst,8724,2,2,11,6,199.8,12,5,3,1,2,36-45,Medium,No,Yes
+EMP-14182,40,Male,"Sales Executive",6952,3,3,21.2,7,167.5,19,18,6,3,2,36-45,Medium,No,Yes
+EMP-14185,38,Female,Manager,6117,2,2,5.3,5,177,10,9,3,3,2,36-45,Medium,No,Yes
+EMP-14186,42,Female,"Data Scientist",7175,3,4,1,5,178.1,20,12,4,3,2,36-45,Medium,No,Yes
+EMP-14190,44,Male,"Software Engineer",10710,4,2,10.8,6,180.1,19,13,5,2,2,36-45,High,No,Yes
+EMP-14207,41,Female,Analyst,11393,2,3,24.3,8,196.3,6,6,6,2,2,36-45,High,No,Yes
+EMP-14210,45,Male,"Sales Executive",10096,3,2,14.4,7,227.9,11,11,4,3,2,36-45,High,Yes,Yes
+EMP-14218,46,Male,"Sales Executive",11904,1,3,18.9,8,179.1,9,8,0,3,2,45+,High,No,Yes
+EMP-14220,32,Female,"HR Specialist",9530,1,2,10,6,181.3,9,7,2,3,2,26-35,High,No,Yes
+EMP-14221,35,Female,Analyst,10303,1,2,5.2,3,186,12,7,3,3,2,26-35,High,No,Yes
+EMP-14228,42,Female,"HR Specialist",10095,2,2,3.2,4,161.1,12,12,2,3,2,36-45,High,No,Yes
+EMP-14232,36,Male,"Sales Executive",8951,1,1,8.5,3,194.4,4,3,6,1,2,36-45,Medium,No,Yes
+EMP-14246,40,Female,"Data Scientist",9229,3,2,15,3,225.3,13,8,4,4,2,36-45,High,Yes,Yes
+EMP-14256,37,Male,"HR Specialist",9656,3,4,21.2,6,168.5,17,17,0,3,2,36-45,High,No,Yes
+EMP-14280,41,Female,Manager,7569,3,2,23.1,7,190.2,11,9,1,3,2,36-45,Medium,No,Yes
+EMP-14285,39,Female,"Sales Executive",7290,1,4,4.5,2,208.5,17,8,1,4,2,36-45,Medium,Yes,Yes
+EMP-14289,59,Male,"Data Scientist",14497,3,2,4.8,3,191.7,32,30,0,5,2,45+,High,No,Yes
+EMP-14292,52,Male,Analyst,8105,2,4,7.7,2,198,26,11,5,5,2,45+,Medium,No,Yes
+EMP-14311,43,Female,Analyst,11062,3,4,2.8,3,141,20,16,5,2,2,36-45,High,No,Yes
+EMP-14312,27,Female,"Sales Executive",4635,2,1,12.8,8,222.4,6,1,4,3,2,26-35,Low,Yes,No
+EMP-14318,31,Male,"Software Engineer",8452,1,4,7.6,5,157.4,11,11,5,2,2,26-35,Medium,No,Yes
+EMP-14322,31,Male,Analyst,9738,2,2,16.3,8,160.6,9,9,5,3,2,26-35,High,No,Yes
+EMP-14323,44,Female,"Sales Executive",8712,2,2,18.6,6,164.6,17,8,1,4,2,36-45,Medium,No,Yes
+EMP-14329,51,Female,Analyst,8662,4,2,9.4,3,179.2,21,18,5,3,2,45+,Medium,No,Yes
+EMP-14331,37,Female,"Sales Executive",6501,4,4,15.1,3,210.6,14,11,5,2,2,36-45,Medium,Yes,Yes
+EMP-14342,31,Male,"Software Engineer",5596,2,1,5.9,2,161.6,6,6,3,1,2,26-35,Medium,No,Yes
+EMP-14347,43,Male,"Sales Executive",7194,1,3,28,5,147.7,20,20,6,3,2,36-45,Medium,No,Yes
+EMP-14348,42,Female,"Sales Executive",8250,4,2,12.7,7,200.6,8,8,2,2,2,36-45,Medium,Yes,Yes
+EMP-14350,46,Male,Analyst,7350,3,4,26.2,6,159,22,15,1,3,2,45+,Medium,No,Yes
+EMP-14371,41,Male,Manager,8117,1,2,25.9,3,180.5,10,4,6,3,2,36-45,Medium,No,Yes
+EMP-14376,41,Male,"Software Engineer",8203,4,3,15,4,166.3,19,18,4,2,2,36-45,Medium,No,Yes
+EMP-14378,38,Male,Manager,6297,3,3,1.7,3,133.6,16,13,3,5,2,36-45,Medium,No,Yes
+EMP-14379,36,Female,"HR Specialist",10917,2,1,23.6,3,142.8,12,6,6,5,2,36-45,High,No,Yes
+EMP-14386,33,Male,"HR Specialist",9187,3,2,27.8,8,197.3,7,7,3,4,2,26-35,High,No,Yes
+EMP-14396,36,Male,Manager,9610,4,3,10.5,6,201.5,15,10,6,1,2,36-45,High,Yes,Yes
+EMP-14402,41,Male,Analyst,9756,2,3,3.8,3,180.3,10,10,5,3,2,36-45,High,No,Yes
+EMP-14405,32,Male,"Data Scientist",5952,1,2,17.5,8,181.8,6,5,3,2,2,26-35,Medium,No,Yes
+EMP-14407,51,Male,"Sales Executive",8735,2,4,5.4,5,215.3,27,23,1,3,2,45+,Medium,Yes,Yes
+EMP-14411,47,Female,"HR Specialist",9818,1,2,6.7,5,220.2,5,3,3,2,2,45+,High,Yes,Yes
+EMP-14419,34,Female,"HR Specialist",9025,3,4,11.5,4,181.2,12,10,4,2,2,26-35,High,No,Yes
+EMP-14426,60,Male,"Data Scientist",10466,3,2,2.9,8,172.8,20,9,4,2,2,45+,High,No,Yes
+EMP-14432,41,Female,Analyst,11503,3,2,5.4,6,186.4,15,13,6,3,2,36-45,High,No,Yes
+EMP-14452,31,Female,Manager,7920,4,1,14.4,5,177.9,10,8,2,3,2,26-35,Medium,No,Yes
+EMP-14471,34,Female,"HR Specialist",5943,4,2,17.8,4,215.2,13,8,2,4,2,26-35,Medium,Yes,Yes
+EMP-14481,36,Female,"Data Scientist",11183,3,3,9,7,182.1,12,11,2,3,2,36-45,High,No,Yes
+EMP-14485,47,Female,Analyst,10597,2,2,11.9,3,132.5,20,18,1,5,2,45+,High,No,Yes
+EMP-14493,43,Female,Analyst,8075,2,2,5.5,4,168.8,17,10,4,2,2,36-45,Medium,No,Yes
+EMP-14498,36,Male,"Data Scientist",8331,3,2,11.5,5,173.4,11,10,2,4,2,36-45,Medium,No,Yes
+EMP-14500,45,Male,"Software Engineer",8880,3,2,5.7,8,196.2,21,17,5,3,2,36-45,Medium,No,Yes
+EMP-14514,43,Male,"Software Engineer",8821,3,2,19.2,4,158.8,20,10,2,3,2,36-45,Medium,No,Yes
+EMP-14515,39,Male,Manager,10761,3,2,2.9,6,192.8,15,8,2,3,2,36-45,High,No,Yes
+EMP-14548,30,Female,Manager,9373,1,3,6.9,8,154,9,7,1,4,2,26-35,High,No,Yes
+EMP-14549,44,Female,"Software Engineer",11329,3,2,8.4,6,180.6,15,15,6,3,2,36-45,High,No,Yes
+EMP-14560,31,Female,"Data Scientist",9333,4,1,8.7,6,188.3,9,9,5,2,2,26-35,High,No,Yes
+EMP-14562,49,Male,"Data Scientist",10717,3,4,9.9,7,171.9,26,16,0,5,2,45+,High,No,Yes
+EMP-14563,42,Female,"Software Engineer",7447,2,2,5.4,6,239.1,17,14,0,2,2,36-45,Medium,Yes,Yes
+EMP-14577,40,Female,"Data Scientist",7908,2,2,10.6,2,204.3,18,6,6,3,2,36-45,Medium,Yes,Yes
+EMP-14582,44,Male,"HR Specialist",9290,4,2,12.3,4,182.8,20,14,1,2,2,36-45,High,No,Yes
+EMP-14595,44,Male,"Software Engineer",6747,3,1,13.4,6,205.4,12,5,4,4,2,36-45,Medium,Yes,Yes
+EMP-14602,50,Male,"Data Scientist",10639,3,2,10.7,4,147.7,19,17,2,3,2,45+,High,No,Yes
+EMP-14609,36,Male,Analyst,7426,1,2,6.6,5,180.1,6,4,0,3,2,36-45,Medium,No,Yes
+EMP-14610,36,Female,"HR Specialist",10417,2,3,3.3,5,174.7,11,8,3,3,2,36-45,High,No,Yes
+EMP-14611,40,Female,Analyst,8511,1,2,30.3,2,165.1,15,3,0,2,2,36-45,Medium,No,Yes
+EMP-14624,52,Female,"Sales Executive",12857,3,4,8.8,3,174.6,26,15,5,3,2,45+,High,No,Yes
+EMP-14639,46,Female,Analyst,8301,3,2,10.5,2,190,21,8,3,3,2,45+,Medium,No,Yes
+EMP-14649,37,Female,"Data Scientist",8803,3,4,6.3,4,188.8,13,12,6,3,2,36-45,Medium,No,Yes
+EMP-14651,38,Male,Manager,6362,3,3,10.8,8,200.7,14,14,5,4,2,36-45,Medium,Yes,Yes
+EMP-14653,36,Male,"Data Scientist",6445,3,3,14.6,2,180.7,16,13,1,5,2,36-45,Medium,No,Yes
+EMP-14654,30,Female,Analyst,9416,2,2,6.7,4,224.3,9,9,2,5,2,26-35,High,Yes,Yes
+EMP-14668,37,Female,Manager,8398,2,2,21.5,4,182.3,13,11,2,3,2,36-45,Medium,No,Yes
+EMP-14672,35,Male,"HR Specialist",5994,4,2,2.4,8,152.4,12,12,3,4,2,26-35,Medium,No,Yes
+EMP-14674,45,Female,"Sales Executive",10370,3,4,5.6,7,215.2,16,14,5,5,2,36-45,High,Yes,Yes
+EMP-14680,34,Male,"HR Specialist",8346,2,2,5.5,4,218.7,7,5,2,4,2,26-35,Medium,Yes,Yes
+EMP-14688,41,Female,Manager,10274,1,3,9.8,6,160.3,19,7,1,2,2,36-45,High,No,Yes
+EMP-14690,42,Male,"Sales Executive",8209,1,3,9.5,2,221.2,17,10,6,4,2,36-45,Medium,Yes,Yes
+EMP-14696,38,Male,"HR Specialist",7256,2,2,12.2,5,163.7,11,10,6,3,2,36-45,Medium,No,Yes
+EMP-14702,32,Female,Manager,6966,3,3,31.2,2,156.3,11,10,1,3,2,26-35,Medium,No,Yes
+EMP-14706,44,Female,"Software Engineer",9712,4,3,10.1,5,165.3,18,15,6,3,2,36-45,High,No,Yes
+EMP-14720,45,Male,"Software Engineer",6954,2,2,19.2,3,131.3,24,16,3,4,2,36-45,Medium,No,Yes
+EMP-14723,36,Female,"Data Scientist",8507,2,3,7.6,4,156.2,12,8,2,4,2,36-45,Medium,No,Yes
+EMP-14724,45,Male,"Software Engineer",11169,2,2,9.4,7,155,12,10,2,3,2,36-45,High,No,Yes
+EMP-14725,37,Female,"Data Scientist",11088,2,2,8.7,2,179.6,15,14,1,4,2,36-45,High,No,Yes
+EMP-14727,51,Male,"Sales Executive",8626,2,3,14.2,4,166,26,14,4,3,2,45+,Medium,No,Yes
+EMP-14733,48,Female,Manager,8030,2,3,13.9,3,182.7,22,14,4,3,2,45+,Medium,No,Yes
+EMP-14739,41,Female,"Sales Executive",8375,4,3,9.8,8,122.3,17,17,0,3,2,36-45,Medium,No,Yes
+EMP-14753,36,Female,"Software Engineer",6208,1,3,1.6,4,222.5,15,15,5,5,2,36-45,Medium,Yes,Yes
+EMP-14767,36,Male,Analyst,6366,3,3,19.3,7,207.5,11,9,2,1,2,36-45,Medium,Yes,Yes
+EMP-14769,31,Female,"HR Specialist",9238,1,2,3.3,7,168.9,11,5,5,4,2,26-35,High,No,Yes
+EMP-14774,36,Male,Analyst,8803,2,2,18,3,142.4,14,11,0,5,2,36-45,Medium,No,Yes
+EMP-14790,33,Male,"Software Engineer",9816,2,4,11.4,6,225.1,9,9,3,3,2,26-35,High,Yes,Yes
+EMP-14791,41,Male,"Data Scientist",6703,4,2,2.9,6,206.8,10,9,4,3,2,36-45,Medium,Yes,Yes
+EMP-14798,38,Female,"Software Engineer",10731,3,4,13.6,6,159.6,13,12,3,3,2,36-45,High,No,Yes
+EMP-14808,44,Male,"HR Specialist",7976,4,2,10.3,2,190.4,14,12,0,1,2,36-45,Medium,No,Yes
+EMP-14813,39,Male,"Sales Executive",7394,3,3,10.2,2,195.8,14,11,4,4,2,36-45,Medium,No,Yes
+EMP-14822,48,Female,Analyst,11703,3,3,21.3,7,228.2,21,16,1,3,2,45+,High,Yes,Yes
+EMP-14837,43,Female,Manager,10628,4,1,17.3,3,166.1,14,12,0,1,2,36-45,High,No,Yes
+EMP-14853,43,Female,"Data Scientist",11443,3,1,21.2,6,209.1,14,10,6,3,2,36-45,High,Yes,Yes
+EMP-14863,46,Male,"Data Scientist",8697,3,3,6.4,5,173.6,23,10,4,4,2,45+,Medium,No,Yes
+EMP-14864,46,Male,"Data Scientist",8946,4,3,4.3,2,172.5,25,24,6,4,2,45+,Medium,No,Yes
+EMP-14878,42,Male,Manager,11665,2,2,10.2,4,189.9,20,15,6,4,2,36-45,High,No,Yes
+EMP-14883,42,Female,Analyst,11325,3,2,13.9,4,191,15,15,0,3,2,36-45,High,No,Yes
+EMP-14893,35,Male,Analyst,6417,3,2,2.5,2,175.2,14,13,2,4,2,26-35,Medium,No,Yes
+EMP-14900,33,Male,"HR Specialist",6247,4,1,5.3,5,181.7,10,8,3,3,2,26-35,Medium,No,Yes
+EMP-14906,37,Female,Analyst,11024,2,1,12.8,2,146,10,6,3,3,2,36-45,High,No,Yes
+EMP-14909,55,Male,"HR Specialist",10252,2,2,25.6,6,195.8,19,18,2,3,2,45+,High,No,Yes
+EMP-14912,38,Male,"HR Specialist",8037,1,3,5.1,7,173.3,13,12,0,2,2,36-45,Medium,No,Yes
+EMP-14913,37,Female,Analyst,9240,3,2,10,7,138.1,16,12,1,3,2,36-45,High,No,Yes
+EMP-14916,25,Male,"Sales Executive",9040,1,2,13.5,7,200.9,3,2,6,3,2,18-25,High,Yes,No
+EMP-14938,52,Male,"HR Specialist",11117,3,3,11.8,2,120,20,19,6,3,2,45+,High,No,Yes
+EMP-14939,36,Male,Manager,8109,3,1,7.5,4,160.2,8,8,1,3,2,36-45,Medium,No,Yes
+EMP-14944,34,Female,"Sales Executive",7356,3,3,12.2,7,201.3,11,10,3,3,2,26-35,Medium,Yes,Yes
+EMP-14954,41,Male,Manager,11061,2,2,15.2,5,183.8,16,11,1,4,2,36-45,High,No,Yes
+EMP-14984,37,Male,"HR Specialist",9401,3,2,3.4,8,166.2,11,11,3,1,2,36-45,High,No,Yes
+EMP-14994,35,Male,"HR Specialist",9098,1,2,3,5,178.3,10,4,2,1,2,26-35,High,No,Yes
